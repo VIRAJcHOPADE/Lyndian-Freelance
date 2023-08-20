@@ -73,7 +73,7 @@ const Sidebar = () => {
                   window.innerWidth < 800
                     ? window.innerWidth < 300
                       ? "2rem"
-                      : "10rem"
+                      : "9rem"
                     : "13rem",
               }}
             >
