@@ -1,13 +1,12 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {} from "@fortawesome/free-solid-svg-icons";
+import "./NavBar.css";
 const NavBar = () => {
   const upperHalfOptions = [
     { title: "Contact Us", link: "contact-us" },
     { title: "Location", link: "location" },
     { title: "Careers", link: "/careers" },
-    { title: <i class="fa fa-linkedin" aria-hidden="true"></i>, link: "#" },
+    { title: <i class="fa-brands fa-linkedin"></i>, link: "#" },
     { title: <i class="fa fa-search" aria-hidden="true"></i>, link: "#" },
 
     "LinkedIn",
