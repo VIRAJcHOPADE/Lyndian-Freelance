@@ -39,6 +39,7 @@ const SidebarNav = styled.nav`
   z-index: 10;
   overflow: scroll;
   overflow-x: hidden;
+  width: 24rem;
 `;
 
 const SidebarWrap = styled.div`
@@ -72,7 +73,7 @@ const Sidebar = () => {
                   window.innerWidth < 800
                     ? window.innerWidth < 300
                       ? "2rem"
-                      : "8rem"
+                      : "10rem"
                     : "13rem",
               }}
             >
