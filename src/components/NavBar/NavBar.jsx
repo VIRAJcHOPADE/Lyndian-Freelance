@@ -1,13 +1,15 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { NavLink } from "react-router-dom";
 import "./NavBar.css";
+import Sidebar from "./Sidebar/SideBar";
+
 const NavBar = () => {
   const upperHalfOptions = [
     { title: "Contact Us", link: "contact-us" },
     { title: "Location", link: "location" },
     { title: "Careers", link: "/careers" },
-    { title: <i class="fa-brands fa-linkedin"></i>, link: "#" },
-    { title: <i class="fa fa-search" aria-hidden="true"></i>, link: "#" },
+    { title: <i className="fa-brands fa-linkedin"></i>, link: "#" },
+    { title: <i className="fa fa-search" aria-hidden="true"></i>, link: "#" },
 
     "LinkedIn",
   ];
@@ -250,16 +252,85 @@ const NavBar = () => {
       isSub: false,
     },
   ];
+
   return (
-    <div>
+    <div id="navbar-main-cont">
       <div id="upper-nav">
         <div id="inner-upper-nav">
           {upperHalfOptions.map((item, key) => (
-            <NavLink to={item.link}>{item.title}</NavLink>
+            <NavLink to={item.link} key={key}>
+              {item.title}
+            </NavLink>
           ))}
         </div>
       </div>
-      <div id="lower-nav"></div>
+      <div id="lower-nav">
+        <div id="inner-lower-nav">
+          <img
+            src="logo.png"
+            alt=""
+            onClick={() => {
+              window.location = "/";
+            }}
+          />
+
+          <Sidebar />
+          <div id="left-inner-lower-nav">
+            {lowerHalfOptions.map((item, key) => (
+              <>
+                {item.isSub === false ? (
+                  <NavLink to={item.link} key={key}>
+                    {item.title}
+                    <div className="bottom-bar"></div>
+                  </NavLink>
+                ) : (
+                  <>
+                    <div
+                      className="hover-nav-comp"
+                      id={`hover-nav-comp${key}`}
+                      key={key}
+                      value={key}
+                      onMouseEnter={() => {
+                        document.getElementById(
+                          `hover-component-${key}`
+                        ).style.display =
+                          lowerHalfOptions[key].subTopics.length > 10
+                            ? "grid"
+                            : "grid";
+
+                        document.getElementById(
+                          `hover-component-${key}`
+                        ).style.gridTemplateColumns =
+                          lowerHalfOptions[key].subTopics.length > 10
+                            ? "50% 50%"
+                            : "";
+                      }}
+                      onMouseLeave={() => {
+                        document.getElementById(
+                          `hover-component-${key}`
+                        ).style.display = "none";
+                      }}
+                    >
+                      {item.title}
+                      <div className="bottom-bar"></div>
+                      <div
+                        id={`hover-component-${key}`}
+                        className="hover-component"
+                      >
+                        {lowerHalfOptions[key].subTopics.map((ele) => (
+                          <NavLink to={ele.link} className="inner-link">
+                            {ele.title}
+                          </NavLink>
+                        ))}
+                      </div>
+                    </div>
+                  </>
+                )}
+              </>
+            ))}
+          </div>
+        </div>
+      </div>
     </div>
   );
 };
