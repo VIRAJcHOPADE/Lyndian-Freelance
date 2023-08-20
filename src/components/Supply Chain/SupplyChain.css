@@ -17,7 +17,7 @@
 .main-container {
   background-color: #f6f6f6;
   color: #374858;
-  padding: 2.5rem;
+  padding: 3rem;
 }
 #supply-chain-container {
   box-sizing: border-box;
@@ -26,6 +26,27 @@
   padding: 0 50px;
   margin-bottom: 20px;
   justify-content: space-around;
+}
+
+.card-title{
+    display: inline-block;
+    /* width: 70px; */
+    position: relative;
+    top: 50px;
+    left: 6px;
+    z-index: 2;
+    line-height: 18px;
+    background-color: #0896b9;
+    box-shadow: 1px 0 6px 0 rgba(0,0,0,.3);
+    color: #fff;
+    font-weight: 600;
+    padding: 5px 10px;
+
+    
+}
+
+.supply-chain-outer-container {
+  max-width: 300px;
 }
 
 .supply-chain-image-container {
@@ -43,6 +64,9 @@
 }
 
 .supply-chain-details {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   transition: all 0.5s ease-in-out;
   position: absolute;
   top: 0;
@@ -52,12 +76,19 @@
   text-align: center;
   padding: 10px;
 }
+.supply-chain-details p {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 500;
+}
 
 .supply-chain-image-container:hover {
   box-shadow: 0 0 20px #74adc8;
 }
 
 .supply-chain-image-container:hover .supply-chain-details {
-  background-color: #80808078;
+  background-color: #556976b0;
   color: white;
 }
