@@ -273,10 +273,8 @@ const NavBar = () => {
               window.location = "/";
             }}
           />
-          {/* {window.innerWidth < 1000 ||
-          document.documentElement.clientWidth < 1000 ? ( */}
+
           <Sidebar />
-          {/* ) : ( */}
           <div id="left-inner-lower-nav">
             {lowerHalfOptions.map((item, key) => (
               <>
@@ -331,7 +329,6 @@ const NavBar = () => {
               </>
             ))}
           </div>
-          {/* )} */}
         </div>
       </div>
     </div>

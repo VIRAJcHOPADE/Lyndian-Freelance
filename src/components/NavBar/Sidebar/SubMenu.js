@@ -65,7 +65,14 @@ const SubMenu = ({ item }) => {
           return (
             <DropdownLink to={item.path} key={index}>
               {item.icon}
-              <SidebarLabel>{item.title}</SidebarLabel>
+              <SidebarLabel
+                style={{
+                  fontSize: window.innerWidth < 500 ? "1rem" : "1.2rem",
+                  marginRight: "2rem",
+                }}
+              >
+                {item.title}
+              </SidebarLabel>
             </DropdownLink>
           );
         })}
