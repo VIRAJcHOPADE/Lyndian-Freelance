@@ -36,5 +36,6 @@
 }
 
 #upper-nav #inner-upper-nav a:hover {
-  background-color: #05080a;
+  /* background-color: #05080a; */
+  background-color: white;
 }
