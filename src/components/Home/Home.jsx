@@ -1,12 +1,14 @@
-import React from 'react'
-import { SupplyChain } from '../Supply Chain/SupplyChain'
+import React from "react";
+import Brands from "./Brands/Brands";
+import { SupplyChain } from "./Supply Chain/SupplyChain";
 
 const Home = () => {
   return (
-    <div>
+    <>
+      <Brands />
       <SupplyChain/>
-    </div>
-  )
-}
+    </>
+  );
+};
 
-export default Home
+export default Home;
