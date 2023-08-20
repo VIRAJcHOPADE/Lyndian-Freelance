@@ -1,11 +1,12 @@
 import React from "react";
 import Brands from "./Brands/Brands";
+import { SupplyChain } from "./Supply Chain/SupplyChain";
 
 const Home = () => {
   return (
     <>
-      {/* <p>Hii</p> */}
       <Brands />
+      <SupplyChain/>
     </>
   );
 };
