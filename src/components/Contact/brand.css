@@ -3,13 +3,14 @@
     top: 18vw;
     width: 100%;
     height: auto;
-    background-image: url("https://w0.peakpx.com/wallpaper/542/988/HD-wallpaper-iceland-s-ring-road-black-vast-clouds-winter-contemplation-snow-mountains-serene-dark-road-blue.jpg");
+    background-image: url("https://images.pexels.com/photos/346529/pexels-photo-346529.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
     background-size: cover;
-    /* display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    /*flex-wrap: wrap;
     justify-content: space-evenly;
-    align-items: center;
+    align-items: center; */
     /* display: grid;
     grid-template-columns: repeat(4,25%); */ 
     justify-content: space-between;
@@ -31,13 +32,10 @@
     align-items: center;
 
   }
-  .themesInnovativebrands div img {
-    width: 8vw;
-    height: 8vw;
-    
-  }
+  
   .Innovativebrands p{
-    font-size: 1.5rem;
+    font-size: 1.1rem;
+    font-family: Arial, sans-serif;
   }
   .tcontent {
     margin: 5%;
@@ -51,12 +49,15 @@
   }
   
   .themesInnovativebrands div img {
-    width: 140px;
-    height: 150px;
+    width: 110px;
+    max-height: 70px;
   }
+  /* .brandimage{
+    padding: 25px;
+  } */
   @media screen and (max-width: 900px) {
     .Innovativebrands p{
-        font-size: 1.5rem;
+        font-size: 1rem;
       }
     .themesInnovativebrands {
       justify-content: space-between;
@@ -85,11 +86,11 @@
       }
       
       .Innovativebrands h2 {
-          font-size: 4vw;
+          font-size: 6vw;
         
         }
         .tmain{
-            height: 500px;
+            height: 400px;
         }
         .tmain {
            width: 100%;
@@ -99,10 +100,9 @@
               justify-content: space-evenly;
           }
           
-          .tmain div img {
-            width: 120px;
-            height: 130px;
-            padding-right: 20px;
+          .themesInnovativebrands div img {
+            width: 110px;
+            max-height: 70px;
           }
   }
   @media screen and (max-width: 550px) {
@@ -125,9 +125,9 @@
       height: 100%;
     }
     .themesInnovativebrands div img {
-      width: 30vw;
-      height: 30vw;
-    }
+        width: 110px;
+        max-height: 70px;
+      }
     
     
   } 

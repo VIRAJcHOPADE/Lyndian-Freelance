@@ -14,32 +14,32 @@ function Brands() {
             </div>
           <div class="tmain">
             <div class="tcontent">
-              <img class="brandimage" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTeTE5eS_wGB2SsmYyL9X9AkY77r3AS4NnUv0P8JBm1&s" />
+              <img class="brandimage" src="https://www.kinaxis.com/sites/default/files/styles/linked_logo/public/paragraphs/logos/jabil-logo-white.png.webp?itok=47qqMzuW" />
             </div>
 
             <div  class="tcontent">
-              <img class="brandimage"  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTeTE5eS_wGB2SsmYyL9X9AkY77r3AS4NnUv0P8JBm1&s" />        
+              <img class="brandimage"  src="https://www.kinaxis.com/sites/default/files/styles/linked_logo/public/paragraphs/logos/lockhead-martin-logo-white.png.webp?itok=vnfT90r2" />        
             </div>
             <div class="tcontent">
-              <img class="brandimage"  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTeTE5eS_wGB2SsmYyL9X9AkY77r3AS4NnUv0P8JBm1&s" />
+              <img class="brandimage"  src="https://www.kinaxis.com/sites/default/files/styles/linked_logo/public/paragraphs/logos/pg-logo-white.png.webp?itok=cWSgGM3f" />
             </div>
             <div class="tcontent">
-              <img class="brandimage"  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTeTE5eS_wGB2SsmYyL9X9AkY77r3AS4NnUv0P8JBm1&s" />
+              <img class="brandimage"  src="https://www.kinaxis.com/sites/default/files/styles/linked_logo/public/paragraphs/logos/unilever-logo-white.png.webp?itok=B0m2aElQ" />
             </div>
             <div class="tcontent">
-              <img class="brandimage"  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTeTE5eS_wGB2SsmYyL9X9AkY77r3AS4NnUv0P8JBm1&s" />
+              <img class="brandimage"  src="https://www.kinaxis.com/sites/default/files/styles/linked_logo/public/paragraphs/logos/subaru_logo.webp?itok=d4J-_qat" />
             </div>
             <div class="tcontent">
-              <img class="brandimage"  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTeTE5eS_wGB2SsmYyL9X9AkY77r3AS4NnUv0P8JBm1&s" />
+              <img class="brandimage"  src="https://www.kinaxis.com/sites/default/files/styles/linked_logo/public/paragraphs/logos/ford-logo-white.png.webp?itok=73qIq3x_" />
             </div>
             <div class="tcontent">
-              <img class="brandimage"  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTeTE5eS_wGB2SsmYyL9X9AkY77r3AS4NnUv0P8JBm1&s" />
+              <img class="brandimage"  src="https://www.kinaxis.com/sites/default/files/styles/linked_logo/public/paragraphs/logos/bose-logo-white.png.webp?itok=bHcxSeO1" />
             </div>
             <div class="tcontent">
-              <img class="brandimage"  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTeTE5eS_wGB2SsmYyL9X9AkY77r3AS4NnUv0P8JBm1&s" />
+              <img class="brandimage"  src="https://www.kinaxis.com/sites/default/files/styles/linked_logo/public/paragraphs/logos/dr-reddys-logo-white.png.webp?itok=L6JG8Cuj" />
             </div>
             <div class="tcontent">
-              <img class="brandimage"  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTeTE5eS_wGB2SsmYyL9X9AkY77r3AS4NnUv0P8JBm1&s" />
+              <img class="brandimage"  src="https://www.kinaxis.com/sites/default/files/styles/linked_logo/public/paragraphs/logos/santen-logo-white.png.webp?itok=SCkK7Yzn" />
             </div>
             
             
