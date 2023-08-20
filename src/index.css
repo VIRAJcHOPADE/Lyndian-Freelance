@@ -8,3 +8,16 @@
   scroll-behavior: smooth;
   transition: all 0.2s;
 }
+
+nav::-webkit-scrollbar {
+  display: none;
+}
+
+#burger-menu {
+  display: none;
+}
+@media all and (max-width: 1300px) {
+  #burger-menu {
+    display: flex;
+  }
+}

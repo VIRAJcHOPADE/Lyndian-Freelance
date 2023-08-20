@@ -206,6 +206,9 @@
   #upper-nav {
     display: none;
   }
+  #lower-nav #left-inner-lower-nav {
+    display: none;
+  }
 }
 
 @media all and (max-width: 700px) {

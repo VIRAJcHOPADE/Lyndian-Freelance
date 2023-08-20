@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { NavLink } from "react-router-dom";
 import "./NavBar.css";
+import Sidebar from "./Sidebar/SideBar";
 
 const NavBar = () => {
   const upperHalfOptions = [
@@ -272,6 +273,10 @@ const NavBar = () => {
               window.location = "/";
             }}
           />
+          {/* {window.innerWidth < 1000 ||
+          document.documentElement.clientWidth < 1000 ? ( */}
+          <Sidebar />
+          {/* ) : ( */}
           <div id="left-inner-lower-nav">
             {lowerHalfOptions.map((item, key) => (
               <>
@@ -326,6 +331,7 @@ const NavBar = () => {
               </>
             ))}
           </div>
+          {/* )} */}
         </div>
       </div>
     </div>
