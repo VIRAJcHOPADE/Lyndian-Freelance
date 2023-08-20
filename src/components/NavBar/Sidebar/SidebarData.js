@@ -1,7 +1,9 @@
+import * as RiIcons from "react-icons/ri";
 export const SidebarData = [
   {
     title: "Products",
-
+    iconClosed: <RiIcons.RiArrowDownSFill />,
+    iconOpened: <RiIcons.RiArrowUpSFill />,
     subNav: [
       {
         title: "Intelligent Supply Chain Extensions",
@@ -23,6 +25,8 @@ export const SidebarData = [
   },
   {
     title: "Services",
+    iconClosed: <RiIcons.RiArrowDownSFill />,
+    iconOpened: <RiIcons.RiArrowUpSFill />,
     subNav: [
       {
         title: "Supply Chain Solutions Audit",
@@ -105,7 +109,8 @@ export const SidebarData = [
 
   {
     title: "Industries",
-
+    iconClosed: <RiIcons.RiArrowDownSFill />,
+    iconOpened: <RiIcons.RiArrowUpSFill />,
     subNav: [
       {
         title: "Agri business",
@@ -135,7 +140,8 @@ export const SidebarData = [
   },
   {
     title: "Technologies",
-
+    iconClosed: <RiIcons.RiArrowDownSFill />,
+    iconOpened: <RiIcons.RiArrowUpSFill />,
     subNav: [
       {
         title: "SAP SCM",
@@ -201,7 +207,8 @@ export const SidebarData = [
   },
   {
     title: "Partners",
-
+    iconClosed: <RiIcons.RiArrowDownSFill />,
+    iconOpened: <RiIcons.RiArrowUpSFill />,
     subNav: [
       {
         title: "Logility",
