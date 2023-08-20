@@ -1,10 +1,14 @@
+import { Route, Routes } from "react-router-dom";
+import Home from "./components/Home/Home";
 import NavBar from "./components/NavBar/NavBar";
-import Brands from "./components/Contact/Brands"
+
 function App() {
   return (
     <>
       <NavBar />
-      <Brands/>
+      <Routes>
+        <Route path="/" element={<Home />} />
+      </Routes>
     </>
   );
 }

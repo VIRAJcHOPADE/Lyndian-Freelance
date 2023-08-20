@@ -1,9 +1,13 @@
-import React from 'react'
+import React from "react";
+import Brands from "./Brands/Brands";
 
 const Home = () => {
   return (
-    <div>Home</div>
-  )
-}
+    <>
+      {/* <p>Hii</p> */}
+      <Brands />
+    </>
+  );
+};
 
-export default Home
+export default Home;
