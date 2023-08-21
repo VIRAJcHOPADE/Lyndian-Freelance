@@ -3,7 +3,9 @@
   src: url("../../Font/NeueHaasDisplayBold.ttf");
 }
 
-
+#features {
+    padding-bottom: 5rem;
+}
 
 .container-fluid {
   width: 100%;
