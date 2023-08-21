@@ -122,7 +122,6 @@
 .hover-component {
   position: absolute;
   top: 110px;
-  /* width: 23rem; */
   flex-direction: column;
   border: 1px solid black;
   border-top: 0;
@@ -132,6 +131,7 @@
   padding: 1rem;
   animation: hoverAnim 0.1s linear;
   display: none;
+  background-color: white !important;
 }
 .hover-component > .inner-link {
   display: flex;
