@@ -58,7 +58,7 @@ const Sidebar = () => {
       >
         <Nav>
           <NavIcon to="#">
-            <FaIcons.FaBars onClick={showSidebar} style={{ color: "black" }} />
+            <FaIcons.FaBars onClick={showSidebar} style={{ color: "white" }} />
           </NavIcon>
         </Nav>
         <SidebarNav

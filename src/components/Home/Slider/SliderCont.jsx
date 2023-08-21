@@ -6,12 +6,12 @@ const SliderCont = () => {
   const elements = [
     {
       image:
-        "https://hive.com/wp-content/uploads/2022/05/productivity-tips.png",
+        "https://images.unsplash.com/photo-1519389950473-47ba0277781c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80",
       title: "What is the productivity of your solution ?",
     },
     {
       image:
-        "https://fjwp.s3.amazonaws.com/blog/wp-content/uploads/2022/02/17114045/Why-You-Shouldnt-Lie-on-Your-Resume-Even-If-You-Arent-Caught-2.jpg",
+        "https://images.unsplash.com/photo-1529400971008-f566de0e6dfc?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80",
       title: "How productive is your end user ?",
     },
   ];
@@ -33,7 +33,9 @@ const SliderCont = () => {
   return (
     <div id="slider">
       <img src={image} alt="" id="slider-img" />
-      <p>{title}</p>
+      <p>
+        <span>{title}</span>
+      </p>
     </div>
   );
 };
