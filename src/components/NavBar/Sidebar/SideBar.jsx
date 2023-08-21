@@ -21,7 +21,6 @@ const NavIcon = styled(NavLink)`
   margin-left: 2rem;
   font-size: 2rem;
   height: 80px;
-  width: 100%;
   display: flex;
   justify-content: flex-start;
   align-items: center;
@@ -39,7 +38,6 @@ const SidebarNav = styled.nav`
   z-index: 10;
   overflow: scroll;
   overflow-x: hidden;
-  width: 24rem;
 `;
 
 const SidebarWrap = styled.div`
@@ -63,23 +61,30 @@ const Sidebar = () => {
             <FaIcons.FaBars onClick={showSidebar} style={{ color: "black" }} />
           </NavIcon>
         </Nav>
-        <SidebarNav sidebar={sidebar}>
+        <SidebarNav
+          sidebar={sidebar}
+          style={{ width: window.innerWidth <= 800 ? "100vw" : "24rem" }}
+        >
           <SidebarWrap>
-            <NavIcon
-              to="#"
+            <div
               style={{
                 display: "flex",
-                gap:
-                  window.innerWidth < 800
-                    ? window.innerWidth < 300
-                      ? "2rem"
-                      : "9rem"
-                    : "13rem",
+                justifyContent: "space-between",
+                alignItems: "center",
+                paddingRight: " 2rem",
+                // gap:
+                //   window.innerWidth < 800
+                //     ? window.innerWidth < 300
+                //       ? "2rem"
+                //       : "9rem"
+                //     : "13rem",
               }}
             >
-              <img src="logo.png" style={{ width: "9rem", height: "3rem" }} />
+              <NavIcon to="#">
+                <img src="logo.png" style={{ width: "9rem", height: "3rem" }} />
+              </NavIcon>
               <AiIcons.AiOutlineClose onClick={showSidebar} />
-            </NavIcon>
+            </div>
             {SidebarData.map((item, index) => {
               return <SubMenu item={item} key={index} />;
             })}
