@@ -1,152 +1,98 @@
-.heading {
-    font-size: 2.5rem;
-    padding-left: 6.5rem;
-    position: relative;
-    z-index: 1;
+@font-face {
+  font-family: Neue-Haas;
+  src: url("../../Font/NeueHaasDisplayBold.ttf");
+}
+
+#features {
+    padding-bottom: 5rem;
+}
+
+.container-fluid {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+  padding-top: 2.5rem;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin: -10px;
+}
+
+.feature-box {
+  flex: 1;
+  padding: 10px;
+  box-sizing: border-box;
+  text-align: center;
+  transition: all 0.1 ease-in-out;
+}
+
+.feature-box:hover {
+  transform: scale(1.03);
+}
+
+.icon {
+  display: block;
+  font-size: 3.5rem;
+  margin-bottom: 10px;
+  bottom: 0;
+  padding: 30px;
+  padding-right: 20px;
+  padding-bottom: 0;
+  color: rgb(0, 0, 0, 0.8);
+}
+
+.number {
+  display: block;
+  font-size: 5rem;
+  margin-bottom: 10px;
+  color: rgb(59, 150, 215);
+  font-family: Neue-Haas;
+  font-weight: 800;
+  letter-spacing: -0.02em;
+}
+
+.number::after {
+  content: "+";
+  font-size: 2.5rem;
+  position: absolute;
+  top: 0;
+}
+
+.plus {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.number-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.feature-title {
+  font-size: 1.5rem;
+  margin: 10px 0;
+  color: #1e2e3e;
+}
+
+.feature-box p {
+  font-size: 1rem;
+}
+
+@media (max-width: 992px) {
+  .feature-box {
+    flex: 0 0 50%;
   }
-  .heading::after {
-    content: "";
-    position: absolute;
-    left: 6.5rem;
-    bottom: -10px;
-    height: 1px;
-    width: 150px; /* or 100px */
-    border-bottom: 3px solid red;
+}
+
+@media (max-width: 768px) {
+  .feature-box {
+    flex: 0 0 100%;
   }
-  
-  .main-container {
-    color: #374858;
-    margin-top: 4rem;
-    padding: 1.5rem;
-  }
-  #supply-chain-container {
-    box-sizing: border-box;
-    display: flex;
-    flex-wrap: wrap;
-    padding: 0 50px;
-    margin-bottom: 20px;
-    justify-content: space-around;
-  }
-  
-  .card-title {
-    display: inline-block;
-    /* width: 70px; */
-    position: relative;
-    top: 50px;
-    left: 6px;
-    z-index: 2;
-    line-height: 18px;
-    background-color: #0896b9;
-    box-shadow: 1px 0 6px 0 rgba(0, 0, 0, 0.3);
-    color: #fff;
-    font-weight: 600;
-    padding: 5px 10px;
-  }
-  
-  .supply-chain-outer-container {
-    max-width: 300px;
-  }
-  
-  .supply-chain-image-container {
-    max-width: 300px;
-    overflow: hidden;
-    margin: 10px;
-    background-size: cover;
-    background-repeat: no-repeat;
-    position: relative;
-  }
-  
-  .supply-chain-image-container img {
-    width: 100%;
-    height: 100%;
-  }
-  
-  .supply-chain-details {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    transition: all 0.5s ease-in-out;
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
-    color: transparent;
-    text-align: center;
-    padding: 10px;
-  }
-  .supply-chain-details p {
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-weight: 500;
-  }
-  
-  .supply-chain-image-container:hover {
-    box-shadow: 0 0 20px #74adc8;
-  }
-  
-  .supply-chain-image-container:hover .supply-chain-details {
-    background-color: #556976b0;
-    color: white;
-  }
-  
-  @media screen and (max-width: 900px) {
-    .heading {
-      padding-left: 4rem;
-    }
-  }
-  
-  @media screen and (max-width: 800px) {
-    .heading {
-      font-size: 2.2rem;
-    }
-    .heading::after {
-      width: 0;
-    }
-  }
-  
-  @media screen and (max-width: 700px) {
-    .heading {
-      padding-left: 5rem;
-      text-align: center;
-    }
-    .heading::after {
-      width: 0;
-    }
-  }
-  
-  @media screen and (max-width: 600px) {
-    .heading {
-      padding-left: 3rem;
-    }
-  }
-  
-  @media screen and (max-width: 550px) {
-    .heading {
-      padding-left: 2rem;
-      font-size: 1.7rem;
-    }
-    .heading::after {
-      width: 0;
-    }
-  }
-  
-  @media screen and (max-width: 456px) {
-    .heading {
-      padding-left: 0.5rem;
-    }
-    .supply-chain-outer-container {
-      max-width: 450px;
-    }
-  }
-  
-  @media screen and (max-width: 250px) {
-    .heading {
-      padding-left: 0.5rem;
-    }
-    .heading::after {
-      width: 0;
-    }
-  }
-  
+}

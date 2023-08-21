@@ -1,35 +1,58 @@
 import React from 'react'
+import "./RecentAchievements.css"
 
 
-const AchievementsContainer = () => {
+
+const AchievementsContainer = ({svg, number, title}) => {
   return (
-    <div class="supply-chain-outer-container">
-        <div class="card-title"><i class="fa-solid fa-layer-group"></i></div>
-      <div class="supply-chain-image-container">
-        <h1>69</h1>
-        <div class="supply-chain-details">
-          <p>
-            Few research papers of parts of webinar related to new technology
-            development in supply chain.
-          </p>
+    <div className="feature-box">
+          <div className="number-container">
+          <i className={`icon ${svg}`}></i>
+            <span className="number">{number}</span>
+          </div>
+
+          <h3 className="feature-title">{title}</h3>
         </div>
-      </div>
-      <p>
-        Few research papers of parts of webinar related to new technology
-        development in supply chain.
-      </p>
-    </div>
   );
 };
 
 const RecentAchievements = () => {
+  const achievement_content = [
+    {
+      "svg":"fa-solid fa-layer-group",
+      "number":"65",
+      "title":"Annual Projects",
+    },
+    {
+      "svg":"fa-solid fa-trophy",
+      "number":"55",
+      "title":"Team Members",
+    },
+    {
+      "svg":"fa-solid fa-globe",
+      "number":"21",
+      "title":"Partners",
+    },
+    {
+      "svg":"fa-sharp fa-regular fa-heart",
+      "number":"74",
+      "title":"Happy Customers",
+    },
+  ]
   return (
-    <div class="main-container">
-      <h2 class="heading">Our Recent Achievements</h2>
-      <div id="supply-chain-container">
-        <AchievementsContainer />
+    <section className="white-section" id="features">
+      <div class="main-container">
+      <h2 class="heading">Our Recent Achievement.</h2>
+      </div>
+    <div className="container-fluid">
+      <div className="row">
+        {achievement_content.map((ele,key) => (<AchievementsContainer svg={ele.svg} number={ele.number} title={ele.title} key={key}/>)
+        )}
+        
+
       </div>
     </div>
+  </section>
   )
 }
 
