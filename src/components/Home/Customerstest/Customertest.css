@@ -1,5 +1,11 @@
-.main-container h1, h2, h3, span, p {
-  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+.main-container h1,
+h2,
+h3,
+span,
+p {
+  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
+    "Helvetica Neue", sans-serif;
 }
 
 .headingcoustomer {
@@ -13,7 +19,6 @@
   text-underline-offset: 0.5em;
 }
 .headingcoustomer::after {
-  
   position: absolute;
   bottom: -10px;
   height: 1px;
@@ -23,11 +28,9 @@
 .containercostumer {
   display: flex;
   overflow-x: auto;
-  
   flex-direction: row;
- 
   padding: 1em;
-  margin-top: 10%;
+  margin-top: 4%;
 }
 *::-webkit-scrollbar {
   display: none;
@@ -44,23 +47,23 @@
   backdrop-filter: blur(40px);
   background-color: antiquewhite;
   background-clip: padding-box;
-  box-shadow: 10px 10px 10px rgba(72, 73, 73, 0.10);
+  box-shadow: 10px 10px 10px rgba(72, 73, 73, 0.1);
 }
-.costumercard p{
-   padding: 1rem;
-   justify-content: center;
-   align-items: center;
-   display: flex;
-   text-align: center;
+.costumercard p {
+  padding: 1rem;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  text-align: center;
 }
-.costumerlogo{
-    max-height: 40px;
-    width: auto;
-    margin-top: 5px;
-    align-self: center;
-    align-items: center;
+.costumerlogo {
+  max-height: 40px;
+  width: auto;
+  margin-top: 5px;
+  align-self: center;
+  align-items: center;
 }
-.costumersocial{
+.costumersocial {
   max-height: 30px;
   width: auto;
   padding-top: 5px;
@@ -82,14 +85,14 @@
   height: 50px;
   border-radius: 50%;
   overflow: hidden;
-  border: 10px  rgba(14, 13, 13, 0.25);
-  box-shadow:5px 5px 10px  rgba(72, 73, 73, 0.20);
+  border: 10px rgba(14, 13, 13, 0.25);
+  box-shadow: 5px 5px 10px rgba(72, 73, 73, 0.2);
   padding-right: 5px;
   margin-right: 10px;
 }
 
 /* ///// */
-.content p{
+.content p {
   text-align: center;
   padding-left: 3px;
 }
@@ -126,26 +129,24 @@
   align-items: center;
   flex-direction: row;
 }
-.costumercard p{
+.costumercard p {
   align-items: center;
 }
 
-.costumercard{
+.costumercard {
   display: grid;
-  grid-template-rows:30% 70%;
+  grid-template-rows: 30% 70%;
 }
 
-
 @media screen and (max-width: 550px) {
-  .containercostumer .costumercard .cardContent h3{
-          font-size: 15px !important;
-
+  .containercostumer .costumercard .cardContent h3 {
+    font-size: 15px !important;
   }
   .containercostumer .costumercard {
     min-width: 250px;
     height: 230px;
   }
-  .headingcoustomer{
+  .headingcoustomer {
     font-size: 30px;
   }
 }
