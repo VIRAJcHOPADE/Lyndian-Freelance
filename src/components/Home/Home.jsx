@@ -2,6 +2,7 @@ import React from "react";
 import Brands from "./Brands/Brands";
 import { SupplyChain } from "./Supply Chain/SupplyChain";
 import { Helmet } from "react-helmet";
+import WhyChooseUs from "./Why Choose US/WhyChooseUs";
 
 const Home = () => {
   return (
@@ -11,6 +12,7 @@ const Home = () => {
       </Helmet>
       <Brands />
       <SupplyChain />
+      <WhyChooseUs />
     </>
   );
 };
