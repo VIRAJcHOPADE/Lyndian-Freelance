@@ -115,11 +115,13 @@
     width: 0;
   }
 }
+
 @media screen and (max-width: 600px) {
   .heading {
     padding-left: 3rem;
   }
 }
+
 @media screen and (max-width: 550px) {
   .heading {
     padding-left: 2rem;
@@ -129,6 +131,7 @@
     width: 0;
   }
 }
+
 @media screen and (max-width: 456px) {
   .heading {
     padding-left: 0.5rem;
@@ -137,6 +140,7 @@
     max-width: 450px;
   }
 }
+
 @media screen and (max-width: 250px) {
   .heading {
     padding-left: 0.5rem;
