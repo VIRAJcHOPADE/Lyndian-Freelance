@@ -85,13 +85,15 @@
   font-weight: 550;
   padding: 10px 20px;
   background-color: transparent;
-  border: 2px solid #333;
+  border: 2px solid white;
   color: #333;
   text-decoration: none;
   transition: background-color 0.3s, color 0.3s;
+  color: white;
 }
 
 .about-btn a:hover {
+  border: 2px solid #333;
   background-color: #333;
   color: #fff;
 }

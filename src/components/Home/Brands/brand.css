@@ -6,11 +6,7 @@
   display: flex;
   flex-direction: column;
   gap: 50px;
-  /*flex-wrap: wrap;
-    justify-content: space-evenly;
-    align-items: center; */
-  /* display: grid;
-    grid-template-columns: repeat(4,25%); */
+  padding: 3rem 0;
   justify-content: space-between;
 }
 .Innovativebrands {
@@ -19,7 +15,7 @@
   font-weight: bolder;
 }
 .Innovativebrands h2 {
-  font-size: 2.5rem;
+  font-size: 3rem;
 }
 
 .tmain {
@@ -46,7 +42,7 @@
 
 .themesInnovativebrands div img {
   width: 110px;
-  max-height: 70px;
+  max-height: 100px;
 }
 /* .brandimage{
     padding: 25px;

@@ -7,6 +7,7 @@ function Brands() {
       <div class="themesInnovativebrands">
         <div class="Innovativebrands">
           <h2 class="theamheading">Innovative brands trust Ledian</h2>
+          <br />
           <p>
             Companies across industries and of all sizes and maturity levels{" "}
             <br />
