@@ -273,7 +273,6 @@ const NavBar = () => {
               window.location = "/";
             }}
           />
-
           <Sidebar />
           <div id="left-inner-lower-nav">
             {lowerHalfOptions.map((item, key) => (
