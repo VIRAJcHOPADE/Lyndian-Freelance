@@ -2,7 +2,9 @@ import React from "react";
 import Brands from "./Brands/Brands";
 import { SupplyChain } from "./Supply Chain/SupplyChain";
 import { Helmet } from "react-helmet";
-import SliderCont from "./Slider/SliderCont";
+import SliderCont from "./Slider/SliderCont"
+import WhyChooseUs from "./Why Choose US/WhyChooseUs"
+import RecentAchievements from "./Recent Achievements/RecentAchievements";
 
 const Home = () => {
   return (
@@ -13,6 +15,8 @@ const Home = () => {
       <SliderCont />
       <Brands />
       <SupplyChain />
+      <WhyChooseUs />
+      <RecentAchievements />
     </>
   );
 };

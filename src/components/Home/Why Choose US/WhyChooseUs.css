@@ -1,0 +1,131 @@
+/* Styles for the main container */
+.choose-area {
+  display: flex;
+  color: #fff;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 0;
+  background-image: url("../../../../public/blue-background.png");
+}
+
+/* Styles for the container within */
+.container {
+  max-width: 1200px;
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+/* Styles for the main feature section */
+.feature_main_wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Styles for the row and its alignment */
+.row.align-items-centre {
+  display: flex;
+  align-items: center;
+}
+
+/* Styles for the about image */
+.about-image {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Styles for the right column */
+.column {
+  flex: 0 0 50%;
+  max-width: 50%;
+  padding: 0 15px;
+}
+
+/* Styles for the features information */
+.features_info {
+  padding: 0 15px;
+}
+
+/* Styles for the heading */
+.features_info h2 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+/* Styles for the paragraph */
+.features_info p {
+  font-size: 1.2rem;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+/* Styles for the list */
+.features_info ul {
+  list-style: disc;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+/* Styles for list items */
+.features_info li {
+  margin-bottom: 10px;
+}
+
+/* Styles for the about button */
+.about-btn {
+  z-index: 2;
+  margin-top: 20px;
+}
+
+/* Styles for the button */
+.about-btn a {
+  display: inline-block;
+  font-weight: 550;
+  padding: 10px 20px;
+  background-color: transparent;
+  border: 2px solid #333;
+  color: #333;
+  text-decoration: none;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.about-btn a:hover {
+  background-color: #333;
+  color: #fff;
+}
+
+/* Media query for responsiveness */
+@media (max-width: 768px) {
+  .about-image {
+    display: none;
+  }
+  .container {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+  .row.align-items-centre {
+    flex-direction: column;
+  }
+  .column {
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 450px) {
+  /* Styles for the heading */
+  .features_info h2 {
+    font-size: 1.5rem;
+  }
+
+  /* Styles for the paragraph */
+  .features_info p {
+    font-size: 0.7rem;
+  }
+
+  /* Styles for the list */
+  .features_info ul {
+    font-size: 0.7rem;
+  }
+}

@@ -11,14 +11,8 @@ const SliderCont = () => {
     },
     {
       image:
-        "https://hive.com/wp-content/uploads/2022/05/productivity-tips.png",
-      title: "How productive is your end user ?",
-    },
-    {
-      image:
         "https://fjwp.s3.amazonaws.com/blog/wp-content/uploads/2022/02/17114045/Why-You-Shouldnt-Lie-on-Your-Resume-Even-If-You-Arent-Caught-2.jpg",
-      title:
-        "If you are internally reporting a Forecast Accuracy of 80% for most of your product locations, someone is lying. Find out for certain what your accuracy is.",
+      title: "How productive is your end user ?",
     },
   ];
 
