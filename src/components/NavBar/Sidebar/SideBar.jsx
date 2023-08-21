@@ -80,7 +80,7 @@ const Sidebar = () => {
                 //     : "13rem",
               }}
             >
-              <NavIcon to="#">
+              <NavIcon to="/">
                 <img src="logo.png" style={{ width: "9rem", height: "3rem" }} />
               </NavIcon>
               <AiIcons.AiOutlineClose onClick={showSidebar} />
