@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import styled from "styled-components";
 import { NavLink } from "react-router-dom";
 import * as FaIcons from "react-icons/fa";
@@ -48,6 +48,15 @@ const Sidebar = () => {
   const [sidebar, setSidebar] = useState(false);
 
   const showSidebar = () => setSidebar(!sidebar);
+  useEffect(() => {
+    window.addEventListener("scroll", () => {
+      if (window.scrollY > 100) {
+        document.getElementById("ham-menu").style.color = "#1e2e3e";
+      } else {
+        document.getElementById("ham-menu").style.color = "white";
+      }
+    });
+  }, []);
 
   return (
     <div id="burger-menu">
@@ -60,7 +69,8 @@ const Sidebar = () => {
           <NavIcon to="#">
             <FaIcons.FaBars
               onClick={showSidebar}
-              style={{ color: "white", textShadow: "0 0 1px solid black" }}
+              id="ham-menu"
+              style={{ color: "white" }}
             />
           </NavIcon>
         </Nav>
