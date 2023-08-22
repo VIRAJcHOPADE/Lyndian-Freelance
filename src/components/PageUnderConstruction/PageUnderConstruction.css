@@ -2,6 +2,10 @@
   font-family: head;
   src: url(/src/components/Font//SanMarinoBeach-2OOLW.ttf);
 }
+@font-face {
+  font-family: head2;
+  src: url(/src/components/Font/GlossySheenOutline-X35n2.ttf);
+}
 #not-found {
   display: flex;
   min-height: 100vh;

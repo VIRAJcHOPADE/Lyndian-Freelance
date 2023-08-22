@@ -22,7 +22,6 @@ const SliderCont = () => {
   var timer;
   useEffect(() => {
     timer = setInterval(() => {
-      console.log(index.current);
       index.current = index.current + 1;
       index.current = index.current % elements.length;
       setImage(elements[index.current].image);
