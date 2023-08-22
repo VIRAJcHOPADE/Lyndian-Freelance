@@ -90,6 +90,9 @@
   position: relative;
   font-size: 1.2rem;
 }
+/* .nav-head {
+  text-shadow: 0 0 5px #1e2e3e;
+} */
 
 #lower-nav #inner-lower-nav #left-inner-lower-nav .hover-nav-comp .bottom-bar,
 #lower-nav #inner-lower-nav #left-inner-lower-nav a .bottom-bar {
