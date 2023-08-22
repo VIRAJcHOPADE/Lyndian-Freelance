@@ -4,7 +4,7 @@
 }
 @font-face {
   font-family: head2;
-  src: url(/src/components/Font/GlossySheenOutline-X35n2.ttf);
+  src: url(/src/components/Font/GlossySheenRegular-L35oy.ttf);
 }
 #not-found {
   display: flex;
@@ -13,9 +13,17 @@
   align-items: center;
 }
 
-#not-found span {
-  font-family: head;
-  /* z-index: 9999; */
+#not-found #inner-div-not-found {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+#not-found #inner-div-not-found span {
+  font-family: head2, sans-serif;
+  z-index: 9999;
   color: #1e2e3e;
   font-size: 5rem;
   width: 100%;
@@ -23,27 +31,147 @@
   justify-content: center;
   align-items: center;
   text-align: center;
+  border-bottom: 1px solid #1e2e3e;
+  box-shadow: 0 4px 3px -2px gray;
 }
 
-#not-found img {
-  position: absolute;
-  opacity: 0.2;
-  top: 20%;
-  z-index: -2;
+#not-found #inner-div-not-found svg {
+  height: 50vh;
+  animation: svgAnim 3s infinite linear;
+}
+
+#man {
+  animation: manBody 1s ease-in-out infinite alternate;
+  transform-box: fill-box;
+  transform-origin: bottom;
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out;
+  animation-delay: 0s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-fill-mode: none;
+  animation-play-state: running;
+  animation-name: manBody;
+  animation-timeline: auto;
+  animation-range-start: normal;
+  animation-range-end: normal;
+}
+#clock {
+  animation: clockHand 5s infinite linear;
+  transform-box: fill-box;
+  transform-origin: bottom;
+  animation-duration: 5s;
+  animation-timing-function: linear;
+  animation-delay: 0s;
+  animation-iteration-count: infinite;
+  animation-direction: normal;
+  animation-fill-mode: none;
+  animation-play-state: running;
+  animation-name: clockHand;
+  animation-timeline: auto;
+  animation-range-start: normal;
+  animation-range-end: normal;
+}
+#leftTree,
+#righTree {
+  animation: tree 2s ease-in-out infinite alternate;
+  transform-box: fill-box;
+  transform-origin: bottom;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  animation-delay: 0s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-fill-mode: none;
+  animation-play-state: running;
+  animation-name: tree;
+  animation-timeline: auto;
+  animation-range-start: normal;
+  animation-range-end: normal;
+}
+#pc-circle {
+  fill: #6ace66;
+  stroke-width: 4;
+  animation: change-light 4s linear infinite alternate;
+  animation-duration: 4s;
+  animation-timing-function: linear;
+  animation-delay: 0s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-fill-mode: none;
+  animation-play-state: running;
+  animation-name: change-light;
+  animation-timeline: auto;
+  animation-range-start: normal;
+  animation-range-end: normal;
 }
 
 @media all and (max-width: 700px) {
   #not-found span {
-    font-size: 3.5rem;
+    font-size: 3.5rem !important;
   }
 }
 
 @media all and (max-width: 550px) {
   #not-found span {
-    font-size: 2.5rem;
+    font-size: 2.5rem !important;
   }
-  #not-found img {
-    height: 15rem;
-    top: 30%;
+  #not-found svg {
+    height: 50vh !important;
+    width: 75vw !important;
+  }
+}
+
+@media all and (max-height: 800px) and (min-width: 1100px) {
+  #not-found #inner-div-not-found span {
+    font-size: 4rem !important;
+  }
+  #not-found #inner-div-not-found svg {
+    height: 30vh !important;
+  }
+}
+@keyframes manBody {
+  0% {
+    transform: rotateX(0deg);
+  }
+
+  100% {
+    transform: rotateX(10deg);
+  }
+}
+
+@keyframes clockHand {
+  0% {
+    transform: rotateZ(0deg);
+  }
+
+  0% {
+    transform: rotateZ(-360deg);
+  }
+}
+
+@keyframes tree {
+  0% {
+    transform: rotateZ(10deg);
+  }
+
+  100% {
+    transform: rotateZ(-20deg);
+  }
+}
+
+@keyframes change-light {
+  0% {
+    stroke: #cd61f8;
+  }
+
+  25% {
+    stroke: #6ace66;
+  }
+  75% {
+    stroke: #2995c0;
+  }
+  100% {
+    stroke: #e92949;
   }
 }
