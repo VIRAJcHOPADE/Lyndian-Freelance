@@ -5,6 +5,7 @@ function Brands() {
   return (
     <>
       <div class="themesInnovativebrands">
+        <div class="Theams-Waper">
         <div class="back-div">
         <div class="Innovativebrands">
           <h2 class="theamheading">Innovative brands trust Ledian</h2>
@@ -72,6 +73,7 @@ function Brands() {
               src="https://upload.wikimedia.org/wikipedia/commons/2/2e/Logo-Abdul-Latif-Jameel-co.png?20160414091944"
             />
           </div>
+        </div>
         </div>
         </div>
       </div>

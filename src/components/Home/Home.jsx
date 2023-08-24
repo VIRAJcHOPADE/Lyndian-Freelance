@@ -15,9 +15,9 @@ const Home = () => {
         <title>Lydian - Home</title>
       </Helmet>
       <SliderCont />
-      <Brands />
       <Customertest/>
       <Innovation/>
+      <Brands />
       <SupplyChain />
       <WhyChooseUs />
       <RecentAchievements />
