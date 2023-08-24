@@ -1,3 +1,20 @@
+
+.heading-innovation {
+  font-size: 2.5rem;
+  padding-left: 6.5rem;
+  position: relative;
+  z-index: 1;
+  color: #374858;
+}
+.heading-innovation::after {
+  content: "";
+  position: absolute;
+  left: 6.5rem;
+  bottom: -10px;
+  height: 1px;
+  width: 150px; /* or 100px */
+  border-bottom: 3px solid red;
+}
 /* Main Container */
 .InnovationContainerDIv a {
   padding: 20px;

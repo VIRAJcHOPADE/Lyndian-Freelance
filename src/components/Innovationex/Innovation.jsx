@@ -69,11 +69,14 @@ const Innovation = () => {
     
   return (
     <>
+    <div class="main-container-innovation">
+    <h2 class="heading-innovation">Innovation and expertise in your industry</h2>
     <div className="InnovationContainerDIv">
       {
         Innovationarr.map((ele,key) => (<InnovationContainer image={ele.image} title={ele.title} backgroundImage={ele.backgroundImage} key={key}/>)
         )
       }
+    </div>
     </div>
     </>
   )

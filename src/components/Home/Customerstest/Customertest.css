@@ -17,6 +17,7 @@ p {
   text-decoration: underline;
   text-decoration-color: red;
   text-underline-offset: 0.5em;
+  color: #374858;
 }
 .headingcoustomer::after {
   position: absolute;
@@ -55,6 +56,7 @@ p {
   align-items: center;
   display: flex;
   text-align: center;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
 }
 .costumerlogo {
   max-height: 40px;
