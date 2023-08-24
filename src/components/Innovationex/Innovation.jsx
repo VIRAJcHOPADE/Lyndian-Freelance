@@ -1,53 +1,80 @@
 import React from 'react'
 import "./Innovation.css"
 
-const InnovationContainer = () => {
-    const elements = [
-        {
-          image:
-            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUELL2iTMsxkbPaMrAKaxl4cHbbF80CsKek4lGOzlR6A&s",
-          title: "If you are Forecast Accuracy of 80% for most of your product locations, someone is lying. Find out for certain what your accuracy is.",
-        },
-    ];
-return (
+const InnovationContainer = ({image, title, backgroundImage}) => {
+  return (
     <>
-    <div class="Innovation-outer-container">
-        <div class="Innovationcard-title">Title line</div>
-      <div class="Innovation-image-container">
-        <img src="https://www.kinaxis.com/sites/default/files/styles/max_650x650_webp/public/resources/Kinaxis-Concurrency%20is%20key%20for%20todays%20complex%20supply%20chains.webp?itok=KbCTin_n" />
-        <div class="Innovation-details">
-          
-        </div>
+    <a style={{textDecoration:"none"}} href="">
+    <div className="hover-container">
+      <div className='InnovationBackImage'>
+       <img className='InnovationBackImg' src={`${backgroundImage}`} alt="" />
       </div>
-      <p>
-        Few research papers of parts of webinar related to new technology
-        development in supply chain.
-      </p>
+      <div className="hover-content">
+        <img className="Innovationimage" src={`${image}`} alt="" />
+        <span className="InnovationP">{title}</span>
+      </div>
+      
     </div>
+    
+    </a>
     </>
-)
+  )
 }
 const Innovation = () => {
+  const Innovationarr = [
+    {
+      image:
+        "https://www.kinaxis.com/sites/default/files/styles/max_650x650_webp/public/paragraphs/block-list/plane-icon-white.png.webp?itok=qZ7ObwqD",
+      title: "Aerospace and defense",
+      backgroundImage:"https://media.istockphoto.com/id/1289962301/photo/young-male-engineer-checking-the-airplane-jet.jpg?s=612x612&w=0&k=20&c=b1x4eFxpeJ4dwpfW4wNfFzBUSCiB-A9Oc_UkBgYxTfg=",
+    },
+    {
+      image:
+        "https://www.kinaxis.com/sites/default/files/styles/max_650x650_webp/public/paragraphs/block-list/car-icon-white.png.webp?itok=_zaf1OV7",
+      title: "Automotive",
+      backgroundImage:"https://media.istockphoto.com/id/182668513/photo/automotive-industry.jpg?s=612x612&w=0&k=20&c=-TczpCGXZXBjqTAPdLoukjbZCtEHu8QfGbJJuFFT4rA=",
+    },
+    {
+      image:
+        "https://www.kinaxis.com/sites/default/files/styles/max_650x650_webp/public/paragraphs/block-list/products-icon-white.png.webp?itok=fDXvul_B",
+      title: "Consumer products",
+      backgroundImage:"https://img.freepik.com/free-photo/female-warehouse-workers-checking-cardboard-box-before-final-packing-while-working-distribution-warehouse_637285-3972.jpg",
+    },
+    {
+      image:
+        "https://www.kinaxis.com/sites/default/files/styles/max_650x650_webp/public/paragraphs/block-list/computer-chip-icon-white.png.webp?itok=tTpabA3o",
+      title: "High-tech and electronics",
+      backgroundImage:"https://images.unsplash.com/photo-1562408590-e32931084e23?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8aGlnaCUyMHRlY2h8ZW58MHx8MHx8fDA%3D&w=1000&q=80",
+    },
+    {
+      image:
+        "https://www.kinaxis.com/sites/default/files/styles/max_650x650_webp/public/paragraphs/block-list/factory-icon-white.png.webp?itok=69nm556P",
+      title: "Industrial",
+      backgroundImage:"https://media.istockphoto.com/id/1352464951/photo/concentrated-engineer-working-with-laptop-during-night-shift-in-gas-and-oil-industry-station.jpg?s=612x612&w=0&k=20&c=bhgu7PYlDG3rdd-0IKRTEm0vt2mv8TGMbxi3rvRTLFE=",
+    },
+    {
+      image:
+        "https://www.kinaxis.com/sites/default/files/styles/max_650x650_webp/public/paragraphs/block-list/test-tube-icon-white.png.webp?itok=CA9uOqHT",
+      title: "Life sciences",
+      backgroundImage:"https://media.istockphoto.com/id/1309776503/photo/female-medical-research-scientist-looks-at-biological-samples-before-analysing-it-under.jpg?s=612x612&w=0&k=20&c=U2weZr2beZqnJIf5DBgoQZG-e8gCEk--OcVDdmF3T7I=",
+    },
+    {
+      image:
+        "https://www.kinaxis.com/sites/default/files/styles/max_650x650_webp/public/paragraphs/block-list/Kinaxis%20Retail%20Icon%20White.png.webp?itok=Vw7CeO-k",
+      title: "Retail",
+      backgroundImage:"https://content.jdmagicbox.com/comp/indore/72/0731p731std1520772/catalogue/reliance-fresh-indore-gpo-indore-pa963w.jpg",
+    },
+    
+];
     
   return (
     <>
-    {/* <div class="Innovation-main-container">
-    <h2 class="headingInnovation">Innovation and expertise in your industry</h2>
-    <div id="InnovationInnovation-container">
-        <InnovationContainer />
-      </div>
-
-    </div> */}
-
-    <a style={{textDecoration:"none"}} href="https://www.kinaxis.com/en">
-    <div class="hover-container">
-      <div class="hover-content">
-        <img class="Innovationimage" src="https://www.kinaxis.com/sites/default/files/styles/max_650x650_webp/public/paragraphs/block-list/plane-icon-white.png.webp?itok=qZ7ObwqD" alt="" />
-        <p class="InnovationP">Aerospace and defense</p>
-      </div>
+    <div className="InnovationContainerDIv">
+      {
+        Innovationarr.map((ele,key) => (<InnovationContainer image={ele.image} title={ele.title} backgroundImage={ele.backgroundImage} key={key}/>)
+        )
+      }
     </div>
-    </a>
-   
     </>
   )
 }
