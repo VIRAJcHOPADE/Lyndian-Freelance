@@ -8,7 +8,7 @@ function Brands() {
         <div class="Theams-Waper">
         <div class="back-div">
         <div class="Innovativebrands">
-          <h2 class="theamheading">Innovative brands trust Ledian</h2>
+          <h2 class="theamheading">Innovative brands trust Lydian</h2>
           <br />
           <p>
             Companies across industries and of all sizes and maturity levels{" "}
