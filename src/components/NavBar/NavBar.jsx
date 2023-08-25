@@ -352,7 +352,7 @@ const NavBar = () => {
                         ).style.display = "none";
                       }}
                     >
-                      {item.title}
+                      <p>{item.title}</p>
                       <div className="bottom-bar"></div>
                       <div
                         id={`hover-component-${key}`}
