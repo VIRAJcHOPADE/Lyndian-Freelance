@@ -46,7 +46,8 @@ const RecentAchievements = () => {
       </div>
     <div className="container-fluid">
       <div className="row">
-        {achievement_content.map((ele,key) => (<AchievementsContainer svg={ele.svg} number={ele.number} title={ele.title} key={key}/>)
+        {
+        achievement_content.map((ele,key) => (<AchievementsContainer svg={ele.svg} number={ele.number} title={ele.title} key={key}/>)
         )}
         
 

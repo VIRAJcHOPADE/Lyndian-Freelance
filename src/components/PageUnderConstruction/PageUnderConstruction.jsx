@@ -1,6 +1,13 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./PageUnderConstruction.css";
 const PageUnderConstruction = () => {
+  useEffect(()=>{
+      // window.scrollBy(0 , -window.innerHeight);
+      window.scrollBy({
+        top:-window.innerHeight,
+        behavior:'smooth'
+      });
+  },[])
   return (
     <div id="not-found">
       <div id="inner-div-not-found">

@@ -1,0 +1,281 @@
+
+.heading-innovation {
+  font-size: 2.5rem;
+  padding-left: 6.5rem;
+  position: relative;
+  z-index: 1;
+  color: #374858;
+}
+.heading-innovation::after {
+  content: "";
+  position: absolute;
+  left: 6.5rem;
+  bottom: -10px;
+  height: 1px;
+  width: 150px; /* or 100px */
+  border-bottom: 3px solid red;
+}
+/* Main Container */
+.InnovationContainerDIv a {
+  padding: 20px;
+}
+
+/* Hover Container */
+.hover-container {
+  position: relative;
+  width: 300px;
+  height: 220px;
+  background-size: cover;
+  border-radius: 4px;
+  box-shadow: 0 0 15px 2px rgba(0, 0, 0, 0.1);
+}
+
+/* Hover Image */
+.Innovationimage {
+  filter: invert(1%) sepia(1%) saturate(1%) hue-rotate(1deg) brightness(1000%) contrast(60%);
+  width: 94px;
+  height: 99px;
+  padding-bottom: 20px;
+}
+
+/* Hover Text */
+.InnovationP {
+  color: #077a97;
+  font-weight: 600;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+/* Hover Content */
+.hover-content {
+  position: absolute;
+  text-align: center;
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+/* Background Image Container */
+.InnovationBackImage {
+  position: absolute;
+  width: 300px;
+  height: 220px;
+  border-radius: 4px;
+}
+
+/* Background Image */
+.InnovationBackImg {
+  width: 300px;
+  height: 220px;
+  opacity: 0;
+  border-radius: 4px;
+}
+
+/* Background Image Hover */
+.hover-container:hover .InnovationBackImg {
+  opacity: 1;
+  border-radius: 4px;
+}
+
+/* Hover Content Text Hover */
+.hover-container:hover .InnovationP {
+  color: #f9f9f9 !important;
+}
+.hover-container:hover .hover-content{
+  background: rgba(40, 82, 92, 0.7)  
+}
+
+.InnovationContainerDIv{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 1em;
+  margin-top: 4%;
+  justify-content: center;
+  
+ 
+}
+/* Additional Styling for Responsiveness */
+
+@media screen and (max-width: 1000px) {
+  .InnovationContainerDIv{
+    display: flex;
+    overflow-x: auto;
+    flex-direction: row;
+    padding: 1em;
+    margin-top: 4%;
+    justify-content: left;
+    flex-wrap: nowrap;
+    scroll-behavior: smooth;
+    transition: all 0.2s;
+  }
+  .hover-container {
+    width: 720px;
+    height: 250px;
+  }
+  .InnovationBackImage {
+    position: absolute;
+    width: 720px;
+    height: 250px;
+    border-radius: 4px;
+  }
+  .InnovationBackImg {
+    width: 720px;
+    height: 250px;
+  }
+  .hover-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+    width: 100%;
+    height: 100%;
+    padding-left: 0; /* Remove left padding */
+    padding-top: 0;  /* Remove top padding */
+  }
+}
+
+
+@media screen and (max-width: 770px) {
+  .InnovationContainerDIv{
+    display: flex;
+    overflow-x: auto;
+    flex-direction: row;
+    padding: 1em;
+    margin-top: 4%;
+    justify-content: left;
+    flex-wrap: nowrap;
+    scroll-behavior: smooth;
+    transition: all 0.2s;
+  }
+  .hover-container {
+    width: 500px;
+    height: 230px;
+  }
+  .InnovationBackImage {
+    position: absolute;
+    width: 500px;
+    height: 230px;
+    border-radius: 4px;
+  }
+  .InnovationBackImg {
+    width: 500px;
+    height: 230px;
+  }
+  .hover-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+    width: 100%;
+    height: 100%;
+    padding-left: 0; /* Remove left padding */
+    padding-top: 0;  /* Remove top padding */
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .InnovationContainerDIv{
+    display: flex;
+    overflow-x: auto;
+    flex-direction: row;
+    padding: 1em;
+    margin-top: 4%;
+    justify-content: left;
+    flex-wrap: nowrap;
+    scroll-behavior: smooth;
+    transition: all 0.2s;
+  }
+  .hover-container {
+    width: 300px;
+    height: 230px;
+  }
+  .InnovationBackImage {
+    position: absolute;
+    width: 300px;
+    height: 230px;
+    border-radius: 4px;
+  }
+  .InnovationBackImg {
+    width: 300px;
+    height: 230px;
+  }
+  .hover-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+    width: 100%;
+    height: 100%;
+    padding-left: 0; /* Remove left padding */
+    padding-top: 0;  /* Remove top padding */
+  }
+}
+
+
+@media screen and (max-width: 900px) {
+  .heading-innovation {
+    padding-left: 4rem;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .heading-innovation {
+    font-size: 2.2rem;
+  }
+  .heading-innovation::after {
+    width: 0;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .heading-innovation {
+    padding-left: 5rem;
+    text-align: center;
+  }
+  .heading-innovation::after {
+    width: 0;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .heading-innovation {
+    padding-left: 3rem;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .heading-innovation {
+    padding-left: 2rem;
+    font-size: 1.7rem;
+  }
+  .heading-innovation::after {
+    width: 0;
+  }
+}
+
+@media screen and (max-width: 456px) {
+  .heading {
+    padding-left: 0.5rem;
+  }
+  .supply-chain-outer-container {
+    max-width: 450px;
+  }
+}
+
+@media screen and (max-width: 250px) {
+  .heading {
+    padding-left: 0.5rem;
+  }
+  .heading::after {
+    width: 0;
+  }
+}
