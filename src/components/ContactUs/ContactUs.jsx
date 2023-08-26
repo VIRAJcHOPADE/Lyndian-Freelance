@@ -2,14 +2,7 @@ import React, { useState } from "react";
 import "./ContactUs.css";
 const ContactUs = () => {
   const contacts = [
-    {
-      title: "USA",
-      desc: "Middleton, Delaware, United States, 651 N Broad ST STE 206, Middletown DE 19709, USA",
-    },
-    {
-      title: "UK",
-      desc: "London, UK - 135 Kings Road, Kingston Upon Thames, England, KT2 5JE",
-    },
+  
     {
       title: "India",
       desc: "C202, Sai Paradise, Pune Bangalore Highway, Pune, MH, India",
