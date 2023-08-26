@@ -42,6 +42,7 @@
 
 .main-contact-us-cont .left-contact-us .contact-ele h3 {
   color: #1d1847;
+  text-align: center;
 }
 .main-contact-us-cont .left-contact-us .contact-ele p {
   text-align: center;
@@ -202,6 +203,14 @@ input::-webkit-inner-spin-button {
 }
 
 @media all and (max-width: 545px) {
+  .main-contact-us-cont {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+  }
+  .main-contact-us-cont .right-contact-us {
+    width: 100% !important;
+    padding: 4rem 1rem;
+  }
   .main-contact-us-cont .left-contact-us h1 {
     text-align: center;
   }
