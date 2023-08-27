@@ -1,0 +1,123 @@
+#program-management-container {
+  padding-top: 7rem;
+}
+
+#program-management-image-container {
+  position: relative;
+  text-align: center;
+  color: black;
+}
+
+#program-management-heading {
+    position: absolute;
+    top: 30%;
+    left: 10%;
+    color: #fff;
+    font-size: 2.5rem;
+  }
+
+#program-management-image {
+  width: 100vw;
+  height: 45vh;
+  object-fit: cover;
+}
+
+#program-management-crumbs{
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    color: #fff;
+    font-size: 1rem;
+}
+
+#program-management-crumbs i{
+    padding: 0 7px;
+}
+
+#program-management-crumbs a {
+    margin: 0 auto;
+    color: #fff;
+    text-decoration: none !important;
+    outline: none !important;
+}
+
+#program-management-content {
+  display: flex;
+  min-height: 70vh;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem 15rem;
+  gap: 5rem;
+}
+#program-management-content img {
+  height: 55%;
+  width: 100vw;
+  object-fit: cover;
+}
+
+#program-management-content .program-management-data {
+  display: flex;
+  height: 55%;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+#program-management-content .program-management-data h1 {
+  color: #1d1847;
+  font-size: 2.5rem;
+  font-family: Montserrat;
+}
+#program-management-content .program-management-data span {
+  display: flex;
+  font-family: Montserrat;
+  color: gray;
+  letter-spacing: 1px;
+  justify-content: center;
+  /* align-items: center; */
+  gap: 1rem;
+  flex-direction: column;
+}
+@media all and (max-width: 1500px) {
+  #program-management-content {
+    padding: 2rem 10rem;
+  }
+}
+@media all and (max-width: 1320px) {
+  #program-management-content {
+    padding: 2rem 5rem;
+  }
+}
+@media all and (max-width: 1150px) {
+  #program-management-content {
+    padding: 4rem 5rem;
+    flex-direction: column;
+  }
+  #program-management-content img {
+    width: 75vw;
+    height: 25rem;
+  }
+}
+
+@media all and (max-width: 750px) {
+  #program-management-content {
+    gap: 2rem;
+  }
+  #program-management-content img {
+    width: 100%;
+  }
+  #program-management-content {
+    padding: 4rem 1rem;
+  }
+}
+@media all and (max-width: 600px) {
+  #program-management-content img {
+    height: 15rem;
+  }
+}
+
+@media all and (max-width: 400px) {
+  #program-management-content .program-management-data h1 {
+    font-size: 2rem;
+  }
+}
