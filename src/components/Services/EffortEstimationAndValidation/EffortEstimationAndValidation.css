@@ -1,124 +1,146 @@
 #effort-estimation-and-validation-container {
-    padding-top: 7rem;
-  }
-  
-  #effort-estimation-and-validation-image-container {
-    position: relative;
-    text-align: center;
-    color: black;
-  }
-  
-  #effort-estimation-and-validation-heading {
-      position: absolute;
-      top: 30%;
-      left: 10%;
-      color: #fff;
-      font-size: 2.5rem;
-    }
-  
-  #effort-estimation-and-validation-image {
-    width: 100vw;
-    height: 45vh;
-    object-fit: cover;
-  }
-  
-  #effort-estimation-and-validation-crumbs{
-      position: absolute;
-      top: 50%;
-      left: 10%;
-      color: #fff;
-      font-size: 1rem;
-  }
-  
-  #effort-estimation-and-validation-crumbs i{
-      padding: 0 7px;
-  }
-  
-  #effort-estimation-and-validation-crumbs a {
-      margin: 0 auto;
-      color: #fff;
-      text-decoration: none !important;
-      outline: none !important;
-  }
-  
+  padding-top: 7rem;
+}
+
+#effort-estimation-and-validation-image-container {
+  position: relative;
+  text-align: center;
+  color: black;
+}
+
+#effort-estimation-and-validation-heading {
+  position: absolute;
+  bottom: 6rem;
+  left: 10%;
+  color: #fff;
+  font-size: 2.5rem;
+  text-align: left;
+}
+
+#effort-estimation-and-validation-image {
+  width: 100vw;
+  height: 45vh;
+  object-fit: cover;
+}
+
+#effort-estimation-and-validation-crumbs {
+  position: absolute;
+  bottom: 4rem;
+  left: 10%;
+  color: #fff;
+  font-size: 1rem;
+}
+
+#effort-estimation-and-validation-crumbs i {
+  padding: 0 7px;
+}
+
+#effort-estimation-and-validation-crumbs a {
+  margin: 0 auto;
+  color: #fff;
+  text-decoration: none !important;
+  outline: none !important;
+}
+
+#effort-estimation-and-validation-content {
+  display: flex;
+  min-height: 70vh;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem 15rem;
+  gap: 5rem;
+}
+#effort-estimation-and-validation-content img {
+  height: 55%;
+  width: 100vw;
+  object-fit: cover;
+}
+
+#effort-estimation-and-validation-content
+  .effort-estimation-and-validation-data {
+  display: flex;
+  height: 55%;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+#effort-estimation-and-validation-content
+  .effort-estimation-and-validation-data
+  h1 {
+  color: #1d1847;
+  font-size: 2.5rem;
+  font-family: Montserrat;
+}
+#effort-estimation-and-validation-content
+  .effort-estimation-and-validation-data
+  span {
+  display: flex;
+  font-family: Montserrat;
+  color: gray;
+  letter-spacing: 1px;
+  justify-content: center;
+  /* align-items: center; */
+  gap: 1rem;
+  flex-direction: column;
+}
+@media all and (max-width: 1500px) {
   #effort-estimation-and-validation-content {
-    display: flex;
-    min-height: 70vh;
-    height: 100%;
-    justify-content: center;
-    align-items: center;
-    padding: 2rem 15rem;
-    gap: 5rem;
+    padding: 2rem 10rem;
+  }
+}
+@media all and (max-width: 1320px) {
+  #effort-estimation-and-validation-content {
+    padding: 2rem 5rem;
+  }
+}
+@media all and (max-width: 1150px) {
+  #effort-estimation-and-validation-content {
+    padding: 4rem 5rem;
+    flex-direction: column;
   }
   #effort-estimation-and-validation-content img {
-    height: 55%;
-    width: 100vw;
-    object-fit: cover;
+    width: 75vw;
+    height: 25rem;
   }
-  
-  #effort-estimation-and-validation-content .effort-estimation-and-validation-data {
-    display: flex;
-    height: 55%;
-    flex-direction: column;
+}
+
+@media all and (max-width: 750px) {
+  #effort-estimation-and-validation-content {
     gap: 2rem;
   }
-  
-  #effort-estimation-and-validation-content .effort-estimation-and-validation-data h1 {
-    color: #1d1847;
-    font-size: 2.5rem;
-    font-family: Montserrat;
+  #effort-estimation-and-validation-content img {
+    width: 100%;
   }
-  #effort-estimation-and-validation-content .effort-estimation-and-validation-data span {
-    display: flex;
-    font-family: Montserrat;
-    color: gray;
-    letter-spacing: 1px;
-    justify-content: center;
-    /* align-items: center; */
-    gap: 1rem;
-    flex-direction: column;
+  #effort-estimation-and-validation-content {
+    padding: 4rem 1rem;
   }
-  @media all and (max-width: 1500px) {
-    #effort-estimation-and-validation-content {
-      padding: 2rem 10rem;
-    }
+}
+@media all and (max-width: 600px) {
+  #effort-estimation-and-validation-content img {
+    height: 15rem;
   }
-  @media all and (max-width: 1320px) {
-    #effort-estimation-and-validation-content {
-      padding: 2rem 5rem;
-    }
+  #effort-estimation-and-validation-heading {
+    font-size: 2rem;
   }
-  @media all and (max-width: 1150px) {
-    #effort-estimation-and-validation-content {
-      padding: 4rem 5rem;
-      flex-direction: column;
-    }
-    #effort-estimation-and-validation-content img {
-      width: 75vw;
-      height: 25rem;
-    }
+}
+
+@media all and (max-width: 450px) {
+  #effort-estimation-and-validation-heading {
+    left: 4%;
   }
-  
-  @media all and (max-width: 750px) {
-    #effort-estimation-and-validation-content {
-      gap: 2rem;
-    }
-    #effort-estimation-and-validation-content img {
-      width: 100%;
-    }
-    #effort-estimation-and-validation-content {
-      padding: 4rem 1rem;
-    }
+  #effort-estimation-and-validation-crumbs {
+    left: 4%;
   }
-  @media all and (max-width: 600px) {
-    #effort-estimation-and-validation-content img {
-      height: 15rem;
-    }
+}
+@media all and (max-width: 400px) {
+  #effort-estimation-and-validation-content
+    .effort-estimation-and-validation-data
+    h1 {
+    font-size: 2rem;
   }
-  
-  @media all and (max-width: 400px) {
-    #effort-estimation-and-validation-content .effort-estimation-and-validation-data h1 {
-      font-size: 2rem;
-    }
+  #effort-estimation-and-validation-heading {
+    font-size: 2rem;
+    text-align: left;
   }
-  
+}

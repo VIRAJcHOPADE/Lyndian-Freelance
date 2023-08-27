@@ -1,13 +1,27 @@
 import React from "react";
 import "./DesignAudit.css";
+import { NavLink } from "react-router-dom";
+
 const DesignAudit = () => {
   return (
     <>
-      <img
-        id="design-audit-image"
-        src="https://themanagementtechnician.com/wp-content/uploads/2022/10/big.jpg"
-        alt=""
-      />
+      <div id="design-audit-image-container">
+        <img
+          id="design-audit-image"
+          src="https://themanagementtechnician.com/wp-content/uploads/2022/10/big.jpg"
+          alt=""
+        />
+        <h2 id="design-audit-heading">Design Audit</h2>
+
+        <div id="design-audit-crumbs">
+          <NavLink to={"/"}>Home</NavLink>
+          <span className="design-audit-gap">
+            <i className="fa-solid fa-chevron-right"></i>
+          </span>
+          <span className="design-audit-current">Design Audit</span>
+        </div>
+      </div>
+
       <div id="design-audit-content">
         <img
           src="https://img.freepik.com/free-photo/group-diverse-people-having-business-meeting_53876-25060.jpg"
