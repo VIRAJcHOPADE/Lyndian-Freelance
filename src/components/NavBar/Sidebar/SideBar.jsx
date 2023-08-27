@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, {useState } from "react";
 import styled from "styled-components";
 import { NavLink } from "react-router-dom";
 import * as FaIcons from "react-icons/fa";
@@ -8,7 +8,6 @@ import SubMenu from "./SubMenu";
 import { IconContext } from "react-icons/lib";
 
 const Nav = styled.div`
-  background: transparent;
   height: 80px;
   width: 80px;
   display: flex;
@@ -48,21 +47,21 @@ const Sidebar = () => {
   const [sidebar, setSidebar] = useState(false);
 
   const showSidebar = () => setSidebar(!sidebar);
-  useEffect(() => {
-    window.addEventListener("scroll", () => {
-      if (window.scrollY > 100) {
-        document.getElementById("ham-menu").style.color = "#1e2e3e";
-      } else {
-        document.getElementById("ham-menu").style.color = "white";
-      }
-    });
-  }, []);
+  // useEffect(() => {
+  //   window.addEventListener("scroll", () => {
+  //     if (window.scrollY > 100) {
+  //       document.getElementById("ham-menu").style.color = "#1e2e3e";
+  //     } else {
+  //       document.getElementById("ham-menu").style.color = "white";
+  //     }
+  //   });
+  // }, []);
 
   return (
     <div id="burger-menu">
       <IconContext.Provider
         value={{
-          color: "white",
+          color: "#1e2e3e",
         }}
       >
         <Nav>
@@ -70,7 +69,7 @@ const Sidebar = () => {
             <FaIcons.FaBars
               onClick={showSidebar}
               id="ham-menu"
-              style={{ color: "white" }}
+              style={{ color: "#1e2e3e" }}
             />
           </NavIcon>
         </Nav>
@@ -94,7 +93,7 @@ const Sidebar = () => {
               }}
             >
               <NavIcon to="/">
-                <img src="logo.png" style={{ width: "9rem", height: "3rem" }} />
+                <img src="logo.png" style={{ width: "9rem", height: "3rem" }} alt=""/>
               </NavIcon>
               <AiIcons.AiOutlineClose onClick={showSidebar} />
             </div>

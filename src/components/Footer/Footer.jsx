@@ -23,7 +23,7 @@ const Footer = () => {
     {
       title: "About Us",
       subLinks: [
-        { title: "Contact", link: "/contact" },
+        { title: "Contact", link: "/contact-us" },
         { title: "Newsroom", link: " /newsroom" },
         { title: "Events", link: " /events" },
         { title: "Careers", link: " /careers" },

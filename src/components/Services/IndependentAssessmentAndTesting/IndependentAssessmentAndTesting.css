@@ -1,0 +1,147 @@
+#independent-assessment-and-testing-image {
+  width: 100vw;
+  height: 45vh;
+  object-fit: cover;
+}
+
+#independent-assessment-and-testing-image-container {
+  position: relative;
+  text-align: center;
+  color: black;
+}
+
+#independent-assessment-and-testing-heading {
+  position: absolute;
+  bottom: 6rem;
+  left: 10%;
+  color: #fff;
+  font-size: 2.5rem;
+  text-align: left;
+}
+#independent-assessment-and-testing-crumbs {
+  position: absolute;
+  bottom: 4rem;
+  left: 10%;
+  color: #fff;
+  font-size: 1rem;
+}
+
+#independent-assessment-and-testing-crumbs i {
+  padding: 0 7px;
+}
+
+#independent-assessment-and-testing-crumbs a {
+  margin: 0 auto;
+  color: #fff;
+  text-decoration: none !important;
+  outline: none !important;
+}
+
+#independent-assessment-and-testing-content {
+  display: flex;
+  min-height: 70vh;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem 10rem;
+  gap: 5rem;
+}
+#independent-assessment-and-testing-content img {
+  height: 45%;
+  width: 40vw;
+  object-fit: cover;
+}
+
+#independent-assessment-and-testing-content
+  .independent-assessment-and-testing-data {
+  display: flex;
+  height: 55%;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+#independent-assessment-and-testing-content
+  .independent-assessment-and-testing-data
+  h1 {
+  color: #1d1847;
+  font-size: 2.5rem;
+  font-family: Montserrat;
+}
+#independent-assessment-and-testing-content
+  .independent-assessment-and-testing-data
+  span {
+  display: flex;
+  font-family: Montserrat;
+  color: gray;
+  letter-spacing: 1px;
+  justify-content: center;
+  /* align-items: center; */
+  gap: 1rem;
+  flex-direction: column;
+}
+@media all and (max-width: 1500px) {
+  #independent-assessment-and-testing-content {
+    padding: 2rem 6rem;
+  }
+}
+@media all and (max-width: 1320px) {
+  #independent-assessment-and-testing-content {
+    padding: 2rem 2rem;
+  }
+}
+@media all and (max-width: 1150px) {
+  #independent-assessment-and-testing-content {
+    padding: 4rem 5rem;
+    flex-direction: column;
+  }
+  #independent-assessment-and-testing-content img {
+    width: 75vw;
+    height: 25rem;
+  }
+}
+
+@media all and (max-width: 750px) {
+  #independent-assessment-and-testing-content {
+    gap: 2rem;
+  }
+  #independent-assessment-and-testing-content img {
+    width: 100%;
+  }
+  #independent-assessment-and-testing-content {
+    padding: 4rem 1rem;
+  }
+}
+@media all and (max-width: 600px) {
+  #independent-assessment-and-testing-content img {
+    height: 15rem;
+  }
+  #independent-assessment-and-testing-heading {
+    font-size: 2rem;
+  }
+}
+
+@media all and (max-width: 450px) {
+  #independent-assessment-and-testing-heading {
+    left: 4%;
+  }
+  #independent-assessment-and-testing-crumbs {
+    left: 4%;
+  }
+}
+
+@media all and (max-width: 400px) {
+  #independent-assessment-and-testing-content
+    .independent-assessment-and-testing-data
+    h1 {
+    font-size: 2rem;
+  }
+  #independent-assessment-and-testing-heading {
+    font-size: 2rem;
+    text-align: left;
+    bottom: 4rem;
+  }
+  #independent-assessment-and-testing-crumbs {
+    bottom: 1rem;
+    text-align: left;
+  }
+}

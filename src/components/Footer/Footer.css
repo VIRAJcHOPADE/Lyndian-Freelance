@@ -2,11 +2,12 @@
   height: 100%;
   width: 100%;
   display: flex;
-  background-color: #1e2e3e;
-  color: white;
+  background-color: white;
+  color: #1e2e3e;
   flex-direction: column;
   padding: 3rem 0;
   padding-bottom: 1rem;
+  border-top: 1px solid #1e2e3e;
 }
 
 #main-footer-div #upper-footer {
@@ -34,10 +35,11 @@
 
 #main-footer-div #upper-footer #footer-logo #socials-logo a {
   text-decoration: none;
-  color: rgb(30, 46, 62);
-  background-color: white;
+  color: white;
+  background-color: #1e2e3e;
   padding: 0.1rem 0.4rem;
   border-radius: 5px;
+  border: 2px solid #1e2e3e;
 }
 
 #main-footer-div #upper-footer #footer-nav {
@@ -53,7 +55,8 @@
 }
 #main-footer-div #upper-footer #footer-nav .footer-nav-inner a {
   text-decoration: none;
-  color: white;
+  color: #1e2e3e;
+  font-weight: 550;
 }
 
 #main-footer-div #upper-footer #footer-newsletter button {

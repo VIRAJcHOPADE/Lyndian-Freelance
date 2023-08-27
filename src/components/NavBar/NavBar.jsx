@@ -1,18 +1,17 @@
-import React, { useEffect, useState } from "react";
 import { NavLink } from "react-router-dom";
 import "./NavBar.css";
 import Sidebar from "./Sidebar/SideBar";
 
 const NavBar = () => {
-  const upperHalfOptions = [
-    { title: "Contact Us", link: "contact-us" },
-    { title: "Location", link: "location" },
-    { title: "Careers", link: "/careers" },
-    { title: <i className="fa-brands fa-linkedin"></i>, link: "#" },
-    { title: <i className="fa fa-search" aria-hidden="true"></i>, link: "#" },
+  // const upperHalfOptions = [
+  //   { title: "Contact Us", link: "contact-us" },
+  //   { title: "Location", link: "location" },
+  //   { title: "Careers", link: "/careers" },
+  //   { title: <i className="fa-brands fa-linkedin"></i>, link: "#" },
+  //   { title: <i className="fa fa-search" aria-hidden="true"></i>, link: "#" },
 
-    "LinkedIn",
-  ];
+  //   "LinkedIn",
+  // ];
   const lowerHalfOptions = [
     {
       title: "Products",
@@ -253,51 +252,51 @@ const NavBar = () => {
     },
   ];
 
-  useEffect(() => {
-    window.addEventListener("scroll", () => {
-      if (window.scrollY > 100) {
-        document.getElementById("upper-nav").style.display = "none";
-        document.getElementById("lower-nav").style.backgroundColor = "white";
-        var link2 = document.querySelectorAll(
-          "#lower-nav #inner-lower-nav #left-inner-lower-nav .hover-nav-comp"
-        );
+  // useEffect(() => {
+  //   window.addEventListener("scroll", () => {
+  //     if (window.scrollY > 100) {
+  //       // document.getElementById("upper-nav").style.display = "none";
+  //       document.getElementById("lower-nav").style.backgroundColor = "white";
+  //       var link2 = document.querySelectorAll(
+  //         "#lower-nav #inner-lower-nav #left-inner-lower-nav .hover-nav-comp"
+  //       );
 
-        var links = document.querySelectorAll(
-          "#lower-nav #inner-lower-nav #left-inner-lower-nav a"
-        );
+  //       var links = document.querySelectorAll(
+  //         "#lower-nav #inner-lower-nav #left-inner-lower-nav a"
+  //       );
 
-        for (var ele of links) {
-          ele.classList.add("black-color");
-        }
-        for (var ele of link2) {
-          ele.classList.add("black-color");
-        }
-      } else {
-        if (window.innerWidth >= 1000) {
-          document.getElementById("upper-nav").style.display = "flex";
-        }
-        document.getElementById("lower-nav").style.backgroundColor =
-          "transparent";
-        var link2 = document.querySelectorAll(
-          "#lower-nav #inner-lower-nav #left-inner-lower-nav .hover-nav-comp"
-        );
-        var links = document.querySelectorAll(
-          "#lower-nav #inner-lower-nav #left-inner-lower-nav a"
-        );
+  //       for (var ele of links) {
+  //         ele.classList.add("black-color");
+  //       }
+  //       for (var ele of link2) {
+  //         ele.classList.add("black-color");
+  //       }
+  //     } else {
+  //       // if (window.innerWidth >= 1000) {
+  //       // document.getElementById("upper-nav").style.display = "flex";
+  //       // }
+  //       document.getElementById("lower-nav").style.backgroundColor =
+  //         "transparent";
+  //       var link2 = document.querySelectorAll(
+  //         "#lower-nav #inner-lower-nav #left-inner-lower-nav .hover-nav-comp"
+  //       );
+  //       var links = document.querySelectorAll(
+  //         "#lower-nav #inner-lower-nav #left-inner-lower-nav a"
+  //       );
 
-        for (var ele of links) {
-          ele.classList.remove("black-color");
-        }
-        for (var ele of link2) {
-          ele.classList.remove("black-color");
-        }
-      }
-    });
-  }, []);
+  //       for (var ele of links) {
+  //         ele.classList.remove("black-color");
+  //       }
+  //       for (var ele of link2) {
+  //         ele.classList.remove("black-color");
+  //       }
+  //     }
+  //   });
+  // }, []);
 
   return (
     <div id="navbar-main-cont">
-      <div id="upper-nav">
+      {/* <div id="upper-nav">
         <div id="inner-upper-nav">
           {upperHalfOptions.map((item, key) => (
             <NavLink to={item.link} key={key}>
@@ -305,7 +304,7 @@ const NavBar = () => {
             </NavLink>
           ))}
         </div>
-      </div>
+      </div> */}
       <div id="lower-nav">
         <div id="inner-lower-nav">
           <img
