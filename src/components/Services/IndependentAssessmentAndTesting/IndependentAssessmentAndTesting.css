@@ -1,0 +1,93 @@
+#independent-assessment-and-testing-image {
+  width: 100vw;
+  height: 45vh;
+  object-fit: cover;
+}
+
+#independent-assessment-and-testing-content {
+  display: flex;
+  min-height: 70vh;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem 10rem;
+  gap: 5rem;
+}
+#independent-assessment-and-testing-content img {
+  height: 45%;
+  width: 40vw;
+  object-fit: cover;
+}
+
+#independent-assessment-and-testing-content
+  .independent-assessment-and-testing-data {
+  display: flex;
+  height: 55%;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+#independent-assessment-and-testing-content
+  .independent-assessment-and-testing-data
+  h1 {
+  color: #1d1847;
+  font-size: 2.5rem;
+  font-family: Montserrat;
+}
+#independent-assessment-and-testing-content
+  .independent-assessment-and-testing-data
+  span {
+  display: flex;
+  font-family: Montserrat;
+  color: gray;
+  letter-spacing: 1px;
+  justify-content: center;
+  /* align-items: center; */
+  gap: 1rem;
+  flex-direction: column;
+}
+@media all and (max-width: 1500px) {
+  #independent-assessment-and-testing-content {
+    padding: 2rem 6rem;
+  }
+}
+@media all and (max-width: 1320px) {
+  #independent-assessment-and-testing-content {
+    padding: 2rem 2rem;
+  }
+}
+@media all and (max-width: 1150px) {
+  #independent-assessment-and-testing-content {
+    padding: 4rem 5rem;
+    flex-direction: column;
+  }
+  #independent-assessment-and-testing-content img {
+    width: 75vw;
+    height: 25rem;
+  }
+}
+
+@media all and (max-width: 750px) {
+  #independent-assessment-and-testing-content {
+    gap: 2rem;
+  }
+  #independent-assessment-and-testing-content img {
+    width: 100%;
+  }
+  #independent-assessment-and-testing-content {
+    padding: 4rem 1rem;
+  }
+}
+@media all and (max-width: 600px) {
+  #independent-assessment-and-testing-content img {
+    height: 15rem;
+  }
+}
+
+@media all and (max-width: 400px) {
+  #independent-assessment-and-testing-content
+    .independent-assessment-and-testing-data
+    h1 {
+    font-size: 2rem;
+  }
+}
