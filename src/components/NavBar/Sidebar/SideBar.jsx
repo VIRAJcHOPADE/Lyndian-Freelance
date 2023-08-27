@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, {useState } from "react";
 import styled from "styled-components";
 import { NavLink } from "react-router-dom";
 import * as FaIcons from "react-icons/fa";
@@ -93,7 +93,7 @@ const Sidebar = () => {
               }}
             >
               <NavIcon to="/">
-                <img src="logo.png" style={{ width: "9rem", height: "3rem" }} />
+                <img src="logo.png" style={{ width: "9rem", height: "3rem" }} alt=""/>
               </NavIcon>
               <AiIcons.AiOutlineClose onClick={showSidebar} />
             </div>

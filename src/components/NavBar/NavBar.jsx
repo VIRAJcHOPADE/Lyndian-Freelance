@@ -1,18 +1,17 @@
-import React, { useEffect, useState } from "react";
 import { NavLink } from "react-router-dom";
 import "./NavBar.css";
 import Sidebar from "./Sidebar/SideBar";
 
 const NavBar = () => {
-  const upperHalfOptions = [
-    { title: "Contact Us", link: "contact-us" },
-    { title: "Location", link: "location" },
-    { title: "Careers", link: "/careers" },
-    { title: <i className="fa-brands fa-linkedin"></i>, link: "#" },
-    { title: <i className="fa fa-search" aria-hidden="true"></i>, link: "#" },
+  // const upperHalfOptions = [
+  //   { title: "Contact Us", link: "contact-us" },
+  //   { title: "Location", link: "location" },
+  //   { title: "Careers", link: "/careers" },
+  //   { title: <i className="fa-brands fa-linkedin"></i>, link: "#" },
+  //   { title: <i className="fa fa-search" aria-hidden="true"></i>, link: "#" },
 
-    "LinkedIn",
-  ];
+  //   "LinkedIn",
+  // ];
   const lowerHalfOptions = [
     {
       title: "Products",
