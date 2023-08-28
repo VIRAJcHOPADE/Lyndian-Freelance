@@ -8,6 +8,8 @@ import DesignAudit from "./components/Services/DesignAudit/DesignAudit";
 import IndependentAssessmentAndTesting from "./components/Services/IndependentAssessmentAndTesting/IndependentAssessmentAndTesting";
 import ProgramManagement from "./components/Services/ProgramManagement/ProgramManagement";
 import EffortEstimationAndValidation from "./components/Services/EffortEstimationAndValidation/EffortEstimationAndValidation";
+import Industry from "./components/Services/Industry/Industry";
+import WorldwideContract from "./components/Services/WorldwideContract/WorldwideContract";
 
 function App() {
   return (
@@ -25,6 +27,14 @@ function App() {
         <Route
           path="/independent-assessment-and-testing"
           element={<IndependentAssessmentAndTesting />}
+        />
+        <Route
+          path="/industry-4-0-advisory"
+          element={<Industry />}
+        />
+        <Route
+          path="/worldwide-contract-staffing"
+          element={<WorldwideContract />}
         />
         <Route path="*" element={<PageUnderConstruction />} />
       </Routes>
