@@ -39,6 +39,30 @@ const NavBar = () => {
       title: "Services",
       subTopics: [
         {
+          title: "Effort Estimation and Validation",
+          link: "/effort-estimation-and-validation",
+        },
+        {
+          title: "Program Management",
+          link: "/program-management",
+        },
+        {
+          title: "Design Audit",
+          link: "/design-audit",
+        },
+        {
+          title: "Independent Assessment and Testing",
+          link: "/independent-assessment-and-testing",
+        },
+        {
+          title: "Industry 4.0 Advisory",
+          link: "/industry-4-0-advisory",
+        },
+        {
+          title: "Worldwide Contract Staffing",
+          link: "/worldwide-contract-staffing",
+        },
+        {
           title: "Supply Chain Solutions Audit",
           link: "/supply-chain-solution-audit",
         },

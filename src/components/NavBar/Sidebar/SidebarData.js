@@ -116,6 +116,18 @@ export const SidebarData = [
         title: "Design Audit",
         path: "/design-audit",
       },
+      {
+        title: "Independent Assessment and Testing",
+        path: "/independent-assessment-and-testing",
+      },
+      {
+        title: "Industry 4.0 Advisory",
+        path: "/industry-4-0-advisory",
+      },
+      {
+        title: "Worldwide Contract Staffing",
+        path: "/worldwide-contract-staffing",
+      },
     ],
   },
 
