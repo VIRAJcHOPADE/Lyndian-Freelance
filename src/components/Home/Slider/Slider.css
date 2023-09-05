@@ -46,7 +46,8 @@
     bottom: 6rem;
   }
 }
-@media all and (max-width: 800px) {
+
+@media all and (max-height: 800px) {
   #slider p {
     font-size: 3.5rem;
     padding: 0 1rem;
@@ -54,6 +55,11 @@
   }
   #slider span {
     bottom: 6rem;
+  }
+}
+@media all and (max-height: 700px) {
+  #slider {
+    height: 100vh;
   }
 }
 
