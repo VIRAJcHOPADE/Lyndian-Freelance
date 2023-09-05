@@ -29,6 +29,30 @@ export const SidebarData = [
     iconOpened: <RiIcons.RiArrowUpSFill />,
     subNav: [
       {
+        title: "Effort Estimation and Validation",
+        path: "/effort-estimation-and-validation",
+      },
+      {
+        title: "Program Management",
+        path: "/program-management",
+      },
+      {
+        title: "Design Audit",
+        path: "/design-audit",
+      },
+      {
+        title: "Independent Assessment and Testing",
+        path: "/independent-assessment-and-testing",
+      },
+      {
+        title: "Industry 4.0 Advisory",
+        path: "/industry-4-0-advisory",
+      },
+      {
+        title: "Worldwide Contract Staffing",
+        path: "/worldwide-contract-staffing",
+      },
+      {
         title: "Supply Chain Solutions Audit",
         path: "/supply-chain-solution-audit",
       },
@@ -103,30 +127,6 @@ export const SidebarData = [
       {
         title: "Mobile Applications ",
         path: "/mobile-applications",
-      },
-      {
-        title: "Effort Estimation and Validation",
-        path: "/effort-estimation-and-validation",
-      },
-      {
-        title: "Program Management",
-        path: "/program-management",
-      },
-      {
-        title: "Design Audit",
-        path: "/design-audit",
-      },
-      {
-        title: "Independent Assessment and Testing",
-        path: "/independent-assessment-and-testing",
-      },
-      {
-        title: "Industry 4.0 Advisory",
-        path: "/industry-4-0-advisory",
-      },
-      {
-        title: "Worldwide Contract Staffing",
-        path: "/worldwide-contract-staffing",
       },
     ],
   },
