@@ -47,10 +47,10 @@ const ContactUs = () => {
   });
   const submitHandler = () => {
     if (
-      formState.name.length == 0 ||
-      formState.email.length == 0 ||
-      formState.mobile.length == 0 ||
-      formState.message.length == 0
+      formState.name.length === 0 ||
+      formState.email.length === 0 ||
+      formState.mobile.length === 0 ||
+      formState.message.length === 0
     ) {
       console.log("please enter all the details");
       return;
@@ -67,6 +67,7 @@ const ContactUs = () => {
       <img
         className="contact-us-bg-image"
         src="https://themanagementtechnician.com/wp-content/uploads/2020/09/contact-banner.jpg"
+        alt=""
       ></img>
 
       <div className="left-contact-us">
