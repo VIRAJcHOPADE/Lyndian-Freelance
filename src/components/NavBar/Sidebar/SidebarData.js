@@ -104,6 +104,18 @@ export const SidebarData = [
         title: "Mobile Applications ",
         path: "/mobile-applications",
       },
+      {
+        title: "Effort Estimation and Validation",
+        path: "/effort-estimation-and-validation",
+      },
+      {
+        title: "Program Management",
+        path: "/program-management",
+      },
+      {
+        title: "Design Audit",
+        path: "/design-audit",
+      },
     ],
   },
 
