@@ -22,6 +22,7 @@ export const SidebarData = [
         path: "/portals",
       },
     ],
+    isSubNav: true,
   },
   {
     title: "Services",
@@ -129,6 +130,7 @@ export const SidebarData = [
         path: "/mobile-applications",
       },
     ],
+    isSubNav: true,
   },
 
   {
@@ -161,6 +163,7 @@ export const SidebarData = [
         path: "/pharmaceuticals",
       },
     ],
+    isSubNav: true,
   },
   {
     title: "Technologies",
@@ -228,6 +231,7 @@ export const SidebarData = [
         path: "/by-tms",
       },
     ],
+    isSubNav: true,
   },
   {
     title: "Partners",
@@ -251,17 +255,21 @@ export const SidebarData = [
         path: "/kinaxis",
       },
     ],
+    isSubNav: true,
   },
   {
     title: "Blogs",
     path: "/blogs",
+    isSubNav: false,
   },
   {
     title: "People",
     path: "/people",
+    isSubNav: false,
   },
   {
     title: "Project Trainings",
     path: "/project-trainings",
+    isSubNav: false,
   },
 ];

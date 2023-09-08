@@ -23,7 +23,7 @@
 
 #not-found #inner-div-not-found span {
   font-family: head2, sans-serif;
-  z-index: 9999;
+  /* z-index: 9999; */
   color: #1e2e3e;
   font-size: 5rem;
   width: 100%;

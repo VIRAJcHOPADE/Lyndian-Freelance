@@ -54,7 +54,7 @@
     padding-bottom: 5rem;
   }
   #slider span {
-    bottom: 6rem;
+    bottom: 30%;
   }
 }
 @media all and (max-height: 700px) {

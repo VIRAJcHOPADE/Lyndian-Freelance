@@ -1,4 +1,4 @@
-import React, {useState } from "react";
+import React, { useState } from "react";
 import styled from "styled-components";
 import { NavLink } from "react-router-dom";
 import * as FaIcons from "react-icons/fa";
@@ -46,7 +46,10 @@ const SidebarWrap = styled.div`
 const Sidebar = () => {
   const [sidebar, setSidebar] = useState(false);
 
-  const showSidebar = () => setSidebar(!sidebar);
+  const showSidebar = () => {
+    setSidebar(!sidebar);
+    console.log("Hii");
+  };
   // useEffect(() => {
   //   window.addEventListener("scroll", () => {
   //     if (window.scrollY > 100) {
@@ -75,7 +78,9 @@ const Sidebar = () => {
         </Nav>
         <SidebarNav
           sidebar={sidebar}
-          style={{ width: window.innerWidth <= 800 ? "100vw" : "24rem" }}
+          style={{
+            width: window.innerWidth <= 800 ? "100vw" : "24rem",
+          }}
         >
           <SidebarWrap>
             <div
@@ -84,6 +89,9 @@ const Sidebar = () => {
                 justifyContent: "space-between",
                 alignItems: "center",
                 paddingRight: " 2rem",
+                backgroundColor: "white",
+                position: "fixed",
+                width: window.innerWidth <= 800 ? "100vw" : "24rem",
                 // gap:
                 //   window.innerWidth < 800
                 //     ? window.innerWidth < 300
@@ -92,14 +100,25 @@ const Sidebar = () => {
                 //     : "13rem",
               }}
             >
-              <NavIcon to="/">
-                <img src="logo.png" style={{ width: "9rem", height: "3rem" }} alt=""/>
+              <NavIcon to="/" onClick={showSidebar}>
+                <img
+                  src="logo.png"
+                  style={{ width: "9rem", height: "3rem" }}
+                  alt=""
+                />
               </NavIcon>
-              <AiIcons.AiOutlineClose onClick={showSidebar} />
+              <AiIcons.AiOutlineClose
+                onClick={showSidebar}
+                style={{ fontWeight: 550 }}
+              />
             </div>
-            {SidebarData.map((item, index) => {
-              return <SubMenu item={item} key={index} />;
-            })}
+            <div style={{ marginTop: "5rem" }}>
+              {SidebarData.map((item, index) => {
+                return (
+                  <SubMenu item={item} key={index} showSideBar={showSidebar} />
+                );
+              })}
+            </div>
           </SidebarWrap>
         </SidebarNav>
       </IconContext.Provider>
