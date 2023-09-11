@@ -14,6 +14,28 @@ const SliderCont = () => {
         "https://images.unsplash.com/photo-1529400971008-f566de0e6dfc?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80",
       title: "How productive is your end user ?",
     },
+    {
+      image:
+        "https://images.unsplash.com/photo-1529400971008-f566de0e6dfc?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80",
+      title: "Are your Supply and Demand plans sensible?",
+    },
+    {
+      image:
+        "https://images.unsplash.com/photo-1529400971008-f566de0e6dfc?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80",
+      title: "What if the price of Raw materials serges by 40%",
+    },
+    {
+      image:
+        "https://images.unsplash.com/photo-1529400971008-f566de0e6dfc?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80",
+      title:
+        "Why should you produce in the first place if you can't even sell at the price you thought you would.",
+    },
+    {
+      image:
+        "https://images.unsplash.com/photo-1529400971008-f566de0e6dfc?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80",
+      title:
+        "How much to buy and when to buy is often strategic discussion, your ROP/ROQ/MOQ etc.. are just gimmicks. ",
+    },
   ];
 
   const [image, setImage] = useState(elements[index.current].image);
