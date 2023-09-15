@@ -33,7 +33,7 @@
   position: absolute;
   left: 10%;
   bottom: 15rem;
-  padding-right: 1rem;
+  padding-right: 2rem;
 }
 
 @media all and (max-width: 1100px) {
@@ -67,13 +67,27 @@
   #slider {
     height: 75vh;
   }
-  #slider p {
-    font-size: 2.5rem;
-  }
 }
 
 @media all and (max-height: 800px) and (min-width: 1100px) {
   #slider span {
     bottom: 8rem;
+  }
+}
+@media all and (max-width: 500px) {
+  #slider span {
+    bottom: 6rem;
+  }
+  #slider p {
+    font-size: 2.3rem;
+  }
+}
+
+@media all and (max-width: 500px) and (max-height: 700px) {
+  #slider span {
+    bottom: 4rem;
+  }
+  #slider p {
+    font-size: 2rem;
   }
 }

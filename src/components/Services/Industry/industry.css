@@ -5,6 +5,7 @@
 }
 
 #industry-content {
+  display: flex;
   min-height: 70vh;
   height: 100%;
   justify-content: center;
