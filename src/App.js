@@ -10,6 +10,7 @@ import ProgramManagement from "./components/Services/ProgramManagement/ProgramMa
 import EffortEstimationAndValidation from "./components/Services/EffortEstimationAndValidation/EffortEstimationAndValidation";
 import Industry from "./components/Services/Industry/Industry";
 import WorldwideContract from "./components/Services/WorldwideContract/WorldwideContract";
+import Blog from "./components/Blog/Blog";
 
 function App() {
   return (
@@ -35,6 +36,10 @@ function App() {
         <Route
           path="/worldwide-contract-staffing"
           element={<WorldwideContract />}
+        />
+        <Route
+          path="/blogs"
+          element={<Blog/>}
         />
         <Route path="*" element={<PageUnderConstruction />} />
       </Routes>
