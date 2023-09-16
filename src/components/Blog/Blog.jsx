@@ -13,7 +13,9 @@ const Post = ({
 }) => {
   return (
     <div className="article-featured">
-      <img src={img_link} alt=" " className="article-image" />
+      <div className="article-image" >
+      <img src={img_link} alt=" " />
+      </div>
       <h2 className="article-title">{post_heading}</h2>
       <p className="article-info">
         {date} | {comments} comments
@@ -26,9 +28,51 @@ const Post = ({
   );
 };
 
+const TagElement = ({ tag_link, tag_content }) => {
+  return (
+    <a href={tag_link} className="blog-tag-element">
+      {tag_content}
+    </a>
+  );
+};
+
+const CategoryElement = ({ categoty_content, category_link }) => {
+  return (
+    <li>
+      <a className="blog-categories-element" href={category_link}>
+        {categoty_content}
+      </a>
+      (1)
+    </li>
+  );
+};
+
 const Blog = () => {
   const [posts, setPosts] = useState([]);
   const [page, setPage] = useState(1);
+
+  const tags = [
+    "Consulting",
+    "Business",
+    "Development",
+    "Generic",
+    "Branding",
+    "Graphic",
+    "Guide",
+    "Hiring",
+    "Photography",
+    "Revenue",
+    "Start Up",
+  ];
+  const categories = [
+    "Automation",
+    "Business",
+    "Business Automation",
+    "Business Management",
+    "Business Process",
+    "Management",
+    "Uncategorized",
+  ];
 
   const fetchPosts = () => {
     setPosts(post_content);
@@ -120,7 +164,7 @@ const Blog = () => {
                 placeholder="Search..."
               />
               <button id="blog-search-button">
-                <i class="fa-solid fa-magnifying-glass"></i>
+                <i className="fa-solid fa-magnifying-glass"></i>
               </button>
             </form>
           </div>
@@ -132,8 +176,8 @@ const Blog = () => {
               />
             </div>
             <div id="blog-sidebar-data">
-              <h3 class="blog-sidebar-title">Global Conference</h3>
-              <p class="blog-sidebar-excerpt">
+              <h3 className="blog-sidebar-title">Global Conference</h3>
+              <p className="blog-sidebar-excerpt">
                 Nulla consequat massa quis Donec pede justo
               </p>
             </div>
@@ -141,6 +185,63 @@ const Blog = () => {
 
           <div id="blog-tags-container">
             <h2 id="blog-tag-heading">Tags</h2>
+
+            <div id="blog-tag-element-container">
+              {tags.map((ele, key) => (
+                <TagElement tag_link={""} tag_content={ele} />
+              ))}
+
+              {/* <a href="/blogs" className="blog-tag-element">Consulting</a>
+                  <a href="/blogs" className="blog-tag-element">Business</a>
+                  <a href="/blogs" className="blog-tag-element">Development</a>
+                  <a href="/blogs" className="blog-tag-element">Generic</a>
+                  <a href="/blogs" className="blog-tag-element">Branding</a>
+                  <a href="/blogs" className="blog-tag-element">Graphic</a>
+                  <a href="/blogs" className="blog-tag-element">Guide</a>
+                  <a href="/blogs" className="blog-tag-element">Hiring</a>
+                  <a href="/blogs" className="blog-tag-element">Photography</a>
+                  <a href="/blogs" className="blog-tag-element">Revenue</a>
+                  <a href="/blogs" className="blog-tag-element">Start Up</a> */}
+            </div>
+          </div>
+
+          <div id="blog-Categories-container">
+            <h2 id="blog-Categories-heading">Categories</h2>
+
+            <ul>
+              {categories.map((ele, key) => (
+                <CategoryElement category_link={""} categoty_content={ele} />
+              ))}
+
+              {/* <li >
+                <a className="blog-categories-element" href="/blogs">Automation</a>
+                (1)
+              </li>
+              <li >
+                <a className="blog-categories-element" href="/blogs">Business</a>
+                (1)
+              </li>
+              <li >
+                <a className="blog-categories-element" href="/blogs">Business Automation</a>
+                (3)
+              </li>
+              <li >
+                <a className="blog-categories-element" href="/blogs">Business Management</a>
+                (4)
+              </li>
+              <li >
+                <a className="blog-categories-element" href="/blogs">Business Process</a>
+                (2)
+              </li>
+              <li >
+                <a className="blog-categories-element" href="/blogs">Management</a>
+                (1)
+              </li>
+              <li >
+                <a className="blog-categories-element" href="/blogs">Uncategorized</a>
+                (2)
+              </li> */}
+            </ul>
           </div>
         </div>
       </div>
