@@ -11,8 +11,7 @@ import EffortEstimationAndValidation from "./components/Services/EffortEstimatio
 import Industry from "./components/Services/Industry/Industry";
 import WorldwideContract from "./components/Services/WorldwideContract/WorldwideContract";
 import Blog from "./components/Blog/Blog";
-import PostPage_1 from "./components/Home/Supply Chain/PostPage/PostPage_1"
-import PostPage_2 from "./components/Home/Supply Chain/PostPage/PostPage_2"
+<<<<<<< HEAD
 
 function App() {
   return (
@@ -36,14 +35,14 @@ function App() {
           path="/worldwide-contract-staffing"
           element={<WorldwideContract />}
         />
-        <Route path="/blogs" element={<Blog />} />
-
-        <Route path="/supply-chain-post-page-1" element={<PostPage_1/>} />
-        <Route path="/supply-chain-post-page-2" element={<PostPage_2/>} />
-
+        <Route
+          path="/blogs"
+          element={<Blog/>}
+        />
         <Route path="*" element={<PageUnderConstruction />} />
       </Routes>
       <Footer />
+      <Analytics />
     </>
   );
 }
