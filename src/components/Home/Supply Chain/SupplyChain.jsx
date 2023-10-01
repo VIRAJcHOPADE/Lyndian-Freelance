@@ -1,36 +1,66 @@
 import React from "react";
 import "./SupplyChain.css";
+import { supplyChainContents } from "./supplyChainContents";
+import { useState, useEffect } from "react";
+import { Link } from "react-router-dom";
 
-const ChainContainer = () => {
+const createShortcut = (text, limit) => {
+  const CUTTING_EXPRESSION = /\s+[^\s]*$/;
+  if (text.length > limit) {
+    const part = text.slice(0, limit - 3);
+    if (part.match(CUTTING_EXPRESSION)) {
+      return part.replace(CUTTING_EXPRESSION, " ...");
+    }
+    return part + "...";
+  }
+  return text;
+};
+
+const ChainContainer = ({
+  img_link,
+  post_heading,
+  post_content,
+  post_link,
+}) => {
   return (
-    <div class="supply-chain-outer-container">
-        <div class="card-title">Title line</div>
-      <div class="supply-chain-image-container">
-        <img src="https://www.kinaxis.com/sites/default/files/styles/max_650x650_webp/public/resources/Kinaxis-Concurrency%20is%20key%20for%20todays%20complex%20supply%20chains.webp?itok=KbCTin_n" />
-        <div class="supply-chain-details">
-          <p>
-            Few research papers of parts of webinar related to new technology
-            development in supply chain.
-          </p>
+    <div className="supply-chain-outer-container">
+      <Link id="supply-chain-post-link" to={post_link}>
+        <div className="card-title">Case Study</div>
+        <div className="supply-chain-image-container">
+          <img src={img_link} />
+          <div className="supply-chain-details">
+            <p>{createShortcut(post_content, 91)}</p>
+          </div>
         </div>
-      </div>
-      <p>
-        Few research papers of parts of webinar related to new technology
-        development in supply chain.
-      </p>
+        <p>{createShortcut(post_heading, 91)}</p>
+      </Link>
     </div>
   );
 };
 
 export const SupplyChain = () => {
+  const [posts, setPosts] = useState([]);
+  const fetchPosts = () => {
+    setPosts(supplyChainContents);
+  };
+
+  useEffect(() => {
+    fetchPosts();
+  }, []);
+
   return (
-    <div class="main-container">
-      <h2 class="heading">What's happening in supply chain.</h2>
+    <div className="main-container">
+      <h2 className="heading">What's happening in supply chain.</h2>
       <div id="supply-chain-container">
-        <ChainContainer />
-        <ChainContainer />
-        <ChainContainer />
-        <ChainContainer />
+        {posts.map((ele, key) => (
+          <ChainContainer
+            img_link={ele.img_link}
+            post_heading={ele.post_heading}
+            post_content={ele.post_content}
+            post_link={ele.post_link}
+            key={key}
+          />
+        ))}
       </div>
     </div>
   );
