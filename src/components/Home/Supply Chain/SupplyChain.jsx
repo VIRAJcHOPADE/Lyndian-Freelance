@@ -23,6 +23,7 @@ const ChainContainer = ({
   post_link,
 }) => {
   return (
+    
     <div className="supply-chain-outer-container">
       <Link id="supply-chain-post-link" to={post_link}>
         <div className="card-title">Case Study</div>
@@ -39,6 +40,8 @@ const ChainContainer = ({
 };
 
 export const SupplyChain = () => {
+
+
   const [posts, setPosts] = useState([]);
   const fetchPosts = () => {
     setPosts(supplyChainContents);
@@ -53,6 +56,7 @@ export const SupplyChain = () => {
       <h2 className="heading">What's happening in supply chain.</h2>
       <div id="supply-chain-container">
         {posts.map((ele, key) => (
+          
           <ChainContainer
             img_link={ele.img_link}
             post_heading={ele.post_heading}
@@ -60,6 +64,7 @@ export const SupplyChain = () => {
             post_link={ele.post_link}
             key={key}
           />
+          
         ))}
       </div>
     </div>
