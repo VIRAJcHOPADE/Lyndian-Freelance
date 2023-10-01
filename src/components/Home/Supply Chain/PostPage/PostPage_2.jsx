@@ -3,13 +3,13 @@ import "./PostPage.css";
 import React, { useEffect } from "react";
 
 const PostPage = () => {
-    useEffect(() => {
-        window.scroll({
-          top: 0,
-          left: 0,
-          behavior: "auto",
-        });
-      }, []);
+  useEffect(() => {
+    window.scroll({
+      top: 0,
+      left: 0,
+      behavior: "auto",
+    });
+  }, []);
   return (
     <div id="supply-chain-post-container">
       <div id="supply-chain-post-image-container">
@@ -96,6 +96,7 @@ const PostPage = () => {
               steady growth of 1.5% pa
             </p>
             <img
+              className="supply-chain-post-img"
               src="https://media.licdn.com/dms/image/C5112AQHx0ms9UP1I7Q/article-inline_image-shrink_1500_2232/0/1542012018318?e=1701907200&v=beta&t=eNhiXVrJFo6bEpb-QGKhxSVKFBQD8Q1CUK8bjnhEwqY"
               alt=""
             />

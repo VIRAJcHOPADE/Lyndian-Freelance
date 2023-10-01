@@ -24,7 +24,7 @@ export const supplyChainContents = [
           "Predicting Auto Sales: Science or Scientology!",
         post_content:
           "Motorcycle Customers may become first time car buyers in developing markets but you do not study combined demand for Motorcycles and Passenger cars.",
-        post_link: "https://www.linkedin.com/pulse/predicting-auto-sales-science-scientology-loknath-rao-lok-/?trackingId=nnqcWcmsS9O8Gb3amv39sw%3D%3D",
+        post_link: "/supply-chain-post-page-3",
       },
     {
         img_link:
@@ -33,6 +33,6 @@ export const supplyChainContents = [
           "Every Manager Wants a Control Tower!",
         post_content:
           "Dashboards, Control Towers, Cockpits, Scorecards, Control Panels, Visibility. Every Manager fancies one.",
-        post_link: "https://www.linkedin.com/pulse/every-manager-likes-control-tower-loknath-rao-lok-/?trackingId=nnqcWcmsS9O8Gb3amv39sw%3D%3D",
+        post_link: "/supply-chain-post-page-4",
       },
     ]
