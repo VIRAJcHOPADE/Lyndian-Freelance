@@ -1,0 +1,152 @@
+#supply-chain-post-image-container {
+  position: relative;
+  text-align: center;
+  color: black;
+}
+
+#supply-chain-post-heading {
+  position: absolute;
+  bottom: 6rem;
+  left: 10%;
+  color: #fff;
+  font-size: 2.5rem;
+}
+
+#supply-chain-post-image {
+  width: 100vw;
+  height: 45vh;
+  object-fit: cover;
+}
+
+#supply-chain-post-crumbs {
+  position: absolute;
+  bottom: 4rem;
+  left: 10%;
+  color: #fff;
+  font-size: 1rem;
+}
+
+#supply-chain-post-crumbs i {
+  padding: 0 7px;
+}
+
+#supply-chain-post-crumbs a {
+  margin: 0 auto;
+  color: #fff;
+  text-decoration: none !important;
+  outline: none !important;
+}
+
+#supply-chain-post-content {
+  display: flex;
+  min-height: 70vh;
+  height: 100%;
+  width: 80%;
+  justify-content: center;
+  align-items: center;
+  padding: 5rem 10rem;
+  gap: 5rem;
+  flex-direction: column;
+  margin: auto;
+}
+#supply-chain-post-content img {
+  height: 300px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.supply-chain-post-img {
+  height: 100% !important;
+  width: 100%;
+}
+
+#supply-chain-post-content .supply-chain-post-data {
+  display: flex;
+  height: 55%;
+  flex-direction: column;
+  gap: 2rem;
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+#supply-chain-post-content .supply-chain-post-data h1 {
+  color: #1d1847;
+  font-size: 2.5rem;
+  font-family: Montserrat;
+  text-align: left;
+}
+#supply-chain-post-content .supply-chain-post-data span {
+  display: flex;
+  font-family: Montserrat;
+  color: gray;
+  letter-spacing: 1px;
+  justify-content: center;
+  /* align-items: center; */
+  gap: 1rem;
+  flex-direction: column;
+}
+@media all and (max-width: 1500px) {
+  #supply-chain-post-content {
+    padding: 2rem 10rem;
+  }
+}
+@media all and (max-width: 1320px) {
+  #supply-chain-post-content {
+    padding: 2rem 5rem;
+  }
+}
+@media all and (max-width: 1150px) {
+  #supply-chain-post-content {
+    padding: 4rem 5rem;
+    flex-direction: column;
+  }
+  #supply-chain-post-content img {
+    width: 75vw;
+    height: 25rem;
+  }
+}
+
+@media all and (max-width: 750px) {
+  #supply-chain-post-content {
+    gap: 2rem;
+  }
+  #supply-chain-post-content img {
+    width: 100%;
+  }
+  #supply-chain-post-content {
+    padding: 4rem 1rem;
+  }
+}
+@media all and (max-width: 600px) {
+  #supply-chain-post-content img {
+    height: 15rem;
+  }
+  #supply-chain-post-heading {
+    font-size: 2rem;
+  }
+}
+
+@media all and (max-width: 450px) {
+  #supply-chain-post-heading {
+    left: 4%;
+  }
+  #supply-chain-post-crumbs {
+    left: 4%;
+  }
+}
+@media all and (max-width: 400px) {
+  #supply-chain-post-content .supply-chain-post-data h1 {
+    font-size: 2rem;
+  }
+  #supply-chain-post-heading {
+    font-size: 2rem;
+    text-align: left;
+  }
+}
+
+/* @media all and (max-height: 700px) {
+    #supply-chain-post-heading {
+      bottom: 3rem;
+      /* font-size: 2rem; */
+/* } */
+/* }  */

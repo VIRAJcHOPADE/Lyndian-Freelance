@@ -6,7 +6,7 @@ export const supplyChainContents = [
           "Last Mile Logistics: Who Must Optimize?",
         post_content:
           "No one ever paid for a Pizza delivery service. It was always free. It is best kept hidden in transaction value....",
-        post_link: "https://www.linkedin.com/pulse/last-mile-logistics-who-must-optimize-loknath-rao-lok-/?trackingId=nnqcWcmsS9O8Gb3amv39sw%3D%3D",
+        post_link: "/supply-chain-post-page-1",
       },
     {
         img_link:
@@ -15,7 +15,7 @@ export const supplyChainContents = [
           "Of Predictive Analytics and Product Life Cycle Management: The Case for Spare Parts Planning",
         post_content:
           "A touchscreen LCD panel from Dell, a keypad from IBM and a replacement airbag from Honda were some of the 'spare' parts for which I was forced to wait between 3 to 6 weeks in the recent past...",
-        post_link: "https://www.linkedin.com/pulse/predictive-analytics-planned-obsolescence-product-life-rao-lok-/?trackingId=nnqcWcmsS9O8Gb3amv39sw%3D%3D",
+        post_link: "/supply-chain-post-page-2",
       },
     {
         img_link:
@@ -24,7 +24,7 @@ export const supplyChainContents = [
           "Predicting Auto Sales: Science or Scientology!",
         post_content:
           "Motorcycle Customers may become first time car buyers in developing markets but you do not study combined demand for Motorcycles and Passenger cars.",
-        post_link: "https://www.linkedin.com/pulse/predicting-auto-sales-science-scientology-loknath-rao-lok-/?trackingId=nnqcWcmsS9O8Gb3amv39sw%3D%3D",
+        post_link: "/supply-chain-post-page-3",
       },
     {
         img_link:
@@ -33,6 +33,6 @@ export const supplyChainContents = [
           "Every Manager Wants a Control Tower!",
         post_content:
           "Dashboards, Control Towers, Cockpits, Scorecards, Control Panels, Visibility. Every Manager fancies one.",
-        post_link: "https://www.linkedin.com/pulse/every-manager-likes-control-tower-loknath-rao-lok-/?trackingId=nnqcWcmsS9O8Gb3amv39sw%3D%3D",
+        post_link: "/supply-chain-post-page-4",
       },
     ]
