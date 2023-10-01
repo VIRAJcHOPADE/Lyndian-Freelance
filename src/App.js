@@ -10,6 +10,8 @@ import ProgramManagement from "./components/Services/ProgramManagement/ProgramMa
 import EffortEstimationAndValidation from "./components/Services/EffortEstimationAndValidation/EffortEstimationAndValidation";
 import Industry from "./components/Services/Industry/Industry";
 import WorldwideContract from "./components/Services/WorldwideContract/WorldwideContract";
+import Blog from "./components/Blog/Blog";
+import { Analytics } from "@vercel/analytics/react";
 
 function App() {
   return (
