@@ -10,6 +10,7 @@ import ProgramManagement from "./components/Services/ProgramManagement/ProgramMa
 import EffortEstimationAndValidation from "./components/Services/EffortEstimationAndValidation/EffortEstimationAndValidation";
 import Industry from "./components/Services/Industry/Industry";
 import WorldwideContract from "./components/Services/WorldwideContract/WorldwideContract";
+import { Analytics } from "@vercel/analytics/react";
 
 function App() {
   return (
@@ -28,10 +29,7 @@ function App() {
           path="/independent-assessment-and-testing"
           element={<IndependentAssessmentAndTesting />}
         />
-        <Route
-          path="/industry-4-0-advisory"
-          element={<Industry />}
-        />
+        <Route path="/industry-4-0-advisory" element={<Industry />} />
         <Route
           path="/worldwide-contract-staffing"
           element={<WorldwideContract />}
@@ -39,6 +37,7 @@ function App() {
         <Route path="*" element={<PageUnderConstruction />} />
       </Routes>
       <Footer />
+      <Analytics />
     </>
   );
 }
