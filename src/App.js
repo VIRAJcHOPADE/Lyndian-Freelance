@@ -11,6 +11,10 @@ import EffortEstimationAndValidation from "./components/Services/EffortEstimatio
 import Industry from "./components/Services/Industry/Industry";
 import WorldwideContract from "./components/Services/WorldwideContract/WorldwideContract";
 import Blog from "./components/Blog/Blog";
+import PostPage1 from "./components/Home/Supply Chain/PostPage/PostPage_1";
+import PostPage2 from "./components/Home/Supply Chain/PostPage/PostPage_2";
+import PostPage3 from "./components/Home/Supply Chain/PostPage/PostPage_3";
+import PostPage4 from "./components/Home/Supply Chain/PostPage/PostPage_4";
 import { Analytics } from "@vercel/analytics/react";
 
 function App() {
@@ -35,7 +39,7 @@ function App() {
           path="/worldwide-contract-staffing"
           element={<WorldwideContract />}
         />
-        {/* <Route path="/blogs" element={<Blog />} /> */}
+        <Route path="/blogs" element={<Blog />} />
         <Route path="*" element={<PageUnderConstruction />} />
       </Routes>
       <Footer />
