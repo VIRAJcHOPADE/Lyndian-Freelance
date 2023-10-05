@@ -2,10 +2,10 @@ import React, { useEffect } from "react";
 import "./PageUnderConstruction.css";
 const PageUnderConstruction = () => {
   useEffect(() => {
-    // window.scrollBy(0 , -window.innerHeight);
-    window.scrollBy({
-      top: -window.innerHeight * 100,
-      behavior: "smooth",
+    window.scroll({
+      top: 0,
+      left: 0,
+      behavior: "auto",
     });
   }, []);
   return (
