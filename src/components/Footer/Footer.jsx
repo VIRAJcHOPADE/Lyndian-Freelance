@@ -5,31 +5,126 @@ import { NavLink } from "react-router-dom";
 const Footer = () => {
   const elements = [
     {
-      title: "Solutions",
+      title: "Products",
       subLinks: [
-        { title: "Applications", link: "/applications" },
-        { title: "Platform", link: " /platform" },
-        { title: "industries", link: " /industries" },
+        {
+          title: "Intelligent Supply Chain Extensions",
+          link: "/intelligent-supply-chain-extensions",
+        },
+        {
+          title: "Automatic Forecasting and Replenishment",
+          link: "/automatic-forecasting-and-replenishment",
+        },
+        {
+          title: "Boosters and Accelerators",
+          link: "/boosters-and-accelerators",
+        },
+        {
+          title: "Portals",
+          link: "/portals",
+        },
       ],
     },
     {
-      title: "Resources",
+      title: "Services",
       subLinks: [
-        { title: "Resource Center", link: "/resource-center" },
-        { title: "Blog", link: " /blog" },
-        { title: "Our Customers", link: " /our-customers" },
+        {
+          title: "Effort Estimation and Validation",
+          link: "/effort-estimation-and-validation",
+        },
+        {
+          title: "Program Management",
+          link: "/program-management",
+        },
+        {
+          title: "Design Audit",
+          link: "/design-audit",
+        },
+        {
+          title: "Independent Assessment and Testing",
+          link: "/independent-assessment-and-testing",
+        },
       ],
     },
     {
-      title: "About Us",
+      title: "Industries",
       subLinks: [
-        { title: "Contact", link: "/contact-us" },
-        { title: "Newsroom", link: " /newsroom" },
-        { title: "Events", link: " /events" },
-        { title: "Careers", link: " /careers" },
-        { title: "Partners", link: " /partners" },
-        { title: "Investor Relations", link: " /investor-relations" },
+        {
+          title: "Agri business",
+          link: "/agri-business",
+        },
+        {
+          title: "Diary",
+          link: "/diary",
+        },
+        {
+          title: "FMCG & CPG",
+          link: "/fmcg-cpg",
+        },
+        {
+          title: "Retail",
+          link: "/retail",
+        },
+        {
+          title: "MRO & Spares(After Market)",
+          link: "/mro-and-spares",
+        },
+        {
+          title: "Pharmaceuticals",
+          link: "/pharmaceuticals",
+        },
       ],
+    },
+    {
+      title: "Technologies",
+      subLinks: [
+        {
+          title: "SAP SCM",
+          link: "/sap-scm",
+        },
+        {
+          title: "SAP S4HANA",
+          link: "/sap-s4hana",
+        },
+        {
+          title: "SAP BW on HANA",
+          link: "/sap-bw-on-hana",
+        },
+        {
+          title: "SAP SAC",
+          link: "/sap-sac",
+        },
+        {
+          title: "SAP IBP",
+          link: "/sap-ibp",
+        },
+        {
+          title: "SAP BTP",
+          link: "/sap-btp",
+        },
+      ],
+    },
+    {
+      title: "Partners",
+      subLinks: [
+        {
+          title: "Logility",
+          link: "/logility",
+        },
+        {
+          title: "Arkieva",
+          link: "/arkieva",
+        },
+        {
+          title: "Novobi",
+          link: "/novobi",
+        },
+        {
+          title: "Kinaxis",
+          link: "/kinaxis",
+        },
+      ],
+      isSub: true,
     },
   ];
   const otherLinks = [
@@ -57,7 +152,7 @@ const Footer = () => {
   return (
     <div id="main-footer-div">
       <div id="upper-footer">
-        <div id="footer-logo">
+        {/* <div id="footer-logo">
           <img src="logo.png" alt="" />
           <div id="socials-logo">
             <NavLink to="#">
@@ -76,7 +171,7 @@ const Footer = () => {
               <i class="fa-brands fa-instagram"></i>
             </NavLink>
           </div>
-        </div>
+        </div> */}
         <div id="footer-nav">
           {elements.map((ele, key) => (
             <div key={key} className="footer-nav-inner">
@@ -89,9 +184,9 @@ const Footer = () => {
             </div>
           ))}
         </div>
-        <div id="footer-newsletter">
+        {/* <div id="footer-newsletter">
           <button>GET THE NEWSLETTER</button>
-        </div>
+        </div> */}
       </div>
       <div id="lower-footer">
         <div id="copy-right">&copy; Lydian Inc. 2023. All Rights Reserved</div>

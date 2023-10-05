@@ -59,7 +59,7 @@
   font-weight: 550;
 }
 
-#main-footer-div #upper-footer #footer-newsletter button {
+/* #main-footer-div #upper-footer #footer-newsletter button {
   background-color: #db1d2f;
   border: none;
   outline: none;
@@ -68,7 +68,7 @@
   font-size: 1.2rem;
   font-weight: 650;
   border-radius: 6px;
-}
+} */
 
 #main-footer-div #lower-footer {
   display: flex;
@@ -94,9 +94,22 @@
 }
 #main-footer-div #lower-footer #other-sections a {
   text-decoration: none;
-  color: White;
+  color: black;
+  font-weight: 550;
 }
 
+@media all and (max-width: 1525px) {
+  #main-footer-div #upper-footer #footer-nav {
+    gap: 4rem;
+  }
+}
+
+@media all and (max-width: 1300px) {
+  #main-footer-div #upper-footer #footer-nav {
+    gap: 8rem;
+    justify-content: center;
+  }
+}
 @media all and (max-width: 1150px) {
   #main-footer-div #upper-footer #footer-nav {
     gap: 4rem;
@@ -134,10 +147,32 @@
     gap: 1rem;
   }
 }
-@media all and (max-width: 500px) {
+
+@media all and (max-width: 650px) {
   #main-footer-div #upper-footer #footer-nav {
     gap: 3rem;
-    justify-content: center;
+    justify-content: left;
+    padding: 0.3rem;
+  }
+}
+@media all and (max-width: 600px) {
+  #main-footer-div #upper-footer #footer-nav {
+    padding: 0 3rem;
+  }
+}
+
+@media all and (max-width: 500px) {
+  #main-footer-div #upper-footer #footer-nav {
+    gap: 4rem;
     align-items: center;
+  }
+  #main-footer-div #upper-footer #footer-nav .footer-nav-inner {
+    width: 100%;
+  }
+  #main-footer-div #upper-footer #footer-nav .footer-nav-inner h3 {
+    text-align: center;
+  }
+  #main-footer-div #upper-footer #footer-nav .footer-nav-inner a {
+    text-align: center;
   }
 }

@@ -35,7 +35,7 @@ function App() {
           path="/worldwide-contract-staffing"
           element={<WorldwideContract />}
         />
-        <Route path="/blogs" element={<Blog />} />
+        {/* <Route path="/blogs" element={<Blog />} /> */}
         <Route path="*" element={<PageUnderConstruction />} />
       </Routes>
       <Footer />

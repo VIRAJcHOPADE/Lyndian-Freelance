@@ -259,11 +259,7 @@ const NavBar = () => {
       ],
       isSub: true,
     },
-    {
-      title: "Blogs",
-      link: "/blogs",
-      isSub: false,
-    },
+
     {
       title: "People",
       link: "/people",

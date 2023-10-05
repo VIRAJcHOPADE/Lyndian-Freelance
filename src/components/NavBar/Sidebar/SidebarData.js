@@ -257,11 +257,7 @@ export const SidebarData = [
     ],
     isSubNav: true,
   },
-  {
-    title: "Blogs",
-    path: "/blogs",
-    isSubNav: false,
-  },
+
   {
     title: "People",
     path: "/people",
