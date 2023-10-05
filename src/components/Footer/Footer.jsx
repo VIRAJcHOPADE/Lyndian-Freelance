@@ -12,8 +12,8 @@ const Footer = () => {
           link: "/intelligent-supply-chain-extensions",
         },
         {
-          title: "Automatic Forecasting and Replenishment",
-          link: "/automatic-forecasting-and-replenishment",
+          title: "Autonomous Forecasting and Replenishment",
+          link: "/autonomous-forecasting-and-replenishment",
         },
         {
           title: "Boosters and Accelerators",

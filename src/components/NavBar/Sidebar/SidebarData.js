@@ -10,8 +10,12 @@ export const SidebarData = [
         path: "/intelligent-supply-chain-extensions",
       },
       {
-        title: "Automatic Forecasting and Replenishment",
-        path: "/automatic-forecasting-and-replenishment",
+        title: "Autonomous Forecasting and Replenishment",
+        path: "/autonomous-forecasting-and-replenishment",
+      },
+      {
+        title: "Middle Ware",
+        link: "/middle-ware",
       },
       {
         title: "Boosters and Accelerators",
@@ -261,11 +265,6 @@ export const SidebarData = [
   {
     title: "People",
     path: "/people",
-    isSubNav: false,
-  },
-  {
-    title: "Project Trainings",
-    path: "/project-trainings",
     isSubNav: false,
   },
 ];

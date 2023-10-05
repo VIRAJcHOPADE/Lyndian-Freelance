@@ -21,8 +21,12 @@ const NavBar = () => {
           link: "/intelligent-supply-chain-extensions",
         },
         {
-          title: "Automatic Forecasting and Replenishment",
-          link: "/automatic-forecasting-and-replenishment",
+          title: "Autonomous Forecasting and Replenishment",
+          link: "/autonomous-forecasting-and-replenishment",
+        },
+        {
+          title: "Middle Ware",
+          link: "/middle-ware",
         },
         {
           title: "Boosters and Accelerators",
@@ -263,11 +267,6 @@ const NavBar = () => {
     {
       title: "People",
       link: "/people",
-      isSub: false,
-    },
-    {
-      title: "Project Trainings",
-      link: "/project-trainings",
       isSub: false,
     },
   ];
