@@ -29,20 +29,24 @@ const Footer = () => {
       title: "Services",
       subLinks: [
         {
-          title: "Effort Estimation and Validation",
-          link: "/effort-estimation-and-validation",
+          title: "Audit",
+          link: "/audit",
         },
         {
-          title: "Program Management",
-          link: "/program-management",
+          title: "Implementation",
+          link: "/implementation",
         },
         {
-          title: "Design Audit",
-          link: "/design-audit",
+          title: "Solution Operation ( Run & Maintain)",
+          link: "/solution-operation",
         },
         {
-          title: "Independent Assessment and Testing",
-          link: "/independent-assessment-and-testing",
+          title: "Independent Software Evaluation",
+          link: "/independent-software-evaluation",
+        },
+        {
+          title: "Enterprise Application Integration(EAI)",
+          link: "/enterprise-application-integration",
         },
       ],
     },

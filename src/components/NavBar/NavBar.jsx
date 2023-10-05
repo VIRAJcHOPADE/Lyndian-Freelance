@@ -41,106 +41,47 @@ const NavBar = () => {
     },
     {
       title: "Services",
+
       subTopics: [
         {
-          title: "Effort Estimation and Validation",
-          link: "/effort-estimation-and-validation",
+          title: "Audit",
+          link: "/audit",
         },
         {
-          title: "Program Management",
-          link: "/program-management",
-        },
-        {
-          title: "Design Audit",
-          link: "/design-audit",
-        },
-        {
-          title: "Independent Assessment and Testing",
-          link: "/independent-assessment-and-testing",
-        },
-        {
-          title: "Industry 4.0 Advisory",
-          link: "/industry-4-0-advisory",
-        },
-        {
-          title: "Worldwide Contract Staffing",
-          link: "/worldwide-contract-staffing",
-        },
-        {
-          title: "Supply Chain Solutions Audit",
-          link: "/supply-chain-solution-audit",
-        },
-        {
-          title: "Forecasting as a Service",
-          link: "/forecasting-as-a-service",
-        },
-        {
-          title: "Optimizer Tuning",
-          link: "/optimizer-tuning",
-        },
-        {
-          title: "Forecast Model Tuning",
-          link: "/forecast-model-tuning",
-        },
-        {
-          title: "Data Engineering",
-          link: "/data-engineering",
-        },
-        {
-          title: "Implementation (SCP&M)",
+          title: "Implementation",
           link: "/implementation",
         },
         {
-          title: "SAP APO Be-Spoke Support",
-          link: "/sap-apo-be-spoke-support",
+          title: "Solution Operation ( Run & Maintain)",
+          link: "/solution-operation",
         },
         {
-          title: "Machine Learning Integration",
-          link: "/machine-learning-integration",
+          title: "Independent Software Evaluation",
+          link: "/independent-software-evaluation",
         },
         {
-          title: "Migrations and Upgrades",
-          link: "/migrations-and-upgrades",
+          title: "Enterprise Application Integration(EAI)",
+          link: "/enterprise-application-integration",
         },
         {
-          title: "Machine Learning Integration",
-          link: "/machine-learning-integration",
+          title: "System Landscape Optimization(SLO - M&A)",
+          link: "/system-landscape-optimization",
         },
         {
-          title: "Hosting",
-          link: "/hosting",
+          title: "User & Application Productivity",
+          link: "/user-and-application-productivity",
         },
         {
-          title: "Be-Spoke Support (SAP Legacy)",
-          link: "/be-spoke-support",
+          title: "CIO Advisory",
+          link: "/cio-advisory",
         },
         {
-          title: "Systems Integration",
-          link: "/system-integration",
+          title: "Use Case Development",
+          link: "/use-case-developement",
         },
         {
-          title: "Sizing and Tuning Databases",
-          link: "/sizing-and-tuning-databases",
-        },
-        {
-          title: "GDPR and CCPA Compliance Audit",
-          link: "/gdpr-and-ccpa-compliance-audit",
-        },
-        {
-          title: "Web Applications",
-          link: "/web-applications",
-        },
-        {
-          title: "Project Reports",
-          link: "/project-reports",
-        },
-        {
-          title: "Software Evalution",
-          link: "/software-evaluation",
-        },
-        {
-          title: "Mobile Applications ",
-          link: "/mobile-applications",
+          title: "Training & Capability Building",
+          link: "/training-and-capability-building",
         },
       ],
       isSub: true,
