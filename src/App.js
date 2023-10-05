@@ -39,6 +39,11 @@ function App() {
           path="/worldwide-contract-staffing"
           element={<WorldwideContract />}
         />
+
+        <Route path="/supply-chain-post-page-1" element={<PostPage1 />} />
+        <Route path="/supply-chain-post-page-2" element={<PostPage2 />} />
+        <Route path="/supply-chain-post-page-3" element={<PostPage3 />} />
+        <Route path="/supply-chain-post-page-4" element={<PostPage4 />} />
         {/* <Route path="/blogs" element={<Blog />} /> */}
 
         <Route path="*" element={<PageUnderConstruction />} />
