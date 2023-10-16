@@ -7,7 +7,7 @@ import Innovation from "../Innovationex/Innovation";
 import Customertest from "./Customerstest/Customertest";
 import WhyChooseUs from "./Why Choose US/WhyChooseUs"
 import RecentAchievements from "./Recent Achievements/RecentAchievements";
-
+import Team from "./Team/team"
 const Home = () => {
   return (
     <>
@@ -21,6 +21,7 @@ const Home = () => {
       <SupplyChain />
       <WhyChooseUs />
       <RecentAchievements />
+      <Team/>
     </>
   );
 };
