@@ -27,7 +27,6 @@
   background-color: white;
   border-radius: 10px;
   padding: 20px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   width: 250px; /* Set a fixed width for each card */
 }
 
@@ -51,6 +50,26 @@
 .team-member-description {
   font-size: 1rem;
   color: #555;
+}
+
+.linkedin-icon {
+  font-size: 24px; /* Increase the size of the LinkedIn icon */
+  color: #0077B5; /* LinkedIn brand color */
+  margin-top: 10px; /* Add some spacing between the description and the icon */
+  text-decoration: none;
+}
+
+.linkedin-icon i {
+  margin-right: 5px; /* Add spacing between the icon and "Know More" text */
+ 
+}
+
+.know-more {
+   font-size: 16px;
+   align-items: center;
+   justify-content: center;
+   position: relative;
+   bottom: 3px;
 }
 
 @media screen and (max-width: 900px) {
