@@ -17,6 +17,14 @@ const Team = () => {
               />
               <h3 className="team-member-name">{member.name}</h3>
               <p className="team-member-description">{member.description}</p>
+              <a
+                href={member.linkedin}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="linkedin-icon"
+              >
+                <span className="know-more">Know More</span> <i className="fab fa-linkedin"></i> 
+              </a>
             </Link>
           </div>
         ))}

@@ -2,7 +2,8 @@
   width: 100%;
   background-color: #f7f7f7;
   display: flex;
-  flex-direction: column;
+  flex-direction: column;  
+  /* //dgfg */
   align-items: center;
   padding: 3rem 0;
 }
@@ -17,9 +18,9 @@
 .team-members {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-evenly; /* Distribute cards evenly */
+  justify-content: space-evenly;
   gap: 20px;
-  padding: 20px; /* Add some padding between cards */
+  padding: 20px; 
 }
 
 .team-member {
@@ -27,8 +28,7 @@
   background-color: white;
   border-radius: 10px;
   padding: 20px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-  width: 250px; /* Set a fixed width for each card */
+  width: 250px; 
 }
 
 .team-link {
@@ -51,6 +51,26 @@
 .team-member-description {
   font-size: 1rem;
   color: #555;
+}
+
+.linkedin-icon {
+  font-size: 24px; 
+  color: #0077B5; 
+  margin-top: 10px;
+  text-decoration: none;
+}
+
+.linkedin-icon i {
+  margin-right: 5px; 
+ 
+}
+
+.know-more {
+   font-size: 16px;
+   align-items: center;
+   justify-content: center;
+   position: relative;
+   bottom: 3px;
 }
 
 @media screen and (max-width: 900px) {
