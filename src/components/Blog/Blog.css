@@ -163,10 +163,10 @@ header {
   margin-bottom: 1em;
 }
 
-img {
+/* img {
   max-width: 100%;
   display: block;
-}
+} */
 main {
   max-width: 75%;
 }
