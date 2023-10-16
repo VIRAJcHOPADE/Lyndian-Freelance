@@ -17,9 +17,9 @@
 .team-members {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-evenly; /* Distribute cards evenly */
+  justify-content: space-evenly;
   gap: 20px;
-  padding: 20px; /* Add some padding between cards */
+  padding: 20px; 
 }
 
 .team-member {
@@ -27,7 +27,7 @@
   background-color: white;
   border-radius: 10px;
   padding: 20px;
-  width: 250px; /* Set a fixed width for each card */
+  width: 250px; 
 }
 
 .team-link {
