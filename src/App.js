@@ -16,6 +16,7 @@ import PostPage2 from "./components/Home/Supply Chain/PostPage/PostPage_2";
 import PostPage3 from "./components/Home/Supply Chain/PostPage/PostPage_3";
 import PostPage4 from "./components/Home/Supply Chain/PostPage/PostPage_4";
 import { Analytics } from "@vercel/analytics/react";
+import Team from "./components/Team/team";
 
 function App() {
   return (
@@ -44,6 +45,7 @@ function App() {
         <Route path="/supply-chain-post-page-2" element={<PostPage2 />} />
         <Route path="/supply-chain-post-page-3" element={<PostPage3 />} />
         <Route path="/supply-chain-post-page-4" element={<PostPage4 />} />
+        <Route path="/people" element={<Team />} />
         {/* <Route path="/blogs" element={<Blog />} /> */}
 
         <Route path="*" element={<PageUnderConstruction />} />
