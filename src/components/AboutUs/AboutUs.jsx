@@ -69,32 +69,32 @@ const AboutUs = () => {
                 transparent service delivery.
               </li>
               <li>
-                <b>Streamlined Onboarding:</b>Forego the need for expensive
+                <b>Streamlined Onboarding:</b> Forego the need for expensive
                 discovery workshops. A concise statement of purpose suffices for
                 our streamlined onboarding process.
               </li>
               <li>
-                <b>Resource Optimization Expertise:</b>Our forte lies in the
+                <b>Resource Optimization Expertise:</b> Our forte lies in the
                 efficient and productive utilization of your existing resources,
                 leveraging the cutting-edge features and functionalities
                 inherent in modern solutions.
               </li>
               <li>
-                <b>Objective Business Recommendations:</b>Our commitment to
+                <b>Objective Business Recommendations:</b> Our commitment to
                 objective advice means we'll propose the most suitable solutions
                 for your business, regardless of any potential economic
                 conflicts of interest.
               </li>
               <li>
-                <b>Advanced Consultant Proficiency: </b>Our consultants possess
+                <b>Advanced Consultant Proficiency:</b> Our consultants possess
                 an exceptional level of expertise, often pre-empting your
                 requirements through advanced knowledge and data analysis.
               </li>
               <li>
-                <b>Exhaustive Search for Optimal Solutions:</b>While we may not
+                <b>Exhaustive Search for Optimal Solutions:</b> While we may not
                 possess all-encompassing knowledge, we conduct comprehensive
                 scans across the vast expanse of possibilities to present you
-                with the most advantageous alternatives.
+                with the most advantageous alternatives.
               </li>
             </ol>
           </span>
