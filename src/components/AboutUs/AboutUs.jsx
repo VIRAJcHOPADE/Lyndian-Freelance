@@ -1,0 +1,111 @@
+import React from "react";
+import "./AboutUs.css";
+import { NavLink } from "react-router-dom";
+
+const AboutUs = () => {
+  return (
+    <div id="program-management-container">
+      <div id="program-management-image-container">
+        <img
+          id="program-management-image"
+          src="https://www.kinaxis.com/sites/default/files/styles/max_2600x2600/public/2023-05/kinaxis-2023-gartner-magic-quadrant-webbanner.webp?itok=gsFGGuBs"
+          alt=""
+        />
+        <h2 id="program-management-heading">About Us</h2>
+
+        <div id="program-management-crumbs">
+          <NavLink to={"/"}>Home</NavLink>
+          <span className="program-management-gap">
+            <i className="fa-solid fa-chevron-right"></i>
+          </span>
+          <span className="program-management-current">About Us</span>
+        </div>
+      </div>
+
+      <div id="program-management-content">
+        <img
+          src="https://www.kinaxis.com/sites/default/files/styles/max_2600x2600/public/paragraphs/switchbacks/investor-relations-switchback.jpg.webp?itok=ZByQkxsW"
+          alt=""
+          
+        />
+        <div className="program-management-data">
+          <h1>About Us</h1>
+          <span>
+            <p>
+              Lydian's core mission centers around the convergence of business
+              and technology consultancy, obliterating any artificial schism. In
+              the pursuit of intelligent enterprise transformation, it's
+              imperative to engage professionals endowed with a profound
+              comprehension of both business acumen and technological potential.
+              This symbiosis is indispensable for the development of pragmatic,
+              purpose-driven, and cost-efficient solutions.
+            </p>
+            <p>
+              Enterprises exhibit considerable structural heterogeneity, even
+              within identical industries, characterized by disparate
+              geographical operations, distinctive cost structures, and
+              divergent negotiation modalities stemming from legal variances.
+              The embrace of design thinking methodologies is crucial to adapt
+              to the dynamic and multifaceted enterprise environment.
+            </p>
+            <p>
+              At Lydian, our extensive knowledge and seasoned expertise
+              harmoniously amalgamate these factors, facilitating the delivery
+              of highly efficacious and technologically sophisticated
+              business solutions.
+            </p>
+          </span>
+        </div>
+      </div>
+
+      <div id="program-management-content">
+        <div className="program-management-data">
+          <h1>Why Choose Us?</h1>
+          <span>
+            <ol>
+              <li>
+                <b>Ethical Distinction:</b> We diverge from the typical gas
+                lighter professionals, emphasizing a commitment to ethical,
+                transparent service delivery.
+              </li>
+              <li>
+                <b>Streamlined Onboarding:</b>Forego the need for expensive
+                discovery workshops. A concise statement of purpose suffices for
+                our streamlined onboarding process.
+              </li>
+              <li>
+                <b>Resource Optimization Expertise:</b>Our forte lies in the
+                efficient and productive utilization of your existing resources,
+                leveraging the cutting-edge features and functionalities
+                inherent in modern solutions.
+              </li>
+              <li>
+                <b>Objective Business Recommendations:</b>Our commitment to
+                objective advice means we'll propose the most suitable solutions
+                for your business, regardless of any potential economic
+                conflicts of interest.
+              </li>
+              <li>
+                <b>Advanced Consultant Proficiency: </b>Our consultants possess
+                an exceptional level of expertise, often pre-empting your
+                requirements through advanced knowledge and data analysis.
+              </li>
+              <li>
+                <b>Exhaustive Search for Optimal Solutions:</b>While we may not
+                possess all-encompassing knowledge, we conduct comprehensive
+                scans across the vast expanse of possibilities to present you
+                with the most advantageous alternatives.
+              </li>
+            </ol>
+          </span>
+        </div>
+        <img
+          src="https://www.kinaxis.com/sites/default/files/styles/max_2600x2600/public/paragraphs/switchbacks/leadership-switchback.jpg.webp?itok=ZtTEDOch"
+          alt=""
+        />
+      </div>
+    </div>
+  );
+};
+
+export default AboutUs;
