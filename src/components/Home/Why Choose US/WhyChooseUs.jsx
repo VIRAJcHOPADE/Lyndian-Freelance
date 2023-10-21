@@ -23,18 +23,15 @@ const WhyChooseUs = () => {
                   similique beatae ullam dolor consequuntur
                 </p>
                 <ul>
-                  <li>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  </li>
-                  <li>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  </li>
-                  <li>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  </li>
+                  <li>Ethical Distinction</li>
+                  <li>Streamlined Onboarding</li>
+                  <li>Resource Optimization Expertise</li>
+                  <li>Objective Business Recommendations</li>
+                  <li>Advanced Consultant Proficiency</li>
+                  <li>Exhaustive Search for Optimal Solutions</li>
                 </ul>
                 <div className="about-btn">
-                  <a className="boxed-btn3-line" href="">
+                  <a className="boxed-btn3-line" href="/about-us">
                     About Us
                   </a>
                 </div>
