@@ -162,23 +162,23 @@
   }
 }
 
-.hover-nav-comp:nth-child(1) > .hover-component {
+.hover-nav-comp:nth-child(2) > .hover-component {
   width: 23rem;
 }
 
-.hover-nav-comp:nth-child(2) > .hover-component {
+.hover-nav-comp:nth-child(3) > .hover-component {
   width: 28rem;
 }
 
-.hover-nav-comp:nth-child(3) > .hover-component {
+.hover-nav-comp:nth-child(4) > .hover-component {
   width: 20rem;
 }
 
-.hover-nav-comp:nth-child(4) > .hover-component {
+.hover-nav-comp:nth-child(5) > .hover-component {
   width: 35rem;
 }
 
-.hover-nav-comp:nth-child(5) > .hover-component {
+.hover-nav-comp:nth-child(6) > .hover-component {
   width: 15rem;
 }
 
