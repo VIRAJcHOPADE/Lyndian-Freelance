@@ -212,4 +212,9 @@ export const SidebarData = [
     path: "/people",
     isSubNav: false,
   },
+  {
+    title: "About Us",
+    path: "/about-us",
+    isSubNav: false,
+  },
 ];

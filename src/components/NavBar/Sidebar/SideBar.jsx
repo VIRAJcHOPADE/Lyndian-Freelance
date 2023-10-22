@@ -48,7 +48,6 @@ const Sidebar = () => {
 
   const showSidebar = () => {
     setSidebar(!sidebar);
-    console.log("Hii");
   };
   // useEffect(() => {
   //   window.addEventListener("scroll", () => {
