@@ -18,9 +18,9 @@ const WhyChooseUs = () => {
               <div className="features_info">
                 <h2>Why Choose Us?</h2>
                 <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Corrupti dolores consectetur blanditiis molestias, velit
-                  similique beatae ullam dolor consequuntur
+                  At Lydian, we bridge the gap between business and technology
+                  consultancy, creating pragmatic, cost-efficient solutions in a
+                  dynamic enterprise environment. Choose us for:
                 </p>
                 <ul>
                   <li>Ethical Distinction</li>
