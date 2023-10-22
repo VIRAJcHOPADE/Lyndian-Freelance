@@ -87,8 +87,8 @@ const SliderCont = () => {
   ];
 
   const [image, setImage] = useState(elements[index.current].image);
-  // const [title, setTitle] = useState(elements[index.current].title);
-  const [title, setTitle] = useState(elements[11].title);
+  const [title, setTitle] = useState(elements[index.current].title);
+  // const [title, setTitle] = useState(elements[11].title);
   const [ind, setInd] = useState(elements[index.current].ind);
 
   var timer;
@@ -97,7 +97,7 @@ const SliderCont = () => {
       index.current = index.current + 1;
       index.current = index.current % elements.length;
       setImage(elements[index.current].image);
-      // setTitle(elements[index.current].title);
+      setTitle(elements[index.current].title);
       setInd(elements[index.current].ind);
     }, 3000);
     return () => clearInterval(timer);
@@ -105,7 +105,7 @@ const SliderCont = () => {
   return (
     <div id="slider">
       <img src={image} alt="" id="slider-img" />
-      <p className={`slider-text${11}`}>
+      <p className={`slider-text${ind}`}>
         <span>{title}</span>
       </p>
     </div>
