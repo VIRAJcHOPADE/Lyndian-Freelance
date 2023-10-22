@@ -1,5 +1,6 @@
 import React from "react";
 import "./WhyChooseUs.css";
+import { NavLink } from "react-router-dom";
 
 const WhyChooseUs = () => {
   return (
@@ -31,9 +32,9 @@ const WhyChooseUs = () => {
                   <li>Exhaustive Search for Optimal Solutions</li>
                 </ul>
                 <div className="about-btn">
-                  <a className="boxed-btn3-line" href="/about-us">
+                  <NavLink className="boxed-btn3-line" to={"/about-us"}>
                     About Us
-                  </a>
+                  </NavLink>
                 </div>
               </div>
             </div>
