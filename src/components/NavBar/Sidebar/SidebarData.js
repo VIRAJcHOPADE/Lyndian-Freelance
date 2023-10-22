@@ -1,6 +1,11 @@
 import * as RiIcons from "react-icons/ri";
 export const SidebarData = [
   {
+    title: "About Us",
+    link: "/about-us",
+    isSub: false,
+  },
+  {
     title: "Products",
     iconClosed: <RiIcons.RiArrowDownSFill />,
     iconOpened: <RiIcons.RiArrowUpSFill />,

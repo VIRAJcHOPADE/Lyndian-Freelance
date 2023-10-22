@@ -26,7 +26,6 @@ const AboutUs = () => {
         <img
           src="https://www.kinaxis.com/sites/default/files/styles/max_2600x2600/public/paragraphs/switchbacks/investor-relations-switchback.jpg.webp?itok=ZByQkxsW"
           alt=""
-          
         />
         <div className="about-us-data">
           <h1>About Us</h1>
@@ -51,8 +50,8 @@ const AboutUs = () => {
             <p>
               At Lydian, our extensive knowledge and seasoned expertise
               harmoniously amalgamate these factors, facilitating the delivery
-              of highly efficacious and technologically sophisticated
-              business solutions.
+              of highly efficacious and technologically sophisticated business
+              solutions.
             </p>
           </span>
         </div>
