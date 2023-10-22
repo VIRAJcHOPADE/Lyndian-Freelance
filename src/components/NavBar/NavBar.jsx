@@ -210,6 +210,11 @@ const NavBar = () => {
       link: "/people",
       isSub: false,
     },
+    {
+      title: "About Us",
+      link: "/about-us",
+      isSub: false,
+    },
   ];
 
   // useEffect(() => {
