@@ -4,31 +4,31 @@ import { NavLink } from "react-router-dom";
 
 const AboutUs = () => {
   return (
-    <div id="program-management-container">
-      <div id="program-management-image-container">
+    <div id="about-us-container">
+      <div id="about-us-image-container">
         <img
-          id="program-management-image"
+          id="about-us-image"
           src="https://www.kinaxis.com/sites/default/files/styles/max_2600x2600/public/2023-05/kinaxis-2023-gartner-magic-quadrant-webbanner.webp?itok=gsFGGuBs"
           alt=""
         />
-        <h2 id="program-management-heading">About Us</h2>
+        <h2 id="about-us-heading">About Us</h2>
 
-        <div id="program-management-crumbs">
+        <div id="about-us-crumbs">
           <NavLink to={"/"}>Home</NavLink>
-          <span className="program-management-gap">
+          <span className="about-us-gap">
             <i className="fa-solid fa-chevron-right"></i>
           </span>
-          <span className="program-management-current">About Us</span>
+          <span className="about-us-current">About Us</span>
         </div>
       </div>
 
-      <div id="program-management-content">
+      <div id="about-us-content">
         <img
           src="https://www.kinaxis.com/sites/default/files/styles/max_2600x2600/public/paragraphs/switchbacks/investor-relations-switchback.jpg.webp?itok=ZByQkxsW"
           alt=""
           
         />
-        <div className="program-management-data">
+        <div className="about-us-data">
           <h1>About Us</h1>
           <span>
             <p>
@@ -58,8 +58,8 @@ const AboutUs = () => {
         </div>
       </div>
 
-      <div id="program-management-content">
-        <div className="program-management-data">
+      <div id="about-us-content">
+        <div className="about-us-data">
           <h1>Why Choose Us?</h1>
           <span>
             <ol>
