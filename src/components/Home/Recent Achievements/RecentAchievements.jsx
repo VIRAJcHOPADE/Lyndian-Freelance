@@ -41,8 +41,8 @@ const RecentAchievements = () => {
   ]
   return (
     <section className="white-section" id="features">
-      <div class="main-container">
-      <h2 class="heading">Our Recent Achievement.</h2>
+      <div className="main-container">
+      <h2 className="heading">Our Recent Achievement.</h2>
       </div>
     <div className="container-fluid">
       <div className="row">
