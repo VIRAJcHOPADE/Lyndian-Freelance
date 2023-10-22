@@ -14,6 +14,11 @@ const NavBar = () => {
   // ];
   const lowerHalfOptions = [
     {
+      title: "About Us",
+      link: "/about-us",
+      isSub: false,
+    },
+    {
       title: "Products",
       subTopics: [
         {
@@ -208,11 +213,6 @@ const NavBar = () => {
     {
       title: "People",
       link: "/people",
-      isSub: false,
-    },
-    {
-      title: "About Us",
-      link: "/about-us",
       isSub: false,
     },
   ];
