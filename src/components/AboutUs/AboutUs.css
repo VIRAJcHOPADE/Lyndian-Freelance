@@ -1,10 +1,10 @@
-#program-management-image-container {
+#about-us-image-container {
     position: relative;
     text-align: center;
     color: black;
   }
   
-  #program-management-heading {
+  #about-us-heading {
     position: absolute;
     bottom: 6rem;
     left: 10%;
@@ -12,13 +12,13 @@
     font-size: 2.5rem;
   }
   
-  #program-management-image {
+  #about-us-image {
     width: 100vw;
     height: 45vh;
     object-fit: cover;
   }
   
-  #program-management-crumbs {
+  #about-us-crumbs {
     position: absolute;
     bottom: 4rem;
     left: 10%;
@@ -26,18 +26,18 @@
     font-size: 1rem;
   }
   
-  #program-management-crumbs i {
+  #about-us-crumbs i {
     padding: 0 7px;
   }
   
-  #program-management-crumbs a {
+  #about-us-crumbs a {
     margin: 0 auto;
     color: #fff;
     text-decoration: none !important;
     outline: none !important;
   }
   
-  #program-management-content {
+  #about-us-content {
     display: flex;
     min-height: 70vh;
     height: 100%;
@@ -46,25 +46,25 @@
     padding: 2rem 15rem;
     gap: 5rem;
   }
-  #program-management-content img {
+  #about-us-content img {
     height: 55%;
     width: 27vw;
     object-fit: cover;
   }
   
-  #program-management-content .program-management-data {
+  #about-us-content .about-us-data {
     display: flex;
     height: 55%;
     flex-direction: column;
     gap: 2rem;
   }
   
-  #program-management-content .program-management-data h1 {
+  #about-us-content .about-us-data h1 {
     color: #1d1847;
     font-size: 2.5rem;
     font-family: Montserrat;
   }
-  #program-management-content .program-management-data span {
+  #about-us-content .about-us-data span {
     display: flex;
     font-family: Montserrat;
     color: gray;
@@ -75,66 +75,66 @@
     flex-direction: column;
   }
   @media all and (max-width: 1500px) {
-    #program-management-content {
+    #about-us-content {
       padding: 2rem 10rem;
     }
   }
   @media all and (max-width: 1320px) {
-    #program-management-content {
+    #about-us-content {
       padding: 2rem 5rem;
     }
   }
   @media all and (max-width: 1150px) {
-    #program-management-content {
+    #about-us-content {
       padding: 4rem 5rem;
       flex-direction: column;
     }
-    #program-management-content img {
+    #about-us-content img {
       width: 75vw;
       height: 25rem;
     }
   }
   
   @media all and (max-width: 750px) {
-    #program-management-content {
+    #about-us-content {
       gap: 2rem;
     }
-    #program-management-content img {
+    #about-us-content img {
       width: 100%;
     }
-    #program-management-content {
+    #about-us-content {
       padding: 4rem 1rem;
     }
   }
   @media all and (max-width: 600px) {
-    #program-management-content img {
+    #about-us-content img {
       height: 15rem;
     }
-    #program-management-heading {
+    #about-us-heading {
       font-size: 2rem;
     }
   }
   
   @media all and (max-width: 450px) {
-    #program-management-heading {
+    #about-us-heading {
       left: 4%;
     }
-    #program-management-crumbs {
+    #about-us-crumbs {
       left: 4%;
     }
   }
   @media all and (max-width: 400px) {
-    #program-management-content .program-management-data h1 {
+    #about-us-content .about-us-data h1 {
       font-size: 2rem;
     }
-    #program-management-heading {
+    #about-us-heading {
       font-size: 2rem;
       text-align: left;
     }
   }
   
   /* @media all and (max-height: 700px) {
-    #program-management-heading {
+    #about-us-heading {
       bottom: 3rem;
       /* font-size: 2rem; */
   /* } */
