@@ -88,7 +88,7 @@ const SliderCont = () => {
 
   const [image, setImage] = useState(elements[index.current].image);
   const [title, setTitle] = useState(elements[index.current].title);
-  // const [title, setTitle] = useState(elements[11].title);
+  // const [title, setTitle] = useState(elements[6].title);
   const [ind, setInd] = useState(elements[index.current].ind);
 
   var timer;
