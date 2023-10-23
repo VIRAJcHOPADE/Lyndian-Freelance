@@ -7,46 +7,45 @@ const Raghunath = () => {
     <div className='conteam'>
       <div className='image-and-heading'>
         <img
-          className='image'
+          className='teamimage'
           src='/Picture1.jpg'
           alt='Your Image'
         />
-        <h1 className='centered-heading'>
-          Loknath Rao, MS, APICS-CPIM, TOGAF, SAP <br />
-          Advanced Planning and Scheduling, Architect, SME
+        <h1 className='teamh1 centered-heading'>
+        Raghunath Gupta,Supply Chain Planning and Manufacturing Expert <br />
+        SAP IBP, APO and SCM Manufacturing
         </h1>
       </div>
-      <div className='container'>
+      <div className='teamcontainer'>
         <div className='left-column'>
-          <h2>Functional Expertise</h2>
-          <hr /> {/* Add the <hr> tag after <h2> */}
+          <h2 className='teamh2'>Functional Expertise</h2>
+          <hr className='teamhr'/> {/* Add the <hr> tag after <h2> */}
           <ul className='expertise'>
+            <li>SAP IBP, Demand Planning, Supply and <br /> 
+                Response, Inventory Optimization, S&OP</li>
             <li>SAP SCM/APO/DP/SNP/PP&DS/GATP/VC</li>
-            <li>Forecast Model Tuning</li>
-            <li>Network Optimization (set up and tuning)</li>
-            <li>Systems Integration</li>
-            <li>Data Engineering/Analytic</li>
             <li>Software Evaluation</li>
           </ul>
-          <h2>Clients</h2>
-          <hr /> {/* Add the <hr> tag after <h2> */}
+          <h2 className='teamh2'>Clients</h2>
+          <hr  className='teamhr'/> {/* Add the <hr> tag after <h2> */}
           <div className='clients-flex'>
             <ul className='column'>
-              <li>ABINBEV</li>
-              <li>SABIC</li>
-              <li>Novartis</li>
-              <li>Lycra</li>
+              <li>Fonterra</li>
+              <li>Saputo</li>
+              <li>Asahi</li>
+              <li>CUB</li>
+              <li>Burra Foods</li>
             </ul>
             <ul className='column'>
-              <li>Torrent Pharma</li>
-              <li>Adidas</li>
-              <li>Abdul Lateef Jameel</li>
-              <li>Fonterra</li>
-              <li>McCain</li>
+              <li>Dulux Group</li>
+              <li>South 32</li>
+              <li>ANSTO</li>
+              <li>NTPC India</li>
+              <li>Essar Group</li>
             </ul>
           </div>
-          <h2>Industry Expertise</h2>
-          <hr />
+          <h2 className='teamh2'>Industry Expertise</h2>
+          <hr className='teamhr'/>
           <ul className='industry'>
             <li>Pharmaceuticals</li>
             <li>Petrochemicals</li>
@@ -56,8 +55,8 @@ const Raghunath = () => {
           </ul>
         </div>
         <div className='right-column'>
-          <h2>Selected Relevant Experience</h2>
-          <hr />
+          <h2 className='teamh2'>Selected Relevant Experience</h2>
+          <hr className='teamhr'/>
           <ul className='experience'>
             <li>
             Developed a utility (in ABAP) to check and maintain costs and penalties and other planning relevant

@@ -7,19 +7,19 @@ const Denis = () => {
     <div className='conteam'>
     <div className='image-and-heading'>
       <img
-        className='image'
+        className='teamimage'
         src='/Picture2.jpg'
         alt='Your Image'
       />
-      <h1 className='centered-heading'>
+      <h1 className='teamh1 centered-heading'>
         Denis Myagkov <br />
         Quantitative software Architect
       </h1>
     </div>
-    <div className='container'>
+    <div className='teamcontainer'>
       <div className='left-column'>
-        <h2>Technical Expertise</h2>
-        <hr /> {/* Add the <hr> tag after <h2> */}
+        <h2 className='teamh2'>Technical Expertise</h2>
+        <hr className='teamhr' /> {/* Add the <hr> tag after <h2> */}
         <ul className='expertise'>
           <li>High-load distributed systems</li>
           <li>Probabilistic and stochastic models </li>
@@ -27,8 +27,8 @@ const Denis = () => {
           <li>Risk-off financial portfolio models</li>
           <li>SAP PP/PM/CO/SD/MM/WMS/EWM</li>
         </ul>
-        <h2>Clients</h2>
-        <hr /> {/* Add the <hr> tag after <h2> */}
+        <h2 className='teamh2'>Clients</h2>
+        <hr className='teamhr'/> {/* Add the <hr> tag after <h2> */}
         <div className='clients-flex'>
           <ul className='column'>
             <li>Gazprom</li>
@@ -45,8 +45,8 @@ const Denis = () => {
             <li>Takeda</li>
           </ul>
         </div>
-        <h2>Industry Expertise</h2>
-        <hr />
+        <h2 className='teamh2'>Industry Expertise</h2>
+        <hr className='teamhr' />
         <ul className='industry'>
           <li>Oil & Gas (downstream)</li>
           <li>Pharmaceuticals</li>
@@ -56,8 +56,8 @@ const Denis = () => {
         </ul>
       </div>
       <div className='right-column'>
-        <h2>Selected Relevant Experience</h2>
-        <hr />
+        <h2 className='teamh2'>Selected Relevant Experience</h2>
+        <hr className='teamhr'/>
         <ul className='experience'>
           <li>
           Developed Predictive Maintenance subsystem aimed at spaceports and workforce management for Field Service Management (FSM) solution utilised by Coca-Cola, Miele, Vaillant. In 2020 given it was main acceptance criteria for Gartner 
