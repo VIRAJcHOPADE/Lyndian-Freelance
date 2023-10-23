@@ -7,92 +7,83 @@ const Vivek = () => {
     <div className='conteam'>
       <div className='image-and-heading'>
         <img
-          className='image'
-          src='/Picture1.jpg'
+          className='teamimage'
+          src='/Picture6.png'
           alt='Your Image'
         />
-        <h1 className='centered-heading'>
+        <h1 className='teamh1 centered-heading'>
         Vivek Viswanathan, SAP Certified <br />
         SAP BW, BW4HANA, BEX, Native HANA, SAP DI, ABAP, VBA Consultant
         </h1>
       </div>
-      <div className='container'>
+      <div className='teamcontainer'>
         <div className='left-column'>
-          <h2>Functional Expertise</h2>
-          <hr /> {/* Add the <hr> tag after <h2> */}
+          <h2 className='teamh2'>Functional Expertise</h2>
+          <hr className='teamhr'/> {/* Add the <hr> tag after <h2> */}
           <ul className='expertise'>
-            <li>SAP SCM/APO/DP/SNP/PP&DS/GATP/VC</li>
-            <li>Forecast Model Tuning</li>
-            <li>Network Optimization (set up and tuning)</li>
-            <li>Systems Integration</li>
-            <li>Data Engineering/Analytic</li>
-            <li>Software Evaluation</li>
+            <li>Expertise in SAP BW, BW4HANA, BEX,</li>
+            <li>Native HANA Developer</li>
+            <li>Worked extensively in SAP Data Intelligence</li>
+            <li>Strong Handson experience in ABAP</li>
+            <li>Expert in VBA by writing macros in AO Workbook</li>
           </ul>
-          <h2>Clients</h2>
-          <hr /> {/* Add the <hr> tag after <h2> */}
+          <h2 className='teamh2'>Clients</h2>
+          <hr className='teamhr'/> {/* Add the <hr> tag after <h2> */}
           <div className='clients-flex'>
             <ul className='column'>
-              <li>ABINBEV</li>
-              <li>SABIC</li>
-              <li>Novartis</li>
-              <li>Lycra</li>
+              <li>Friesland</li>
+              <li>Campina</li>
+              <li>Petronas</li>
+              <li>OLAM</li>
+              <li>ATB</li>
             </ul>
             <ul className='column'>
-              <li>Torrent Pharma</li>
-              <li>Adidas</li>
-              <li>Abdul Lateef Jameel</li>
-              <li>Fonterra</li>
-              <li>McCain</li>
+              <li>SAP India</li>
+              <li>Reliance</li>
             </ul>
           </div>
-          <h2>Industry Expertise</h2>
-          <hr />
+          <h2 className='teamh2'>Industry Expertise</h2>
+          <hr className='teamhr'/>
           <ul className='industry'>
-            <li>Pharmaceuticals</li>
-            <li>Petrochemicals</li>
-            <li>Agri Business</li>
-            <li>CPG/FMCG</li>
-            <li>Dairy</li>
+            <li>Sales</li>
+            <li>Finance</li>
+            <li>COPA</li>
+            <li>Purchase and Inventory</li>
+            <li>Planning Applications</li>
           </ul>
         </div>
         <div className='right-column'>
-          <h2>Selected Relevant Experience</h2>
-          <hr />
+          <h2 className='teamh2'>Selected Relevant Experience</h2>
+          <hr className='teamhr'/>
           <ul className='experience'>
             <li>
-            Developed a utility (in ABAP) to check and maintain costs and penalties and other planning relevant
-master data towards implementation of Supply Network Optimizer at a large Alco Bev company.
+            Worked for European client by extracting source data via standard SAP extraction and place the extracted files into 3rd Party cloud file location. Technology used for this task is Data Intelligence and managed ODP framework for delta mechanism.
+
             </li>
             <li>
-            Integrated Market Share (value and volume) and Annual Business Targets in Operational Demand
-Planning (APO DP) at a large CPG firm in SE Asia. (Solution originally implemented by me)
+            One of the Malaysian client required to automat the taxation sheet which contains more than 60 worksheets in the excel. Referring SAP data for report content – standardize the tax sheet format and automat to access the report on a regular intervals (weekly, monthly, quarterly and annual). Developed the application in SAP Analysis for Office integrated with VBA.
+
+
             </li>
             <li>
-            Completed 18 roll outs of Demand and Merchandise Planning in 11 months (5 months ahead of
-time) for a well-known German Sports Apparel company.
+            Developed a dashboard by referring various SAP source data and integrated into one location to consume the information by various drill down. Dashboard developed in SAC and various SAP source data such as US, African, India and Australia integrated together and stored in the headquarters 
+            server by providing one consolidated report with region and product break down. Extracted information from various SAP servers into centralized SAP BW4HANA and HANA tables. Reporting on by BW4HANA and HANA Calculation views by enabling the mixed scenarios. Planning information as well pulled 
+            from the respective regions and projected against actual numbers.
+
             </li>
             <li>
-            Led the supply chain track of an SLO – ERP Merger of two large specialty packaging firms – Reverse
-engineered the current planning solution that the acquired entity wanted to safeguard. This was an
-application with 11 customer name spaces whose integration with ERP had to be managed at any
-cost!
+            Worked for one of the leading North American banking company and developed various finance reports to supply information across various departments. Reports developed in WebI and AO by referring SAP BW.
+
             </li>
             <li>
-            Did original research on solving the problem of Grade Sequence Optimization (Grade Transition
-Matrix) for a Global Petrochemical company in Saudi Arabia.
+            Developed various decision support reports for leading India based telecom company and led the development team for various report developments.
+
             </li>
             <li>
-            Curated (integration) an APO box connected to 17 ECC systems in a well-known Pharma Company
+            Worked for VB / SQL based company to develop ERP for textile companies. Implemented the tool into various organizations and rolled out end to end processes.
+
             </li>
-            <li>
-            Implemented a set of Macros to measure Promotions Demand sensitivity Analysis on SAP APO (the
-in-built capability being just about rudimentary) for a major American ready to cook foods company
-            </li>
-            <li>
-            Analyzed Lot Size Vs returns (%) hypothesis (big lot size = returns &gt; 3%?) for a well-known Indian
-Pharmaceutical company as a part of self-initiated project for SKU Rationalization in light of
-shelf-life driven losses and returns.
-            </li>
+            
           </ul>
         </div>
       </div>

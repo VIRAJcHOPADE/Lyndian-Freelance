@@ -8,7 +8,7 @@ const Denis = () => {
     <div className='image-and-heading'>
       <img
         className='teamimage'
-        src='/Picture2.jpg'
+        src='/Picture3.jpg'
         alt='Your Image'
       />
       <h1 className='teamh1 centered-heading'>
