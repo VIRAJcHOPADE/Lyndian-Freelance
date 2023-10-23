@@ -21,28 +21,27 @@ const Raghunath = () => {
           <h2 className='teamh2'>Functional Expertise</h2>
           <hr className='teamhr'/> {/* Add the <hr> tag after <h2> */}
           <ul className='expertise'>
+            <li>SAP IBP, Demand Planning, Supply and <br /> 
+                Response, Inventory Optimization, S&OP</li>
             <li>SAP SCM/APO/DP/SNP/PP&DS/GATP/VC</li>
-            <li>Forecast Model Tuning</li>
-            <li>Network Optimization (set up and tuning)</li>
-            <li>Systems Integration</li>
-            <li>Data Engineering/Analytic</li>
             <li>Software Evaluation</li>
           </ul>
           <h2 className='teamh2'>Clients</h2>
           <hr  className='teamhr'/> {/* Add the <hr> tag after <h2> */}
           <div className='clients-flex'>
             <ul className='column'>
-              <li>ABINBEV</li>
-              <li>SABIC</li>
-              <li>Novartis</li>
-              <li>Lycra</li>
+              <li>Fonterra</li>
+              <li>Saputo</li>
+              <li>Asahi</li>
+              <li>CUB</li>
+              <li>Burra Foods</li>
             </ul>
             <ul className='column'>
-              <li>Torrent Pharma</li>
-              <li>Adidas</li>
-              <li>Abdul Lateef Jameel</li>
-              <li>Fonterra</li>
-              <li>McCain</li>
+              <li>Dulux Group</li>
+              <li>South 32</li>
+              <li>ANSTO</li>
+              <li>NTPC India</li>
+              <li>Essar Group</li>
             </ul>
           </div>
           <h2 className='teamh2'>Industry Expertise</h2>
