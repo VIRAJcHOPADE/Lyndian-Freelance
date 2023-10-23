@@ -94,11 +94,16 @@ const SliderCont = () => {
   var timer;
   useEffect(() => {
     timer = setInterval(() => {
-      index.current = index.current + 1;
-      index.current = index.current % elements.length;
-      setImage(elements[index.current].image);
-      setTitle(elements[index.current].title);
-      setInd(elements[index.current].ind);
+      var num = Math.trunc(Math.random() * 20) + 1;
+      num %= 12;
+      // index.current = index.current + 1;
+      // index.current = index.current % elements.length;
+      // setImage(elements[index.current].image);
+      // setTitle(elements[index.current].title);
+      // setInd(elements[index.current].ind);
+      setImage(elements[num].image);
+      setTitle(elements[num].title);
+      setInd(elements[num].ind);
     }, 4500);
     return () => clearInterval(timer);
   }, []);
