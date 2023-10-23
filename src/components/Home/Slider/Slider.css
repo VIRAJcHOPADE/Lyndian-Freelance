@@ -71,7 +71,10 @@
 
 @media all and (max-width: 500px) {
   #slider {
-    height: 75vh;
+    height: 55vh;
+  }
+  #slider p {
+    padding: 0;
   }
 }
 
@@ -82,10 +85,38 @@
 }
 @media all and (max-width: 500px) {
   #slider span {
-    bottom: 6rem;
+    left: 5%;
+    bottom: 3rem;
   }
   #slider p {
-    font-size: 2.3rem;
+    font-size: 2rem;
+  }
+  .slider-text0,
+  .slider-text1,
+  .slider-text2,
+  .slider-text3,
+  .slider-text8,
+  .slider-text9 {
+    font-size: 2.3rem !important;
+
+    /* position: unset !important; */
+  }
+  .slider-text0 > span,
+  .slider-text1 > span,
+  .slider-text2 > span,
+  .slider-text3 > span,
+  .slider-text8 > span,
+  .slider-text9 > span {
+    left: 0 !important;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    padding: 2rem;
+    padding-top: 7rem;
+    bottom: 0 !important;
   }
 }
 @media all and (min-width: 1100px) and (min-height: 800px) and (max-width: 1800px) {
@@ -95,10 +126,15 @@
 }
 @media all and (max-width: 500px) and (max-height: 700px) {
   #slider span {
-    bottom: 4rem;
+    bottom: 3rem;
   }
   #slider p {
     font-size: 2rem;
+  }
+  .slider-text5,
+  .slider-text4,
+  .slider-text7 {
+    font-size: 1.7rem !important;
   }
 }
 
@@ -178,7 +214,7 @@
 /* common */
 @media all and (max-width: 1100px) and (min-height: 1000px) {
   #slider {
-    height: 70vh;
+    height: 60vh;
   }
   #slider span {
     bottom: 5rem !important;

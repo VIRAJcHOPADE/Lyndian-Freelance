@@ -26,7 +26,7 @@ const SliderCont = () => {
     {
       image:
         "https://images.unsplash.com/photo-1504868584819-f8e8b4b6d7e3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2076&q=80",
-      title: "What if the price of Raw materials serges by 40%?",
+      title: "What if the price of Raw materials surges by 40%?",
       ind: 3,
     },
     {
@@ -88,7 +88,7 @@ const SliderCont = () => {
 
   const [image, setImage] = useState(elements[index.current].image);
   const [title, setTitle] = useState(elements[index.current].title);
-  // const [title, setTitle] = useState(elements[6].title);
+  // const [title, setTitle] = useState(elements[7].title);
   const [ind, setInd] = useState(elements[index.current].ind);
 
   var timer;
@@ -99,7 +99,7 @@ const SliderCont = () => {
       setImage(elements[index.current].image);
       setTitle(elements[index.current].title);
       setInd(elements[index.current].ind);
-    }, 3000);
+    }, 4500);
     return () => clearInterval(timer);
   }, []);
   return (

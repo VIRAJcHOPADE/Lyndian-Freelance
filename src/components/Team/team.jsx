@@ -1,7 +1,7 @@
 import React from "react";
 import "./team.css";
 import { Link } from "react-router-dom";
-
+ 
 const Team = () => {
   return (
     <div className="team-container">
@@ -23,7 +23,7 @@ const Team = () => {
                 rel="noopener noreferrer"
                 className="linkedin-icon"
               >
-                <span className="know-more">Know More</span> <i className="fab fa-linkedin"></i> 
+                <span className="know-more">Know More</span> 
               </a>
             </Link>
           </div>
@@ -39,7 +39,7 @@ const teamMembers = [
     image: "Picture1.jpg",
     description:
       "Philippines, India Supply Chain Planning, Scheduling, and Analytics = SAP SCM, IBP, BW, S4 ERP",
-    linkedin: "https://www.linkedin.com/in/loknathrao/",
+    linkedin: "/people/people1",
   },
   {
     name: "Nitin Thatte",
@@ -53,13 +53,13 @@ const teamMembers = [
     image: "Picture3.jpg",
     description:
       "Germany Software Architect, Model Builder, Data Engineer - Supply Chain, Finance",
-    linkedin: "https://www.linkedin.com/in/denismyagkov/",
+    linkedin: "/people/people2",
   },
   {
     name: "R P Gupta",
     image: "Picture4.jpg",
     description: "Australia SAP Logistics, SAP IBP, Subject Matter Expert",
-    linkedin: "https://www.linkedin.com/in/rpgupta/",
+    linkedin: "/people/people4",
   },
   {
     name: "Abhishek Harshvardhan",
@@ -71,7 +71,13 @@ const teamMembers = [
     name: "Vivek Viswanathan",
     image: "Picture6.png",
     description: "India Analytics, SAP SAC, SAP BW, BPC, DWC",
-    linkedin: "https://www.linkedin.com/in/vivek-viswanathan-18ab1821/",
+    linkedin: "/people/people3",
+  },
+  {
+    name: "Ashish Garg",
+    image: "Picture7.jpg",
+    description: "Ashish Garg, MBA (SCM), SAP S4, ECC, APO, IBP O2C, P2P, Planning, Fulfilment, Forecasting, SME",
+    linkedin: "/people/people5",
   },
 ];
 

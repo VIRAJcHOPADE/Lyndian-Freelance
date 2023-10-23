@@ -1,0 +1,210 @@
+/* Loknath.css */
+.centered-heading {
+    text-align:left;
+    font-size: 24px;
+    margin-top: 10px;
+    
+  }
+  
+  .teamcontainer {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+.image-and-heading{
+    text-align: center;
+    justify-content: left;
+    padding-left: 0px;
+}
+  /* Loknath.css */
+
+/* Add styling for the hr tag */
+.teamhr{
+    border: none;
+    border-top: 2px solid lightblue;
+    width: 100%; /* Width matching the container */
+    margin: 10px 0; /* Adjust margin as needed */
+    
+  }
+  
+  /* Rest of your existing CSS styles... */
+  
+  .conteam {
+    padding-top: 130px;
+    padding-left: 115px;
+    padding-right: 115px;
+  }
+  
+  .left-column {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .right-column {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .teamimage {
+    width: 200px;
+    max-width: 100%;
+    display: block;
+    border-radius: 5px;
+  }
+  
+  .image-and-heading {
+    display: flex;
+    align-items: center;
+  }
+  
+  .teamh1{
+    font-size: 24px;
+    margin-left: 20px;
+  }
+  
+  .teamh2{
+    font-size: 20px;
+    margin-top: 10px;
+  }
+  
+  ul.expertise,
+  ul.clients,
+  ul.industry,
+  ul.experience {
+    list-style-type: disc; /* Use 'disc' for filled dots */
+  padding: 0;
+    
+  }
+  
+  ul.expertise li,
+  ul.clients li,
+  ul.industry li,
+  ul.experience li {
+    margin-bottom: 10px;
+    background-color: #f4f4f4;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  .conteam h2{
+    color: rgb(86, 201, 239);
+  }
+  
+  /* Media Query for Mobile */
+  @media (max-width: 768px) {
+    .teamcontainer {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .left-column,
+    .right-column {
+      width: 100%;
+    }
+  
+    .image-and-heading {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    h1 {
+      margin-left: 0;
+      margin-top: 20px;
+    }
+  }
+  
+  /* Add this CSS to your Loknath.css file */
+
+.clients-flex {
+    display: flex; /* Make it a flex container */
+    flex-wrap: wrap; /* Allow the columns to wrap to the next row if necessary */
+    justify-content: space-between; /* Distribute the columns with space between */
+  }
+  
+  .column {
+    flex: 1; /* Allow columns to grow equally within the flex container */
+    margin-right: 10px; /* Add some margin between columns */
+    width: calc(50% - 5px); /* Calculate 50% width minus the margin */
+  }
+  
+  /* Loknath.css */
+
+/* Existing CSS rules... */
+
+/* Media Query for 900px */
+@media (max-width: 900px) {
+    .teamcontainer {
+      flex-direction: column;
+      align-items: center;
+    }
+    .conteam {
+      padding-top: 130px;
+      padding-left: 25px;
+      padding-right: 20px;
+    }
+    .left-column,
+    .right-column {
+      width: 100%;
+    }
+  
+    .image-and-heading {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    h1 {
+      margin-left: 0;
+      margin-top: 20px;
+    }
+  }
+  
+  /* Media Query for 700px */
+  @media (max-width: 890px) {
+    /* Add your responsive styles for 700px here */
+    .centered-heading {
+        text-align:left;
+       
+        margin-top: 10px;
+        justify-content: center;
+        
+      }
+      .image-and-heading{
+        text-align: center;
+        justify-content: left;
+        padding-left: 40px;
+    }
+    .conteam {
+      padding-top: 130px;
+      padding-left: 15px;
+      padding-right: 15px;
+    }
+  }
+  
+  /* Media Query for 550px */
+  @media (max-width: 600px) {
+    /* Add your responsive styles for 550px here */
+    .centered-heading {
+        text-align:left;
+        font-size: 18px;
+        margin-top: 10px;
+        justify-content: center;
+        
+      }
+      .image-and-heading{
+        text-align: center;
+        justify-content: left;
+        padding-left: 50px;
+    }
+  }
+  
+  /* Media Query for 400px */
+  @media (max-width: 420px) {
+    /* Add your responsive styles for 400px here */
+    .image-and-heading{
+        text-align: center;
+        justify-content: left;
+        padding-right: 60px;
+    }
+  }
+  
+  /* Additional responsive styles can be added for each breakpoint as needed. */
+  

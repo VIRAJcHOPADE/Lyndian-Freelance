@@ -1,7 +1,7 @@
 .themesInnovativebrands {
   width: 100%;
   height: auto;
-  background-image: url("../../../../public/logo-image.png");
+ background-color: rgb(148, 205, 240);
   background-size: cover;
   display: flex;
   flex-direction: column;
@@ -39,6 +39,7 @@
 .tmain {
   display: grid;
   grid-template-columns: repeat(4, 25%);
+  row-gap: 3rem;
   justify-content: center;
   align-items: center;
   z-index: +1;
@@ -89,9 +90,13 @@
   }
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 701px) {
   .Innovativebrands p {
     font-size: 3vw;
+  }
+  .themesInnovativebrands {
+    width: 100%;
+    height: 760px;
   }
 
   .Innovativebrands h2 {
@@ -113,6 +118,17 @@
     max-height: 70px;
   }
 }
+
+
+@media screen and (max-width: 600px) {
+  .themesInnovativebrands {
+    width: 100%;
+    height: 680px;
+  }
+}
+
+
+
 @media screen and (max-width: 550px) {
   .tmain {
     width: 100%;
@@ -122,6 +138,10 @@
   }
   .Innovativebrands h2 {
     font-size: 2.3rem;
+  }
+  .themesInnovativebrands {
+    width: 100%;
+    height: 880px;
   }
   .tcontent {
     width: 28vw;
@@ -142,6 +162,10 @@
 @media screen and (max-width: 400px) {
   .Innovativebrands h2 {
     font-size: 1.8rem;
+  }
+  .themesInnovativebrands {
+    width: 100%;
+    height: 800px;
   }
 }
 @media screen and (max-width: 250px) {
