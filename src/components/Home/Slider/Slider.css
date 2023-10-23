@@ -98,6 +98,25 @@
   .slider-text8,
   .slider-text9 {
     font-size: 2.3rem !important;
+
+    /* position: unset !important; */
+  }
+  .slider-text0 > span,
+  .slider-text1 > span,
+  .slider-text2 > span,
+  .slider-text3 > span,
+  .slider-text8 > span,
+  .slider-text9 > span {
+    left: 0 !important;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    padding: 2rem;
+    padding-top: 7rem;
+    bottom: 0 !important;
   }
 }
 @media all and (min-width: 1100px) and (min-height: 800px) and (max-width: 1800px) {
