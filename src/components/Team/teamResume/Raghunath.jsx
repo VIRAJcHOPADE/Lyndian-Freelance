@@ -12,8 +12,8 @@ const Raghunath = () => {
           alt='Your Image'
         />
         <h1 className='teamh1 centered-heading'>
-          Loknath Rao, MS, APICS-CPIM, TOGAF, SAP <br />
-          Advanced Planning and Scheduling, Architect, SME
+        Raghunath Gupta,Supply Chain Planning and Manufacturing Expert <br />
+        SAP IBP, APO and SCM Manufacturing
         </h1>
       </div>
       <div className='teamcontainer'>
