@@ -4,19 +4,19 @@ import { NavLink } from "react-router-dom";
 
 const WhyChooseUs = () => {
   return (
-    <div className="choose-area">
-      <div className="container">
-        <div className="feature_main_wrap">
-          <div className="row align-items-centre">
-            <div className="column">
+    <div id="why-choose-us-choose-area">
+      <div id="why-choose-us-container">
+        <div id="why-choose-us-feature_main_wrap">
+          <div id="why-choose-us-row" className="align-items-centre">
+            <div id="why-choose-us-column">
               <img
-                className="about-image"
+                id="why-choose-us-about-image"
                 src="https://images.unsplash.com/photo-1568992687947-868a62a9f521?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1332&q=80"
                 alt=""
               />
             </div>
-            <div className="column">
-              <div className="features_info">
+            <div id="why-choose-us-column">
+              <div id="why-choose-us-features_info">
                 <h2>Why Choose Us?</h2>
                 <p>
                   At Lydian, we bridge the gap between business and technology
@@ -31,8 +31,8 @@ const WhyChooseUs = () => {
                   <li>Advanced Consultant Proficiency</li>
                   <li>Exhaustive Search for Optimal Solutions</li>
                 </ul>
-                <div className="about-btn">
-                  <NavLink className="boxed-btn3-line" to={"/about-us"}>
+                <div id="why-choose-us-about-btn">
+                  <NavLink id="why-choose-us-boxed-btn3-line" to={"/about-us"}>
                     About Us
                   </NavLink>
                 </div>
