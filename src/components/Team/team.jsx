@@ -53,13 +53,13 @@ const teamMembers = [
     image: "Picture3.jpg",
     description:
       "Germany Software Architect, Model Builder, Data Engineer - Supply Chain, Finance",
-    linkedin: "https://www.linkedin.com/in/denismyagkov/",
+    linkedin: "/people/people2",
   },
   {
     name: "R P Gupta",
     image: "Picture4.jpg",
     description: "Australia SAP Logistics, SAP IBP, Subject Matter Expert",
-    linkedin: "https://www.linkedin.com/in/rpgupta/",
+    linkedin: "/people/people4",
   },
   {
     name: "Abhishek Harshvardhan",
@@ -71,7 +71,7 @@ const teamMembers = [
     name: "Vivek Viswanathan",
     image: "Picture6.png",
     description: "India Analytics, SAP SAC, SAP BW, BPC, DWC",
-    linkedin: "https://www.linkedin.com/in/vivek-viswanathan-18ab1821/",
+    linkedin: "/people/people3",
   },
 ];
 

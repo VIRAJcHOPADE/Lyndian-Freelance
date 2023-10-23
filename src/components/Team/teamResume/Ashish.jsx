@@ -8,7 +8,7 @@ const Ashish = () => {
       <div className='image-and-heading'>
         <img
           className='teamimage'
-          src='/Picture1.jpg'
+          src='/Picture7.jpg'
           alt='Your Image'
         />
         <h1 className='teamh1 centered-heading'>
