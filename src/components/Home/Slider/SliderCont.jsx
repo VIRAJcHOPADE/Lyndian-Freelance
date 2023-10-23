@@ -99,7 +99,7 @@ const SliderCont = () => {
       setImage(elements[index.current].image);
       setTitle(elements[index.current].title);
       setInd(elements[index.current].ind);
-    }, 3000);
+    }, 4500);
     return () => clearInterval(timer);
   }, []);
   return (
