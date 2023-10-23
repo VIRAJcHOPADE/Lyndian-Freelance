@@ -1,6 +1,6 @@
 import React from "react";
 import "./brand.css";
-
+import { Link } from 'react-router-dom';
 function Brands() {
   return (
     <>
@@ -65,6 +65,48 @@ function Brands() {
                 <img
                   className="brandimage"
                   src="https://upload.wikimedia.org/wikipedia/commons/2/2e/Logo-Abdul-Latif-Jameel-co.png?20160414091944"
+                />
+              </div>
+              <div className="tcontent">
+                <img
+                  className="brandimage"
+                  src="/Crest.jpg"
+                />
+              </div>
+              <div className="tcontent">
+                <img
+                  className="brandimage"
+                  src="/fonterra.png"
+                />
+              </div>
+              <div className="tcontent">
+                <img
+                  className="brandimage"
+                  src="/moglix.png"
+                />
+              </div>
+              <div className="tcontent">
+                <img
+                  className="brandimage"
+                  src="/Novartis.png"
+                />
+              </div>
+              <div className="tcontent">
+                <img
+                  className="brandimage"
+                  src="/sabic.png"
+                />
+              </div>
+              <div className="tcontent">
+                <img
+                  className="brandimage"
+                  src="/tata.jpg"
+                />
+              </div>
+              <div className="tcontent">
+                <img
+                  className="brandimage"
+                  src="/yaskawa.png"
                 />
               </div>
             </div>
