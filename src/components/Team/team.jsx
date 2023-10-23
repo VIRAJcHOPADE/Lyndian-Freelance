@@ -1,7 +1,7 @@
 import React from "react";
 import "./team.css";
 import { Link } from "react-router-dom";
-
+ 
 const Team = () => {
   return (
     <div className="team-container">
@@ -39,7 +39,7 @@ const teamMembers = [
     image: "Picture1.jpg",
     description:
       "Philippines, India Supply Chain Planning, Scheduling, and Analytics = SAP SCM, IBP, BW, S4 ERP",
-    linkedin: "https://www.linkedin.com/in/loknathrao/",
+    linkedin: "/people/people1",
   },
   {
     name: "Nitin Thatte",
