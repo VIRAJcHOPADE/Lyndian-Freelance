@@ -1,5 +1,5 @@
 /* Styles for the main container */
-.choose-area {
+#why-choose-us-choose-area {
   display: flex;
   color: #fff;
   justify-content: center;
@@ -9,7 +9,7 @@
 }
 
 /* Styles for the container within */
-.container {
+#why-choose-us-container {
   max-width: 1200px;
   width: 100%;
   padding: 0 15px;
@@ -17,70 +17,70 @@
 }
 
 /* Styles for the main feature section */
-.feature_main_wrap {
+#why-choose-us-feature_main_wrap {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 /* Styles for the row and its alignment */
-.row.align-items-centre {
+#why-choose-us-row.align-items-centre {
   display: flex;
   align-items: center;
 }
 
 /* Styles for the about image */
-.about-image {
+#why-choose-us-about-image {
   max-width: 100%;
   height: auto;
   display: block;
 }
 
 /* Styles for the right column */
-.column {
+#why-choose-us-column {
   flex: 0 0 50%;
   max-width: 50%;
   padding: 0 15px;
 }
 
 /* Styles for the features information */
-.features_info {
+#why-choose-us-features_info {
   padding: 0 15px;
 }
 
 /* Styles for the heading */
-.features_info h2 {
+#why-choose-us-features_info h2 {
   font-size: 2.5rem;
   margin-bottom: 10px;
 }
 
 /* Styles for the paragraph */
-.features_info p {
+#why-choose-us-features_info p {
   font-size: 1.2rem;
   font-weight: 500;
   margin-bottom: 20px;
 }
 
 /* Styles for the list */
-.features_info ul {
+#why-choose-us-features_info ul {
   list-style: disc;
   margin-left: 20px;
   margin-bottom: 20px;
 }
 
 /* Styles for list items */
-.features_info li {
+#why-choose-us-features_info li {
   margin-bottom: 10px;
 }
 
 /* Styles for the about button */
-.about-btn {
+#why-choose-us-about-btn {
   z-index: 2;
   margin-top: 20px;
 }
 
 /* Styles for the button */
-.about-btn a {
+#why-choose-us-about-btn a {
   display: inline-block;
   font-weight: 550;
   padding: 10px 20px;
@@ -92,7 +92,7 @@
   color: white;
 }
 
-.about-btn a:hover {
+#why-choose-us-about-btn a:hover {
   border: 2px solid #333;
   background-color: #333;
   color: #fff;
@@ -100,34 +100,34 @@
 
 /* Media query for responsiveness */
 @media (max-width: 768px) {
-  .about-image {
+  #why-choose-us-about-image {
     display: none;
   }
-  .container {
+  #why-choose-us-container {
     flex: 0 0 100%;
     max-width: 100%;
   }
-  .row.align-items-centre {
+  #why-choose-us-row.align-items-centre {
     flex-direction: column;
   }
-  .column {
+  #why-choose-us-column {
     max-width: 100%;
   }
 }
 
 @media (max-width: 450px) {
   /* Styles for the heading */
-  .features_info h2 {
+  #why-choose-us-features_info h2 {
     font-size: 1.5rem;
   }
 
   /* Styles for the paragraph */
-  .features_info p {
+  #why-choose-us-features_info p {
     font-size: 0.7rem;
   }
 
   /* Styles for the list */
-  .features_info ul {
+  #why-choose-us-features_info ul {
     font-size: 0.7rem;
   }
 }
