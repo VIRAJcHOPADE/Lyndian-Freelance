@@ -2,7 +2,7 @@ import * as RiIcons from "react-icons/ri";
 export const SidebarData = [
   {
     title: "About Us",
-    link: "/about-us",
+    path: "/about-us",
     isSub: false,
   },
   {
