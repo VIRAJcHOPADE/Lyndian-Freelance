@@ -11,15 +11,15 @@ const Vivek = () => {
           src='/Picture6.png'
           alt='Your Image'
         />
-        <h1 className='centered-heading'>
+        <h1 className='teamh1 centered-heading'>
         Vivek Viswanathan, SAP Certified <br />
         SAP BW, BW4HANA, BEX, Native HANA, SAP DI, ABAP, VBA Consultant
         </h1>
       </div>
       <div className='teamcontainer'>
         <div className='left-column'>
-          <h2>Functional Expertise</h2>
-          <hr /> {/* Add the <hr> tag after <h2> */}
+          <h2 className='teamh2'>Functional Expertise</h2>
+          <hr className='teamhr'/> {/* Add the <hr> tag after <h2> */}
           <ul className='expertise'>
             <li>Expertise in SAP BW, BW4HANA, BEX,</li>
             <li>Native HANA Developer</li>
@@ -27,8 +27,8 @@ const Vivek = () => {
             <li>Strong Handson experience in ABAP</li>
             <li>Expert in VBA by writing macros in AO Workbook</li>
           </ul>
-          <h2>Clients</h2>
-          <hr /> {/* Add the <hr> tag after <h2> */}
+          <h2 className='teamh2'>Clients</h2>
+          <hr className='teamhr'/> {/* Add the <hr> tag after <h2> */}
           <div className='clients-flex'>
             <ul className='column'>
               <li>Friesland</li>
@@ -42,8 +42,8 @@ const Vivek = () => {
               <li>Reliance</li>
             </ul>
           </div>
-          <h2>Industry Expertise</h2>
-          <hr />
+          <h2 className='teamh2'>Industry Expertise</h2>
+          <hr className='teamhr'/>
           <ul className='industry'>
             <li>Sales</li>
             <li>Finance</li>
@@ -53,8 +53,8 @@ const Vivek = () => {
           </ul>
         </div>
         <div className='right-column'>
-          <h2>Selected Relevant Experience</h2>
-          <hr />
+          <h2 className='teamh2'>Selected Relevant Experience</h2>
+          <hr className='teamhr'/>
           <ul className='experience'>
             <li>
             Worked for European client by extracting source data via standard SAP extraction and place the extracted files into 3rd Party cloud file location. Technology used for this task is Data Intelligence and managed ODP framework for delta mechanism.
