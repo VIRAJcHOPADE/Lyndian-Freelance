@@ -73,6 +73,12 @@ const teamMembers = [
     description: "India Analytics, SAP SAC, SAP BW, BPC, DWC",
     linkedin: "/people/people3",
   },
+  {
+    name: "Ashish Garg",
+    image: "Picture7.jpg",
+    description: "Ashish Garg, MBA (SCM), SAP S4, ECC, APO, IBP O2C, P2P, Planning, Fulfilment, Forecasting, SME",
+    linkedin: "/people/people5",
+  },
 ];
 
 export default Team;
