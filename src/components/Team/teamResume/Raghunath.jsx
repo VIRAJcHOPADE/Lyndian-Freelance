@@ -7,19 +7,19 @@ const Raghunath = () => {
     <div className='conteam'>
       <div className='image-and-heading'>
         <img
-          className='image'
+          className='teamimage'
           src='/Picture1.jpg'
           alt='Your Image'
         />
-        <h1 className='centered-heading'>
+        <h1 className='teamh1 centered-heading'>
           Loknath Rao, MS, APICS-CPIM, TOGAF, SAP <br />
           Advanced Planning and Scheduling, Architect, SME
         </h1>
       </div>
-      <div className='container'>
+      <div className='teamcontainer'>
         <div className='left-column'>
-          <h2>Functional Expertise</h2>
-          <hr /> {/* Add the <hr> tag after <h2> */}
+          <h2 className='teamh2'>Functional Expertise</h2>
+          <hr className='teamhr'/> {/* Add the <hr> tag after <h2> */}
           <ul className='expertise'>
             <li>SAP SCM/APO/DP/SNP/PP&DS/GATP/VC</li>
             <li>Forecast Model Tuning</li>
@@ -28,8 +28,8 @@ const Raghunath = () => {
             <li>Data Engineering/Analytic</li>
             <li>Software Evaluation</li>
           </ul>
-          <h2>Clients</h2>
-          <hr /> {/* Add the <hr> tag after <h2> */}
+          <h2 className='teamh2'>Clients</h2>
+          <hr  className='teamhr'/> {/* Add the <hr> tag after <h2> */}
           <div className='clients-flex'>
             <ul className='column'>
               <li>ABINBEV</li>
@@ -45,8 +45,8 @@ const Raghunath = () => {
               <li>McCain</li>
             </ul>
           </div>
-          <h2>Industry Expertise</h2>
-          <hr />
+          <h2 className='teamh2'>Industry Expertise</h2>
+          <hr className='teamhr'/>
           <ul className='industry'>
             <li>Pharmaceuticals</li>
             <li>Petrochemicals</li>
@@ -56,8 +56,8 @@ const Raghunath = () => {
           </ul>
         </div>
         <div className='right-column'>
-          <h2>Selected Relevant Experience</h2>
-          <hr />
+          <h2 className='teamh2'>Selected Relevant Experience</h2>
+          <hr className='teamhr'/>
           <ul className='experience'>
             <li>
             Developed a utility (in ABAP) to check and maintain costs and penalties and other planning relevant
