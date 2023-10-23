@@ -14,7 +14,7 @@
 .image-and-heading{
     text-align: center;
     justify-content: left;
-    padding-left: 180px;
+    padding-left: 0px;
 }
   /* Loknath.css */
 
@@ -31,7 +31,8 @@
   
   .conteam {
     padding-top: 130px;
-    padding-left: 20px;
+    padding-left: 115px;
+    padding-right: 115px;
   }
   
   .left-column {
