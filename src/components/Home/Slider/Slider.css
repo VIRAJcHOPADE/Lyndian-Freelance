@@ -89,7 +89,15 @@
     bottom: 3rem;
   }
   #slider p {
-    font-size: 2.2rem;
+    font-size: 2rem;
+  }
+  .slider-text0,
+  .slider-text1,
+  .slider-text2,
+  .slider-text3,
+  .slider-text8,
+  .slider-text9 {
+    font-size: 2.3rem !important;
   }
 }
 @media all and (min-width: 1100px) and (min-height: 800px) and (max-width: 1800px) {
