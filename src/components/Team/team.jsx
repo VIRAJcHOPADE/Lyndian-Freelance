@@ -23,7 +23,7 @@ const Team = () => {
                 rel="noopener noreferrer"
                 className="linkedin-icon"
               >
-                <span className="know-more">Know More</span> <i className="fab fa-linkedin"></i> 
+                <span className="know-more">Know More</span> 
               </a>
             </Link>
           </div>
