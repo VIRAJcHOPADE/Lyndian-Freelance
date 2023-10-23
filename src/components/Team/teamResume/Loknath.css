@@ -6,7 +6,7 @@
     
   }
   
-  .container {
+  .teamcontainer {
     display: flex;
     justify-content: space-between;
   }
@@ -14,12 +14,12 @@
 .image-and-heading{
     text-align: center;
     justify-content: left;
-    padding-left: 180px;
+    padding-left: 0px;
 }
   /* Loknath.css */
 
 /* Add styling for the hr tag */
-hr {
+.teamhr{
     border: none;
     border-top: 2px solid lightblue;
     width: 100%; /* Width matching the container */
@@ -31,6 +31,8 @@ hr {
   
   .conteam {
     padding-top: 130px;
+    padding-left: 115px;
+    padding-right: 115px;
   }
   
   .left-column {
@@ -43,7 +45,7 @@ hr {
     padding: 20px;
   }
   
-  .image {
+  .teamimage {
     width: 200px;
     max-width: 100%;
     display: block;
@@ -55,12 +57,12 @@ hr {
     align-items: center;
   }
   
-  h1 {
+  .teamh1{
     font-size: 24px;
     margin-left: 20px;
   }
   
-  h2 {
+  .teamh2{
     font-size: 20px;
     margin-top: 10px;
   }
@@ -89,7 +91,7 @@ hr {
   
   /* Media Query for Mobile */
   @media (max-width: 768px) {
-    .container {
+    .teamcontainer {
       flex-direction: column;
       align-items: center;
     }
@@ -130,11 +132,15 @@ hr {
 
 /* Media Query for 900px */
 @media (max-width: 900px) {
-    .container {
+    .teamcontainer {
       flex-direction: column;
       align-items: center;
     }
-  
+    .conteam {
+      padding-top: 130px;
+      padding-left: 25px;
+      padding-right: 20px;
+    }
     .left-column,
     .right-column {
       width: 100%;
@@ -166,6 +172,11 @@ hr {
         justify-content: left;
         padding-left: 40px;
     }
+    .conteam {
+      padding-top: 130px;
+      padding-left: 15px;
+      padding-right: 15px;
+    }
   }
   
   /* Media Query for 550px */
@@ -191,7 +202,7 @@ hr {
     .image-and-heading{
         text-align: center;
         justify-content: left;
-        padding-left: 20px;
+        padding-right: 60px;
     }
   }
   

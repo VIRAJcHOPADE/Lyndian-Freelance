@@ -19,6 +19,10 @@ import { Analytics } from "@vercel/analytics/react";
 import Team from "./components/Team/team";
 import AboutUs from "./components/AboutUs/AboutUs";
 import Loknath from "./components/Team/teamResume/Loknath"
+import Denis from "./components/Team/teamResume/Denis"
+import Vivek from "./components/Team/teamResume/Vivek"
+import Raghunath from "./components/Team/teamResume/Raghunath"
+import Ashish from "./components/Team/teamResume/Ashish"
 function App() {
   return (
     <>
@@ -46,8 +50,14 @@ function App() {
         <Route path="/supply-chain-post-page-2" element={<PostPage2 />} />
         <Route path="/supply-chain-post-page-3" element={<PostPage3 />} />
         <Route path="/supply-chain-post-page-4" element={<PostPage4 />} />
+
         <Route path="/people" element={<Team />} />
         <Route path="/people/people1" element={<Loknath />} />
+        <Route path="/people/people2" element={<Denis />} />
+        <Route path="/people/people3" element={<Vivek />} />
+        <Route path="/people/people4" element={<Raghunath />} />
+        <Route path="/people/people5" element={<Ashish />} />
+        
         {/* <Route path="/blogs" element={<Blog />} /> */}
 
         <Route path="/about-us" element={<AboutUs/>}/>

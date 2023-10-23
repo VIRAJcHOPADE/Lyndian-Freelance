@@ -7,92 +7,136 @@ const Raghunath = () => {
     <div className='conteam'>
       <div className='image-and-heading'>
         <img
-          className='image'
-          src='/Picture1.jpg'
+          className='teamimage'
+          src='/Picture4.jpg'
           alt='Your Image'
         />
-        <h1 className='centered-heading'>
-          Loknath Rao, MS, APICS-CPIM, TOGAF, SAP <br />
-          Advanced Planning and Scheduling, Architect, SME
+        <h1 className='teamh1 centered-heading'>
+        Raghunath Gupta,Supply Chain Planning and Manufacturing Expert <br />
+        SAP IBP, APO and SCM Manufacturing
         </h1>
       </div>
-      <div className='container'>
+      <div className='teamcontainer'>
         <div className='left-column'>
-          <h2>Functional Expertise</h2>
-          <hr /> {/* Add the <hr> tag after <h2> */}
+          <h2 className='teamh2'>Functional Expertise</h2>
+          <hr className='teamhr'/> {/* Add the <hr> tag after <h2> */}
           <ul className='expertise'>
+            <li>SAP IBP, Demand Planning, Supply and <br /> 
+                Response, Inventory Optimization, S&OP</li>
             <li>SAP SCM/APO/DP/SNP/PP&DS/GATP/VC</li>
-            <li>Forecast Model Tuning</li>
-            <li>Network Optimization (set up and tuning)</li>
-            <li>Systems Integration</li>
-            <li>Data Engineering/Analytic</li>
             <li>Software Evaluation</li>
           </ul>
-          <h2>Clients</h2>
-          <hr /> {/* Add the <hr> tag after <h2> */}
+          <h2 className='teamh2'>Clients</h2>
+          <hr  className='teamhr'/> {/* Add the <hr> tag after <h2> */}
           <div className='clients-flex'>
             <ul className='column'>
-              <li>ABINBEV</li>
-              <li>SABIC</li>
-              <li>Novartis</li>
-              <li>Lycra</li>
+              <li>Fonterra</li>
+              <li>Saputo</li>
+              <li>Asahi</li>
+              <li>CUB</li>
+              <li>Burra Foods</li>
             </ul>
             <ul className='column'>
-              <li>Torrent Pharma</li>
-              <li>Adidas</li>
-              <li>Abdul Lateef Jameel</li>
-              <li>Fonterra</li>
-              <li>McCain</li>
+              <li>Dulux Group</li>
+              <li>South 32</li>
+              <li>ANSTO</li>
+              <li>NTPC India</li>
+              <li>Essar Group</li>
             </ul>
           </div>
-          <h2>Industry Expertise</h2>
-          <hr />
-          <ul className='industry'>
-            <li>Pharmaceuticals</li>
-            <li>Petrochemicals</li>
-            <li>Agri Business</li>
-            <li>CPG/FMCG</li>
-            <li>Dairy</li>
-          </ul>
+          <h2 className='teamh2'>Industry Expertise</h2>
+          <hr className='teamhr'/>
+          <div className='clients-flex'>
+            <ul className='column'>
+              <li>CPG/FMCG</li>
+              <li>Dairy</li>
+              <li>Building Materials and Paints</li>
+              <li>Garden products</li>
+              
+            </ul>
+            <ul className='column'>
+              <li>Mining</li>
+              <li>Metal Processing</li>
+              <li>Nuclear Medicine</li>
+              <li>Beverages and drinks</li>
+              
+            </ul>
+          </div>
         </div>
         <div className='right-column'>
-          <h2>Selected Relevant Experience</h2>
-          <hr />
+          <h2 className='teamh2'>Selected Relevant Experience</h2>
+          <hr className='teamhr'/>
+          <h3>SAP IBP Implementation and Rollout:  Over 6 Years</h3>
           <ul className='experience'>
             <li>
-            Developed a utility (in ABAP) to check and maintain costs and penalties and other planning relevant
-master data towards implementation of Supply Network Optimizer at a large Alco Bev company.
+            Solution architecture, business  blueprint and detailed design of SAP IBP Solution in the area of Demand Planning, Demand Sensing, Inventory optimization, S&OP and Supply & Response
+
             </li>
             <li>
-            Integrated Market Share (value and volume) and Annual Business Targets in Operational Demand
-Planning (APO DP) at a large CPG firm in SE Asia. (Solution originally implemented by me)
+            Data modelling and integration of master data, sales history and planning data with SAP ECC/S4HANA
+
             </li>
             <li>
-            Completed 18 roll outs of Demand and Merchandise Planning in 11 months (5 months ahead of
-time) for a well-known German Sports Apparel company.
+            System configuration, integration, data modeling, training and post go live stabilisation
+
             </li>
             <li>
-            Led the supply chain track of an SLO – ERP Merger of two large specialty packaging firms – Reverse
-engineered the current planning solution that the acquired entity wanted to safeguard. This was an
-application with 11 customer name spaces whose integration with ERP had to be managed at any
-cost!
+            Expert consulting on PIR and MRP in SAP ECC/S4HANA
+
             </li>
             <li>
-            Did original research on solving the problem of Grade Sequence Optimization (Grade Transition
-Matrix) for a Global Petrochemical company in Saudi Arabia.
+            Key Clients: DuluxGroup, Asahi (including CUB), South32, ANSTO
+            </li>
+          </ul>
+
+          <h3>SAP APO Projects:	Over 10 Years</h3>
+          <ul className='experience'>
+            <li>
+            Business case, solution architecture, business  blueprint and detailed design of SAPAPO Solution :Demand Planning, SNP Optimisation, SNP CTM, Heuristics, Deployment, TLB, GATP and PP/DS
+
             </li>
             <li>
-            Curated (integration) an APO box connected to 17 ECC systems in a well-known Pharma Company
+            System configuration, integration, data modeling, training and post go live stabilisation
+
             </li>
             <li>
-            Implemented a set of Macros to measure Promotions Demand sensitivity Analysis on SAP APO (the
-in-built capability being just about rudimentary) for a major American ready to cook foods company
+            Key Clients: Fonterra, Murray Goulburn (Now Saputo), Burra Foods
+
+            </li>
+           
+          </ul>
+
+          <h3>SAP ECC Projects: 5 Years</h3>
+          <ul className='experience'>
+            <li>
+            Design and implementation of SAP PP- MRP, Production orders, REM ,PPPI; LDM, DMS, cFolders, ECM.
+
             </li>
             <li>
-            Analyzed Lot Size Vs returns (%) hypothesis (big lot size = returns &gt; 3%?) for a well-known Indian
-Pharmaceutical company as a part of self-initiated project for SKU Rationalization in light of
-shelf-life driven losses and returns.
+            Integration of Infor and JDA planning system with SAP ECC
+
             </li>
+            <li>
+            Key Clients: NTPC India, Essar Group, Hy Grade Pellets Ltd, CUB Australia. Burra Foods Australia
+            
+            </li>
+           
+          </ul>
+
+          <h3>SAP Training : 4 Years</h3>
+          <ul className='experience'>
+            <li>
+            SAP Academy trainer for SAP Manufacturing, SCM APO, LDM 
+
+            </li>
+            <li>
+            Have trained over 500 SAP PP consultants and over 100 APO consultants.
+            </li>
+            <li>
+            Key clients: SAP Education, SISL, Genovate, Accenture, Wipro, HCL, Nat Steel Singapore, NPTC Ltd.
+            
+            </li>
+           
           </ul>
         </div>
       </div>
