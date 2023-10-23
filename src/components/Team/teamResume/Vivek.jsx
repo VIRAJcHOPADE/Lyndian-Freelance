@@ -12,8 +12,8 @@ const Vivek = () => {
           alt='Your Image'
         />
         <h1 className='centered-heading'>
-          Loknath Rao, MS, APICS-CPIM, TOGAF, SAP <br />
-          Advanced Planning and Scheduling, Architect, SME
+        Vivek Viswanathan, SAP Certified <br />
+        SAP BW, BW4HANA, BEX, Native HANA, SAP DI, ABAP, VBA Consultant
         </h1>
       </div>
       <div className='container'>
