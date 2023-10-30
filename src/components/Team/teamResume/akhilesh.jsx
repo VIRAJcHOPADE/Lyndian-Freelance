@@ -10,6 +10,7 @@ const akhilesh = () => {
           alt='Your Image'
         />
         <h1 className='teamh1 centered-heading'>
+        Akhilesh Airen <br />
         Supply Chain | Operations Research 
         </h1>
       </div>
