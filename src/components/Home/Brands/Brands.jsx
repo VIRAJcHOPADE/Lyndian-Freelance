@@ -109,6 +109,70 @@ function Brands() {
                   src="/yaskawa.png"
                 />
               </div>
+
+
+              <div className="tcontent">
+                <img
+                  className="brandimage"
+                  src="/ABInBev.png"
+                />
+              </div>
+
+              <div className="tcontent">
+                <img
+                  className="brandimage"
+                  src="/ExxonMobil.png"
+                />
+              </div>
+
+              <div className="tcontent">
+                <img
+                  className="brandimage"
+                  src="/frieslandcampina.png"
+                />
+              </div>
+
+              <div className="tcontent">
+                <img
+                  className="brandimage"
+                  src="/Gazprom.png"
+                />
+              </div>
+
+              <div className="tcontent">
+                <img
+                  className="brandimage"
+                  src="/Lukoil.png"
+                />
+              </div>
+
+              <div className="tcontent">
+                <img
+                  className="brandimage"
+                  src="/Kamaz.png"
+                />
+              </div>
+
+              <div className="tcontent">
+                <img
+                  className="brandimage"
+                  src="/NTPC.png"
+                />
+              </div>
+
+              <div className="tcontent">
+                <img
+                  className="brandimage"
+                  src="/Reliance.png"
+                />
+              </div>
+
+              <div className="tcontent">
+                <img
+                  className="brandimage"
+                  src="/volvo.jpg"
+                />
+              </div>
             </div>
           </div>
         </div>
