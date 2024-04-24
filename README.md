@@ -1,4 +1,4 @@
-Live : http://www.lydiangbs.com
+Live : http://www.lydiangbs.com or https://lyndian-freelance.vercel.app/
 
 # Getting Started with Create React App
 
